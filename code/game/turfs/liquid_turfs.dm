@@ -103,6 +103,45 @@
 	if(carbon_mob.on_fire)
 		carbon_mob.ExtinguishMob()
 
+/turf/open/liquid/water/.../proc/start_draining()
+	// Проверка, что тайл действительно вода
+	if (!isturf(src) || src != turf)
+		return
+
+	// Проверка, не очищен ли уже тайл — чтобы избежать рекурсивного зацикливания
+	if (src.drained)
+		return
+
+	// Помечаем текущий тайл как осушенный
+	src.drained = TRUE
+
+	// Логика очистки: например, меняем тип тайла на открытую плитку без воды
+	src = /turf/open/floor/plasteel
+
+	// Получаем соседние тайлы по 4 направлениям
+	var/list/directions = list(DIR_NORTH, DIR_SOUTH, DIR_EAST, DIR_WEST)
+
+	for (var/dir in directions)
+		var/adj_turf = locate_in_direction(dir, 1)
+		if (isturf(adj_turf) && istype(adj_turf, /turf/open/liquid/water) && !adj_turf.drained)
+			// Рекурсивный вызов очистки соседних тайлов
+			adj_turf.start_draining()
+
+/turf/open/liquid/water/starting_point_for_draining // special water turf which is always listening for signal WATER_PUMP_ACTIVATED and when he hears it, draining will start from him and drain all turs like a black death ahaha
+	// Обработчик получения сигнала
+    proc/on_signal(signal_name)
+        if (signal_name == "WATER_PUMP_ACTIVATED")
+            // Сбрасываем флаг для избежания зацикливания перед стартом
+            clear_drained_flags(world)
+            // Запускаем рекурсивное высасывание с текущего тайла
+            src.start_draining()
+
+// Процедура для очистки всех флагов drained, чтобы можно было запускать повторно
+proc/clear_drained_flags(area)
+    for(var/turf/T in area)
+        if (istype(T, /turf/open/liquid/water) && T.drained)
+            T.drained = FALSE
+
 /turf/open/liquid/water/sea
 	name = "water"
 	icon_state = "seadeep"

@@ -143,6 +143,34 @@
 /obj/machinery/button/door/open_only/water_pump/Initialize(mapload)
 	. = ..()
 
+/obj/machinery/button/door/open_only/water_pump/attack_hand(mob/living/user)
+	if((machine_stat & (NOPOWER|BROKEN)))
+		return
+	#ifndef TESTING
+	if(world.time < SSticker.round_start_time + SSticker.mode.deploy_time_lock)
+		to_chat(user, span_notice("The containment shutters can't open yet!"))
+		return
+	#endif
+	if(!allowed(user))
+		to_chat(user, span_danger("Access Denied"))
+		flick("[initial(icon_state)]_denied", src)
+		return
+	if(alarm_played)
+		flick("[initial(icon_state)]_denied", src)
+		return
+	use_power(active_power_usage)
+	icon_state = "[initial(icon_state)]_on"
+
+	alarm_played = TRUE
+	playsound_z(z, 'sound/effects/shutters_alarm.ogg', 15) // woop woop, shutters opening.
+	log_game("[key_name(user)] has opened the LZ Containment Shutters.")
+	addtimer(CALLBACK(src, TYPE_PROC_REF(/atom/movable, update_icon)), 1.5 SECONDS)
+	addtimer(CALLBACK(src, PROC_REF(pulsed)), 185)
+
+/obj/machinery/button/door/open_only/water_pump/pulsed()
+	. = ..()
+	SEND_GLOBAL_SIGNAL(WATER_PUMP_ACTIVATED)
+
 /obj/machinery/button/door/open_only/landing_zone
 	name = "lockdown override"
 	id = "landing_zone"
