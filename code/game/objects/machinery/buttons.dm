@@ -132,6 +132,17 @@
 		if(WEST)
 			pixel_x = 21
 
+/obj/machinery/button/door/open_only/water_pump
+	name = "Water Pump Activate"
+	id = "water_pump"
+	icon_state = "water_pump_button"
+	resistance_flags = RESIST_ALL
+	/// Has the shutters alarm been played?
+	var/alarm_played = FALSE
+
+/obj/machinery/button/door/open_only/water_pump/Initialize(mapload)
+	. = ..()
+
 /obj/machinery/button/door/open_only/landing_zone
 	name = "lockdown override"
 	id = "landing_zone"
