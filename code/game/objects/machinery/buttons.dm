@@ -169,7 +169,7 @@
 
 /obj/machinery/button/door/open_only/water_pump/pulsed()
 	. = ..()
-	SEND_GLOBAL_SIGNAL(WATER_PUMP_ACTIVATED)
+	SEND_GLOBAL_SIGNAL(COMSIG_TURF_WATER_PUMP_ACTIVATED)
 
 /obj/machinery/button/door/open_only/landing_zone
 	name = "lockdown override"

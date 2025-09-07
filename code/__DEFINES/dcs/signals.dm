@@ -313,6 +313,8 @@
 #define COMSIG_TURF_RESERVATION_RELEASED "turf_reservation_released"
 ///from /turf/proc/get_submerge_height() checking if something on the turf should submerge an AM
 #define COMSIG_TURF_SUBMERGE_CHECK "turf_submerge_check"
+// checking when water pump activated, then draining water, its easy
+#define COMSIG_TURF_WATER_PUMP_ACTIVATED "turf_water_pump_activated"
 
 // /obj signals
 #define COMSIG_OBJ_SETANCHORED "obj_setanchored"				//called in /obj/structure/setAnchored(): (value)
