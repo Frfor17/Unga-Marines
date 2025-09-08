@@ -123,7 +123,7 @@
 	src = /turf/open/floor/iron
 
 	// Получаем соседние тайлы по 4 направлениям
-	var/list/directions = list(DIR_NORTH, DIR_SOUTH, DIR_EAST, DIR_WEST)
+	var/list/directions = list(NORTH, SOUTH, EAST, WEST)
 
 	for (var/dir in directions)
 		var/adj_turf = locate_in_direction(dir, 1)
