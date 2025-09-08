@@ -103,33 +103,13 @@
 	if(carbon_mob.on_fire)
 		carbon_mob.ExtinguishMob()
 
-/turf/open/liquid/water/draining_water
+/turf/open/liquid/water/drainable_water
 	name = "draining water"
 	var/drained = FALSE
 
 /turf/open/liquid/water/draining_water/proc/start_draining()
-	// Проверка, что тайл действительно вода
-	if (!isturf(src) || src != /turf/open/liquid/water)
-		return
-
-	// Проверка, не очищен ли уже тайл — чтобы избежать рекурсивного зацикливания
-	if (src.drained)
-		return
-
-	// Помечаем текущий тайл как осушенный
-	src.drained = TRUE
-
-	// Логика очистки: например, меняем тип тайла на открытую плитку без воды
-	src = /turf/open/floor/iron
-
-	// Получаем соседние тайлы по 4 направлениям
 	var/list/directions = list(NORTH, SOUTH, EAST, WEST)
 
-	for (var/dir in directions)
-		var/adj_turf = locate_in_direction(dir, 1)
-		if (isturf(adj_turf) && istype(adj_turf, /turf/open/liquid/water) && !adj_turf.drained)
-			// Рекурсивный вызов очистки соседних тайлов
-			adj_turf.start_draining()
 
 /turf/open/liquid/water/starting_point_for_draining // special water turf which is always listening for signal WATER_PUMP_ACTIVATED and when he hears it, draining will start from him and drain all turs like a black death ahaha
 	// Обработчик получения сигнала
