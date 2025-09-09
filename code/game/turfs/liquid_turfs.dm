@@ -106,10 +106,19 @@
 /turf/open/liquid/water/drainable_water
 	name = "draining water"
 	var/drained = FALSE
+	var/started_draining = FALSE
+
+/turf/open/liquid/water/draining_water/proc/drain_one_tile()
+	started_draining = TRUE
+	sleep(50)
+	src = /turf/open/floor/iron
+	drained = TRUE
 
 /turf/open/liquid/water/draining_water/proc/start_draining()
+	src.drain_one_tile()
 	var/list/directions = list(NORTH, SOUTH, EAST, WEST)
-
+	for (var/dir in directions)
+		start_draining(get_step(src, dir))
 
 /turf/open/liquid/water/starting_point_for_draining // special water turf which is always listening for signal WATER_PUMP_ACTIVATED and when he hears it, draining will start from him and drain all turs like a black death ahaha
 	// Обработчик получения сигнала

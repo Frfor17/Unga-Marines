@@ -90,6 +90,23 @@
 	pulsed()
 	return list(0.1 SECONDS, 1)
 
+/obj/machinery/button/water_pump
+	name = "water pump button"
+	desc = "A remote control switch for a water pump."
+	var/area_type = /area/lol_ur_engine_room // replace this with your area type
+
+/obj/machinery/button/water_pump/attack_hand(mob/user, list/modifiers)
+	. = ..()
+	var/list/area_turfs = get_area_turfs(area_type) // check all turfs within this mapped area
+
+	for(var/turf/T in area_turfs) //cycle through them
+		if(!T || !istype(T, /turf/open/liquid/water/drainable_water)) // and filter out the turfs that don't match your water tile type
+			return
+
+	  var/turf/open/liquid/water/drainable_water/water_tile = T // we're defining it explicitly because it's a unique proc to that particular tile
+
+	  water_tile.start_draining() // drain them
+
 /obj/machinery/button/door
 	name = "door button"
 	desc = "A door remote control switch."
