@@ -109,9 +109,13 @@
 	var/started_draining = FALSE
 
 /turf/open/liquid/water/drainable_water/starting_turf_for_draining
-	RegisterSignal(src, COMSIG_TURF_WATER_PUMP_ACTIVATED, start_draining())
+	RegisterSignal(src, COMSIG_TURF_WATER_PUMP_ACTIVATED, PROC_REF(on_water_pump_activate))
 
+/turf/open/liquid/water/drainable_water/proc/on_water_pump_activate()
+	SIGNAL_HANDLER
+	start_draining()
 
+change_turf()
 /turf/open/liquid/water/drainable_water/proc/drain_one_tile()
 	started_draining = TRUE
 	sleep(50)
