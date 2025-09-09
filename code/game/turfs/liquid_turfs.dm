@@ -108,18 +108,22 @@
 	var/drained = FALSE
 	var/started_draining = FALSE
 
+/turf/open/liquid/water/drainable_water/Initialize(mapload)
+	. = ..()
+
 /turf/open/liquid/water/drainable_water/starting_turf_for_draining
+
+/turf/open/liquid/water/drainable_water/starting_turf_for_draining/Initialize(mapload)
+	. = ..()
 	RegisterSignal(src, COMSIG_TURF_WATER_PUMP_ACTIVATED, PROC_REF(on_water_pump_activate))
 
-/turf/open/liquid/water/drainable_water/proc/on_water_pump_activate()
-	SIGNAL_HANDLER
+/turf/open/liquid/water/drainable_water/starting_turf_for_draining/proc/on_water_pump_activate()
+	SIGNAL_HANDLER_DOES_SLEEP
 	start_draining()
 
-change_turf()
 /turf/open/liquid/water/drainable_water/proc/drain_one_tile()
 	started_draining = TRUE
-	sleep(50)
-	src = /turf/open/floor/iron
+	addtimer(CALLBACK(src,PROC_REF(change_turf(turf/open/floor/plating))), 2 SECONDS)
 	drained = TRUE
 
 /turf/open/liquid/water/drainable_water/proc/start_draining()
