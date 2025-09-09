@@ -93,19 +93,10 @@
 /obj/machinery/button/water_pump
 	name = "water pump button"
 	desc = "A remote control switch for a water pump."
-	var/area_type = /area/lol_ur_engine_room // replace this with your area type
+	resistance_flags = RESIST_ALL
 
 /obj/machinery/button/water_pump/attack_hand(mob/user, list/modifiers)
-	. = ..()
-	var/list/area_turfs = get_area_turfs(area_type) // check all turfs within this mapped area
-
-	for(var/turf/T in area_turfs) //cycle through them
-		if(!T || !istype(T, /turf/open/liquid/water/drainable_water)) // and filter out the turfs that don't match your water tile type
-			return
-
-	  var/turf/open/liquid/water/drainable_water/water_tile = T // we're defining it explicitly because it's a unique proc to that particular tile
-
-	  water_tile.start_draining() // drain them
+	SEND_GLOBAL_SIGNAL(COMSIG_TURF_WATER_PUMP_ACTIVATED)
 
 /obj/machinery/button/door
 	name = "door button"
@@ -148,45 +139,6 @@
 			pixel_x = -21
 		if(WEST)
 			pixel_x = 21
-
-/obj/machinery/button/door/open_only/water_pump
-	name = "Water Pump Activate"
-	id = "water_pump"
-	icon_state = "water_pump_button"
-	resistance_flags = RESIST_ALL
-	/// Has the shutters alarm been played?
-	var/alarm_played = FALSE
-
-/obj/machinery/button/door/open_only/water_pump/Initialize(mapload)
-	. = ..()
-
-/obj/machinery/button/door/open_only/water_pump/attack_hand(mob/living/user)
-	if((machine_stat & (NOPOWER|BROKEN)))
-		return
-	#ifndef TESTING
-	if(world.time < SSticker.round_start_time + SSticker.mode.deploy_time_lock)
-		to_chat(user, span_notice("The containment shutters can't open yet!"))
-		return
-	#endif
-	if(!allowed(user))
-		to_chat(user, span_danger("Access Denied"))
-		flick("[initial(icon_state)]_denied", src)
-		return
-	if(alarm_played)
-		flick("[initial(icon_state)]_denied", src)
-		return
-	use_power(active_power_usage)
-	icon_state = "[initial(icon_state)]_on"
-
-	alarm_played = TRUE
-	playsound_z(z, 'sound/effects/shutters_alarm.ogg', 15) // woop woop, shutters opening.
-	log_game("[key_name(user)] has opened the LZ Containment Shutters.")
-	addtimer(CALLBACK(src, TYPE_PROC_REF(/atom/movable, update_icon)), 1.5 SECONDS)
-	addtimer(CALLBACK(src, PROC_REF(pulsed)), 185)
-
-/obj/machinery/button/door/open_only/water_pump/pulsed()
-	. = ..()
-	SEND_GLOBAL_SIGNAL(COMSIG_TURF_WATER_PUMP_ACTIVATED)
 
 /obj/machinery/button/door/open_only/landing_zone
 	name = "lockdown override"

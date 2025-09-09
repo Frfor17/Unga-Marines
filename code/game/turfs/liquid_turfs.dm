@@ -108,32 +108,23 @@
 	var/drained = FALSE
 	var/started_draining = FALSE
 
-/turf/open/liquid/water/draining_water/proc/drain_one_tile()
+/turf/open/liquid/water/drainable_water/starting_turf_for_draining
+	RegisterSignal(src, COMSIG_TURF_WATER_PUMP_ACTIVATED, start_draining())
+
+
+/turf/open/liquid/water/drainable_water/proc/drain_one_tile()
 	started_draining = TRUE
 	sleep(50)
 	src = /turf/open/floor/iron
 	drained = TRUE
 
-/turf/open/liquid/water/draining_water/proc/start_draining()
+/turf/open/liquid/water/drainable_water/proc/start_draining()
 	src.drain_one_tile()
 	var/list/directions = list(NORTH, SOUTH, EAST, WEST)
 	for (var/dir in directions)
-		start_draining(get_step(src, dir))
-
-/turf/open/liquid/water/starting_point_for_draining // special water turf which is always listening for signal WATER_PUMP_ACTIVATED and when he hears it, draining will start from him and drain all turs like a black death ahaha
-	// Обработчик получения сигнала
-    proc/on_signal(signal_name)
-        if (signal_name == "COMSIG_TURF_WATER_PUMP_ACTIVATED")
-            // Сбрасываем флаг для избежания зацикливания перед стартом
-            clear_drained_flags(world)
-            // Запускаем рекурсивное высасывание с текущего тайла
-            src.start_draining()
-
-// Процедура для очистки всех флагов drained, чтобы можно было запускать повторно
-proc/clear_drained_flags(area)
-    for(var/turf/T in area)
-        if (istype(T, /turf/open/liquid/water) && T.drained)
-            T.drained = FALSE
+		var/turf/open/liquid/water/drainable_water/currently_draining_tile = get_step(src, dir)
+		if(isturf(currently_draining_tile))
+			start_draining(currently_draining_tile)
 
 /turf/open/liquid/water/sea
 	name = "water"
