@@ -342,7 +342,7 @@ GLOBAL_LIST_INIT(acid_spray_hit, typecacheof(list(/obj/structure/barricade, /obj
 	succeed_activate()
 
 	last_turf = get_turf(owner)
-	xeno_owner.add_pass_flags(charge_pass_flags, type)
+	// xeno_owner.add_pass_flags(charge_pass_flags, type)
 	owner.throw_at(A, charge_range, 2, owner)
 
 /datum/action/ability/activable/xeno/charge/acid_dash/mob_hit(datum/source, mob/living/living_target)
@@ -366,7 +366,7 @@ GLOBAL_LIST_INIT(acid_spray_hit, typecacheof(list(/obj/structure/barricade, /obj
 		recast = FALSE
 		add_cooldown()
 	UnregisterSignal(owner, COMSIG_MOVABLE_MOVED)
-	xeno_owner.remove_pass_flags(charge_pass_flags, type)
+	// xeno_owner.remove_pass_flags(charge_pass_flags, type)
 	recast_available = FALSE
 
 ///Drops an acid puddle on the current owner's tile, will do 0 damage if the owner has no acid_spray_damage
@@ -407,7 +407,7 @@ GLOBAL_LIST_INIT(acid_spray_hit, typecacheof(list(/obj/structure/barricade, /obj
 
 	owner.add_movespeed_modifier(MOVESPEED_ID_PRAETORIAN_DANCER_DODGE_SPEED, TRUE, 0, NONE, TRUE, speed_buff)
 	owner.allow_pass_flags |= (PASS_MOB|PASS_XENO)
-	xeno_owner.add_pass_flags(dodge_pass_flags, type)
+	// xeno_owner.add_pass_flags(dodge_pass_flags, type)
 	RegisterSignal(owner, COMSIG_MOVABLE_MOVED, PROC_REF(on_move))
 	addtimer(CALLBACK(src, PROC_REF(remove_effects)), duration)
 
@@ -439,7 +439,7 @@ GLOBAL_LIST_INIT(acid_spray_hit, typecacheof(list(/obj/structure/barricade, /obj
 
 	owner.remove_movespeed_modifier(MOVESPEED_ID_PRAETORIAN_DANCER_DODGE_SPEED)
 	owner.allow_pass_flags &= ~(PASS_MOB|PASS_XENO)
-	xeno_owner.remove_pass_flags(dodge_pass_flags, type)
+	// xeno_owner.remove_pass_flags(dodge_pass_flags, type)
 	UnregisterSignal(owner, COMSIG_MOVABLE_MOVED)
 
 /// Toggles particles on or off, adjusting their positioning to fit the buff's owner.
