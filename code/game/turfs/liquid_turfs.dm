@@ -123,7 +123,7 @@
 
 /turf/open/liquid/water/drainable_water/proc/drain_one_tile()
 	started_draining = TRUE
-	addtimer(CALLBACK(src,PROC_REF(change_turf(turf/open/floor/plating))), 2 SECONDS)
+	addtimer(CALLBACK(src,PROC_REF(ChangeTurf(turf/open/floor/plating))), 2 SECONDS)
 	drained = TRUE
 
 /turf/open/liquid/water/drainable_water/proc/start_draining()
