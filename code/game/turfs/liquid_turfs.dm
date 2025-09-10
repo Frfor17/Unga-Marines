@@ -130,9 +130,9 @@
 	src.drain_one_tile()
 	var/list/directions = list(NORTH, SOUTH, EAST, WEST)
 	for (var/dir in directions)
-		var/turf/open/liquid/water/drainable_water/currently_draining_tile = get_step(src, dir)
-		if(isturf(currently_draining_tile))
-			start_draining(currently_draining_tile)
+		var/turf/open/liquid/water/drainable_water/next_draining_tile = get_step(src, dir)
+		if(isturf(next_draining_tile))
+			next_draining_tile.start_draining()
 
 /turf/open/liquid/water/sea
 	name = "water"

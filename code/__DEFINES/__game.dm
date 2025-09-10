@@ -4,6 +4,7 @@
 #define MAIN_AI_SYSTEM "ARES v3.2"
 
 #define MAP_BIG_RED "Big Red"
+#define MAP_DARK_LAB "Dark Lab"
 #define MAP_ICE_COLONY "Ice Colony"
 #define MAP_ICY_CAVES "Icy Caves"
 #define MAP_LV_624 "LV624"

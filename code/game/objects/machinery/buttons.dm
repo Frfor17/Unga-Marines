@@ -93,6 +93,7 @@
 /obj/machinery/button/water_pump
 	name = "water pump button"
 	desc = "A remote control switch for a water pump."
+	icon_state = "water_pump_button"
 	resistance_flags = RESIST_ALL
 
 /obj/machinery/button/water_pump/attack_hand(mob/user, list/modifiers)

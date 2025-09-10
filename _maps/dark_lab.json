@@ -1,0 +1,13 @@
+{
+    "map_name": "Dark Lab",
+    "map_path": "map_files/dark_lab",
+    "map_file": "dark_lab_ver2.dmm",
+    "parallax_icon": "rock",
+    "announce_text": "тут что-то происходит на этой планете...",
+    "disk_sets": {
+		"basic": 1
+	},
+    "traits":[{
+		"weather_ashstorm": true
+	}]
+}

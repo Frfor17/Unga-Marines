@@ -96,3 +96,7 @@ endmap
 map kutjevo
 	minplayers 35
 endmap
+
+map dark_lab
+	minplayers 30
+endmap
