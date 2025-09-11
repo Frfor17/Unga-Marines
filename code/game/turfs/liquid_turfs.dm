@@ -131,7 +131,7 @@
 	var/list/directions = list(NORTH, SOUTH, EAST, WEST)
 	for (var/dir in directions)
 		var/turf/open/liquid/water/drainable_water/next_draining_tile = get_step(src, dir)
-		if(isturf(next_draining_tile))
+		if(isturf(/turf/open/liquid/water/drainable_water))
 			next_draining_tile.start_draining()
 
 /turf/open/liquid/water/sea
