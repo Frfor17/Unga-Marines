@@ -2047,6 +2047,7 @@
 #include "code\modules\power\smes.dm"
 #include "code\modules\power\smes_construction.dm"
 #include "code\modules\power\terminal.dm"
+#include "code\modules\power\zulu_energy.dm"
 #include "code\modules\power\apc\apc.dm"
 #include "code\modules\power\apc\apc_appearance.dm"
 #include "code\modules\power\apc\apc_attack.dm"

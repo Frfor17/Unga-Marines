@@ -1,4 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/structure/table/reinforced,
+/obj/item/paper,
+/turf/open/floor/tile/dark/purple2{
+	dir = 4
+	},
+/area/space)
 "ag" = (
 /obj/machinery/light{
 	dir = 4
@@ -80,11 +87,6 @@
 /area/space)
 "aZ" = (
 /obj/structure/prop/mainship/hangar_stencil,
-/turf/open/floor/tile/dark,
-/area/space)
-"bd" = (
-/obj/structure/table/reinforced,
-/obj/machinery/computer/camera,
 /turf/open/floor/tile/dark,
 /area/space)
 "bg" = (
@@ -204,6 +206,12 @@
 	dir = 8
 	},
 /turf/open/floor/plating/ground/snow/layer2,
+/area/space)
+"cu" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/tile/dark/purple2{
+	dir = 6
+	},
 /area/space)
 "cG" = (
 /turf/closed/wall/r_wall,
@@ -337,10 +345,6 @@
 /obj/item/phone,
 /turf/open/floor/tile/dark,
 /area/space)
-"ez" = (
-/obj/machinery/researchcomp,
-/turf/open/floor/tile/dark,
-/area/space)
 "eJ" = (
 /turf/open/floor/tile/dark/purple2{
 	dir = 1
@@ -394,6 +398,10 @@
 "fD" = (
 /obj/structure/closet/radiation,
 /turf/open/floor/podhatch/floor,
+/area/space)
+"fG" = (
+/obj/structure/sign/safety/high_radiation,
+/turf/closed/wall/mainship/gray,
 /area/space)
 "fH" = (
 /obj/structure/safe,
@@ -642,6 +650,10 @@
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/open/floor/plating/ground/snow/layer0,
 /area/space)
+"ig" = (
+/obj/structure/sign/safety/rad_hazard,
+/turf/closed/wall/mainship/gray,
+/area/space)
 "ii" = (
 /obj/structure/platform{
 	dir = 5
@@ -767,6 +779,11 @@
 "jx" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone,
 /turf/open/floor/plating/ground/snow/layer1,
+/area/space)
+"jA" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/camera,
+/turf/open/floor/tile/dark,
 /area/space)
 "jB" = (
 /obj/effect/landmark/corpsespawner/miner/burst,
@@ -1039,10 +1056,6 @@
 	dir = 1
 	},
 /area/space)
-"ms" = (
-/obj/structure/flora/bush,
-/turf/closed/mineral/smooth/darkfrostwall,
-/area/space)
 "mx" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -1066,10 +1079,6 @@
 /obj/effect/spawner/random/misc/structure/stool,
 /turf/open/floor/carpet,
 /area/space)
-"mF" = (
-/obj/machinery/robotic_fabricator,
-/turf/open/floor/tile/dark,
-/area/space)
 "mH" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
 	dir = 1
@@ -1086,13 +1095,6 @@
 	},
 /obj/effect/landmark/corpsespawner/colonist/regular,
 /turf/open/floor/iron,
-/area/space)
-"mI" = (
-/obj/structure/table/reinforced,
-/obj/item/paper,
-/turf/open/floor/tile/dark/purple2{
-	dir = 4
-	},
 /area/space)
 "mJ" = (
 /obj/structure/barricade/folding{
@@ -1306,10 +1308,6 @@
 "oQ" = (
 /obj/structure/prop/tgbrokenvendor/engidrobe,
 /turf/open/floor/tile/dark,
-/area/space)
-"oT" = (
-/obj/structure/closet/radiation,
-/turf/open/floor/tile/dark/purple2,
 /area/space)
 "oU" = (
 /obj/effect/turf_decal/tracks/wheels/bloody,
@@ -1563,6 +1561,10 @@
 /obj/effect/spawner/random/engineering/assemblies,
 /turf/open/floor/mainship/metal,
 /area/space)
+"rK" = (
+/obj/structure/bed/chair/office/dark/west,
+/turf/open/floor/tile/dark,
+/area/space)
 "rT" = (
 /obj/structure/bed/chair/wood{
 	dir = 4
@@ -1708,13 +1710,6 @@
 	dir = 1
 	},
 /turf/open/floor/tile/bar,
-/area/space)
-"tv" = (
-/obj/structure/table/reinforced,
-/obj/item/storage/toolbox/syndicate,
-/turf/open/floor/tile/dark/purple2{
-	dir = 5
-	},
 /area/space)
 "tz" = (
 /turf/open/floor/podhatch/floor,
@@ -1862,8 +1857,8 @@
 	},
 /area/space)
 "vB" = (
-/obj/machinery/prop/r_n_d/server,
-/turf/open/floor/tile/dark,
+/obj/item/fuel_cell/full,
+/turf/open/floor/plating/ground/snow/layer0,
 /area/space)
 "vC" = (
 /obj/structure/platform{
@@ -1986,10 +1981,6 @@
 /obj/item/tool/wrench,
 /turf/open/floor/tile/white/hall/full,
 /area/space)
-"wA" = (
-/obj/structure/sign/safety/rad_hazard,
-/turf/closed/wall/mainship/gray,
-/area/space)
 "wB" = (
 /obj/effect/landmark/corpsespawner/marine/engineer,
 /turf/open/floor/mainship/mono,
@@ -1999,12 +1990,6 @@
 	dir = 4
 	},
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
-"wL" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/tile/dark/purple2{
-	dir = 6
-	},
 /area/space)
 "wM" = (
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -2249,6 +2234,10 @@
 	pixel_y = 8
 	},
 /turf/open/floor/carpet,
+/area/space)
+"zX" = (
+/obj/machinery/researchcomp,
+/turf/open/floor/tile/dark,
 /area/space)
 "zY" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -2999,6 +2988,10 @@
 /obj/effect/spawner/random/machinery/random_broken_computer,
 /turf/open/floor/tile/dark,
 /area/space)
+"HE" = (
+/obj/item/fuel_cell/high,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/space)
 "HF" = (
 /turf/open/floor/carpet/black,
 /area/space)
@@ -3362,9 +3355,9 @@
 	},
 /turf/open/floor/plating/rivergrate,
 /area/space)
-"KW" = (
-/obj/structure/sign/safety/high_radiation,
-/turf/closed/wall/mainship/gray,
+"KX" = (
+/obj/machinery/robotic_fabricator,
+/turf/open/floor/tile/dark,
 /area/space)
 "KY" = (
 /obj/structure/prop/mainship/sensor_computer2,
@@ -3562,6 +3555,13 @@
 /obj/effect/spawner/random/engineering/glass,
 /turf/open/floor/tile/dark,
 /area/space)
+"No" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/syndicate,
+/turf/open/floor/tile/dark/purple2{
+	dir = 5
+	},
+/area/space)
 "Nv" = (
 /obj/structure/table,
 /obj/item/storage/donut_box,
@@ -3646,6 +3646,10 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/plating/icefloor,
+/area/space)
+"Od" = (
+/obj/structure/closet/radiation,
+/turf/open/floor/tile/dark/purple2,
 /area/space)
 "Oo" = (
 /obj/structure/filingcabinet,
@@ -4121,10 +4125,6 @@
 /obj/structure/barricade/solid,
 /turf/open/floor/tile/dark/yellow2,
 /area/space)
-"Tv" = (
-/obj/structure/bed/chair/office/dark/west,
-/turf/open/floor/tile/dark,
-/area/space)
 "Ty" = (
 /obj/structure/prop/brokenvendor/engivend,
 /turf/open/floor/tile/dark2,
@@ -4156,6 +4156,10 @@
 "TT" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
+/area/space)
+"TU" = (
+/obj/structure/flora/bush,
+/turf/closed/mineral/smooth/darkfrostwall,
 /area/space)
 "Ub" = (
 /obj/structure/platform{
@@ -4225,6 +4229,10 @@
 /area/space)
 "UP" = (
 /obj/machinery/power/emitter,
+/turf/open/floor/tile/dark,
+/area/space)
+"UQ" = (
+/obj/machinery/prop/r_n_d/server,
 /turf/open/floor/tile/dark,
 /area/space)
 "UT" = (
@@ -43831,7 +43839,7 @@ qj
 yr
 yr
 ce
-ms
+TU
 ce
 GG
 wX
@@ -60114,7 +60122,7 @@ Mc
 aT
 tz
 fD
-wA
+ig
 wX
 wX
 wX
@@ -60505,8 +60513,8 @@ Hi
 Hi
 XE
 eJ
-ez
-vB
+zX
+UQ
 XB
 aT
 Hi
@@ -60807,11 +60815,11 @@ aO
 Hi
 XE
 eJ
-mF
+KX
 wn
 XB
 aT
-Hi
+vB
 Hi
 Hi
 Hi
@@ -61113,7 +61121,7 @@ wX
 wX
 XB
 aT
-Hi
+HE
 Hi
 Hi
 Hi
@@ -61315,10 +61323,10 @@ Hi
 Hi
 Hi
 aT
-KW
+fG
 tz
 rs
-KW
+fG
 aT
 Hi
 Hi
@@ -61410,10 +61418,10 @@ Iq
 Hi
 Hi
 aT
-tv
-mI
+No
+aa
 Zn
-wL
+cu
 aT
 Hi
 Hi
@@ -63731,7 +63739,7 @@ Hi
 Iq
 Hi
 aT
-KW
+fG
 DO
 yY
 aT
@@ -67443,7 +67451,7 @@ ce
 aT
 eJ
 wX
-bd
+jA
 lS
 wX
 XB
@@ -67745,11 +67753,11 @@ ce
 aT
 eJ
 wX
-Tv
+rK
 lS
 wX
 XB
-KW
+fG
 ux
 ux
 za
@@ -68654,7 +68662,7 @@ wX
 wX
 wX
 wX
-oT
+Od
 aT
 ux
 ux
@@ -68956,7 +68964,7 @@ wX
 wX
 wX
 wX
-oT
+Od
 aT
 aT
 aT
@@ -73238,7 +73246,7 @@ yr
 yr
 yr
 yr
-yr
+qj
 yr
 yr
 yr
@@ -73540,8 +73548,8 @@ yr
 yr
 yr
 yr
-yr
-yr
+qj
+qj
 yr
 yr
 yr
@@ -73843,8 +73851,8 @@ yr
 yr
 yr
 yr
-yr
-yr
+qj
+qj
 yr
 yr
 yr
@@ -74144,9 +74152,9 @@ yr
 yr
 yr
 yr
-yr
-yr
-yr
+qj
+qj
+qj
 yr
 yr
 yr
@@ -74446,9 +74454,9 @@ yr
 yr
 yr
 yr
-yr
-yr
-yr
+qj
+qj
+qj
 yr
 yr
 yr
@@ -74749,8 +74757,8 @@ Hi
 yr
 yr
 yr
-yr
-yr
+qj
+qj
 yr
 yr
 yr
@@ -75051,8 +75059,8 @@ yr
 yr
 yr
 yr
-yr
-yr
+qj
+qj
 yr
 yr
 yr
@@ -75353,8 +75361,8 @@ yr
 yr
 yr
 yr
-yr
-yr
+qj
+qj
 yr
 yr
 yr
@@ -75655,8 +75663,8 @@ yr
 yr
 yr
 yr
-yr
-yr
+qj
+qj
 yr
 yr
 yr
@@ -75957,9 +75965,9 @@ yr
 yr
 yr
 yr
-yr
-yr
-yr
+qj
+qj
+qj
 yr
 yr
 Hi
@@ -76259,9 +76267,9 @@ yr
 yr
 yr
 yr
-yr
-yr
-yr
+qj
+qj
+qj
 yr
 yr
 Hi
@@ -76562,8 +76570,8 @@ yr
 yr
 yr
 yr
-yr
-yr
+qj
+qj
 yr
 yr
 yr
@@ -76864,8 +76872,8 @@ yr
 yr
 yr
 yr
-yr
-yr
+qj
+qj
 yr
 yr
 yr
@@ -77167,7 +77175,7 @@ yr
 yr
 yr
 yr
-yr
+qj
 yr
 yr
 yr
@@ -77469,7 +77477,7 @@ yr
 yr
 yr
 yr
-yr
+qj
 yr
 yr
 yr
@@ -79570,7 +79578,7 @@ yr
 yr
 yr
 yr
-yr
+qj
 yr
 yr
 yr
@@ -79871,7 +79879,7 @@ yr
 yr
 yr
 yr
-yr
+qj
 yr
 yr
 yr
@@ -80172,8 +80180,8 @@ yr
 yr
 yr
 yr
-yr
-yr
+qj
+qj
 yr
 yr
 yr
@@ -80473,8 +80481,8 @@ yr
 yr
 yr
 yr
-yr
-yr
+qj
+qj
 yr
 yr
 yr
@@ -80774,9 +80782,9 @@ yr
 yr
 yr
 yr
-yr
-yr
-yr
+qj
+qj
+qj
 yr
 yr
 yr
@@ -81071,16 +81079,16 @@ yr
 yr
 yr
 yr
-yr
-yr
-yr
-yr
-yr
-yr
-yr
-yr
-yr
-yr
+qj
+qj
+qj
+qj
+qj
+qj
+qj
+qj
+qj
+qj
 yr
 yr
 yr
@@ -81374,18 +81382,18 @@ yr
 yr
 yr
 yr
+qj
+qj
+qj
+qj
 yr
 yr
-yr
-yr
-yr
-yr
-yr
-yr
-yr
-yr
-yr
-yr
+qj
+qj
+qj
+qj
+qj
+qj
 yr
 yr
 yr
@@ -81679,13 +81687,13 @@ yr
 yr
 yr
 yr
-yr
-yr
-yr
-yr
-yr
-yr
-yr
+qj
+qj
+qj
+qj
+qj
+qj
+qj
 yr
 yr
 yr
