@@ -1921,11 +1921,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
-"gQ" = (
-/obj/structure/table/black,
-/obj/item/zulu_fuel_cell,
-/turf/open/floor/mainship/metal/full,
-/area/space)
 "gR" = (
 /obj/structure/closet/radiation,
 /turf/open/floor/tile/dark,
@@ -5378,10 +5373,6 @@
 "sb" = (
 /turf/open/shuttle/escapepod/seven,
 /area/space)
-"sc" = (
-/obj/structure/ancient_teleport,
-/turf/open/floor/plating/ground/snow/layer0,
-/area/space)
 "sd" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/weed_node,
@@ -5742,7 +5733,6 @@
 /area/space)
 "to" = (
 /obj/effect/turf_decal/bot_white,
-/obj/structure/crusader_armor_rack,
 /turf/open/floor/mainship/metal/full,
 /area/space)
 "tp" = (
@@ -10922,10 +10912,6 @@
 /obj/effect/decal/cleanable/blood/oil/streak,
 /obj/item/tool/wrench,
 /turf/open/floor/plating/scorched,
-/area/space)
-"Kt" = (
-/obj/structure/ancient_teleport,
-/turf/open/floor/cult,
 /area/space)
 "Ku" = (
 /obj/effect/decal/cleanable/blood,
@@ -33378,7 +33364,7 @@ Oq
 Oq
 Oq
 Hi
-sc
+Hi
 tn
 Hi
 tn
@@ -35492,7 +35478,7 @@ Oq
 Hi
 Hi
 Hi
-Kt
+tn
 Hi
 Hi
 tn
@@ -76939,7 +76925,7 @@ wP
 zW
 wP
 xF
-gQ
+Gl
 aT
 yr
 qj
@@ -85405,7 +85391,7 @@ yr
 Hi
 Hi
 Hi
-sc
+Hi
 Hi
 Hi
 DS
@@ -87519,7 +87505,7 @@ yr
 Hi
 Hi
 Hi
-sc
+Hi
 Hi
 Hi
 Hi
