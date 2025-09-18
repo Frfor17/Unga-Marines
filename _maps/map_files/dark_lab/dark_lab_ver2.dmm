@@ -1595,7 +1595,7 @@
 /turf/open/floor/mainship/sterile/white,
 /area/space)
 "fK" = (
-/obj/structure/nuke_disk_candidate,
+/obj/structure/nuke_icbm,
 /turf/open/floor/plating/scorched,
 /area/space)
 "fL" = (
@@ -57893,7 +57893,7 @@ hq
 hq
 hq
 oR
-hq
+fK
 hq
 IG
 jT
@@ -58495,7 +58495,7 @@ dn
 BC
 Vw
 hq
-fK
+hq
 Vw
 hq
 hq

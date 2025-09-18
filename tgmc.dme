@@ -1245,6 +1245,7 @@
 #include "code\game\objects\structures\morgue.dm"
 #include "code\game\objects\structures\musician.dm"
 #include "code\game\objects\structures\noticeboard.dm"
+#include "code\game\objects\structures\nuke_icbm.dm"
 #include "code\game\objects\structures\orbital_cannon.dm"
 #include "code\game\objects\structures\platforms.dm"
 #include "code\game\objects\structures\prop.dm"
