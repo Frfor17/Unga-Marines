@@ -5040,6 +5040,10 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/concrete,
 /area/space)
+"qT" = (
+/obj/structure/tatarla_statue,
+/turf/open/floor/tile/dark,
+/area/space)
 "qU" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/spawner/gibspawner/xeno,
@@ -52711,7 +52715,7 @@ cZ
 wX
 wX
 wX
-wX
+qT
 wX
 wX
 wX
@@ -53315,7 +53319,7 @@ QQ
 mg
 QQ
 QQ
-Dw
+ro
 wX
 wX
 wX
