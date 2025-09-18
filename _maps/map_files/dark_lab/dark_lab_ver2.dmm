@@ -1438,6 +1438,10 @@
 /obj/machinery/vending/cola,
 /turf/open/floor/tile/dark,
 /area/space)
+"fi" = (
+/obj/structure/ancient_teleport,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/space)
 "fj" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
 	dir = 1
@@ -2945,6 +2949,11 @@
 /obj/structure/cocoon,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/iron,
+/area/space)
+"km" = (
+/obj/structure/table/black,
+/obj/item/zulu_fuel_cell,
+/turf/open/floor/mainship/metal/full,
 /area/space)
 "kn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -5733,6 +5742,7 @@
 /area/space)
 "to" = (
 /obj/effect/turf_decal/bot_white,
+/obj/structure/crusader_armor_rack,
 /turf/open/floor/mainship/metal/full,
 /area/space)
 "tp" = (
@@ -8897,6 +8907,10 @@
 /turf/open/floor/tile/dark/brown2{
 	dir = 5
 	},
+/area/space)
+"DG" = (
+/obj/structure/ancient_teleport,
+/turf/open/floor/cult,
 /area/space)
 "DH" = (
 /obj/structure/table/wood/fancy,
@@ -33364,7 +33378,7 @@ Oq
 Oq
 Oq
 Hi
-Hi
+fi
 tn
 Hi
 tn
@@ -35478,7 +35492,7 @@ Oq
 Hi
 Hi
 Hi
-tn
+DG
 Hi
 Hi
 tn
@@ -76925,7 +76939,7 @@ wP
 zW
 wP
 xF
-Gl
+km
 aT
 yr
 qj
@@ -85693,7 +85707,7 @@ yr
 Hi
 Hi
 Hi
-Hi
+fi
 Hi
 Hi
 Hi
@@ -87807,7 +87821,7 @@ yr
 Hi
 Hi
 Hi
-Hi
+fi
 Hi
 Hi
 Hi
