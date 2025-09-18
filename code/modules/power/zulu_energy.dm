@@ -10,3 +10,6 @@
 	var/fuel_amount = 0
 	/// The maximum amount of fuel the cell holds
 	var/max_fuel_amount = 100
+
+/obj/item/zulu_fuel_cell/Initialize(mapload)
+	. = ..()

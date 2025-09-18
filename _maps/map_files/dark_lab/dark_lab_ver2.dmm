@@ -1921,6 +1921,11 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
+"gQ" = (
+/obj/structure/table/black,
+/obj/item/zulu_fuel_cell,
+/turf/open/floor/mainship/metal/full,
+/area/space)
 "gR" = (
 /obj/structure/closet/radiation,
 /turf/open/floor/tile/dark,
@@ -5374,7 +5379,7 @@
 /turf/open/shuttle/escapepod/seven,
 /area/space)
 "sc" = (
-/obj/structure/prop/mainship/gateway,
+/obj/structure/ancient_teleport,
 /turf/open/floor/plating/ground/snow/layer0,
 /area/space)
 "sd" = (
@@ -10917,6 +10922,10 @@
 /obj/effect/decal/cleanable/blood/oil/streak,
 /obj/item/tool/wrench,
 /turf/open/floor/plating/scorched,
+/area/space)
+"Kt" = (
+/obj/structure/ancient_teleport,
+/turf/open/floor/cult,
 /area/space)
 "Ku" = (
 /obj/effect/decal/cleanable/blood,
@@ -32162,7 +32171,7 @@ yr
 yr
 Oq
 Oq
-Hi
+Oq
 If
 Hi
 Hi
@@ -33369,7 +33378,7 @@ Oq
 Oq
 Oq
 Hi
-Hi
+sc
 tn
 Hi
 tn
@@ -35179,8 +35188,8 @@ Oq
 Oq
 Oq
 Hi
-sc
-sc
+Hi
+Hi
 tn
 tn
 Hi
@@ -35483,7 +35492,7 @@ Oq
 Hi
 Hi
 Hi
-tn
+Kt
 Hi
 Hi
 tn
@@ -36086,9 +36095,9 @@ Oq
 Oq
 Oq
 Oq
+Oq
 Hi
 Hi
-sc
 Hi
 tn
 tn
@@ -36389,7 +36398,7 @@ Oq
 Oq
 Oq
 Oq
-Hi
+Oq
 Hi
 tn
 Eq
@@ -36691,7 +36700,7 @@ Oq
 Oq
 Oq
 Oq
-Hi
+Oq
 tn
 Hi
 Kl
@@ -36993,7 +37002,7 @@ Vz
 Oq
 Oq
 Oq
-tn
+Oq
 GR
 tn
 Hi
@@ -37295,8 +37304,8 @@ Oq
 Oq
 Oq
 Oq
-CS
-Hi
+EZ
+Oq
 tn
 Hi
 sL
@@ -37597,8 +37606,8 @@ yr
 yr
 yr
 yr
-Hi
-Hi
+yr
+Oq
 Hi
 Hi
 Hi
@@ -37899,8 +37908,8 @@ yr
 yr
 yr
 yr
-Hi
-Hi
+yr
+yr
 Hi
 Iq
 Hi
@@ -38201,8 +38210,8 @@ yr
 yr
 yr
 yr
-Hi
-Hi
+yr
+yr
 Hi
 Hi
 Hi
@@ -76930,7 +76939,7 @@ wP
 zW
 wP
 xF
-Gl
+gQ
 aT
 yr
 qj
@@ -85396,7 +85405,7 @@ yr
 Hi
 Hi
 Hi
-Hi
+sc
 Hi
 Hi
 DS
@@ -85707,8 +85716,8 @@ Hi
 Hi
 Hi
 Hi
-yr
-yr
+Hi
+Hi
 yr
 qj
 qj
@@ -86010,8 +86019,8 @@ Hi
 Hi
 Hi
 Hi
-yr
-yr
+Hi
+Hi
 yr
 yr
 yr
@@ -86314,8 +86323,8 @@ Hi
 Hi
 Hi
 Hi
-yr
-yr
+Hi
+Hi
 yr
 yr
 Hi
@@ -87510,7 +87519,7 @@ yr
 Hi
 Hi
 Hi
-Hi
+sc
 Hi
 Hi
 Hi
@@ -87817,7 +87826,7 @@ Hi
 Hi
 Hi
 Hi
-yr
+Hi
 Hi
 Hi
 Hi
@@ -88118,11 +88127,11 @@ Hi
 Hi
 Hi
 Hi
-yr
-yr
-yr
-yr
-yr
+Hi
+Hi
+Hi
+Hi
+Hi
 Hi
 Hi
 Hi
@@ -88420,14 +88429,14 @@ Hi
 Hi
 Hi
 Hi
-yr
-yr
-yr
-yr
-yr
-yr
-yr
-yr
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
+Hi
 Hi
 Hi
 Hi
@@ -88722,14 +88731,14 @@ Hi
 Hi
 Hi
 Hi
+Hi
+Hi
 yr
 yr
 yr
 yr
-yr
-yr
-yr
-yr
+Hi
+Hi
 Hi
 Hi
 Hi
@@ -89023,8 +89032,8 @@ Hi
 Hi
 Hi
 Hi
-Hi
-Hi
+yr
+yr
 yr
 yr
 yr
@@ -89319,14 +89328,14 @@ Hi
 Hi
 yr
 yr
-qj
 yr
-Hi
-Hi
-Hi
-DS
-Hi
-Hi
+yr
+yr
+yr
+yr
+Ko
+yr
+yr
 yr
 yr
 yr
@@ -89623,11 +89632,11 @@ yr
 yr
 qj
 yr
-Hi
-Hi
-Hi
-Hi
-DS
+yr
+yr
+yr
+yr
+Ko
 Hi
 yr
 yr
@@ -89926,11 +89935,11 @@ yr
 qj
 yr
 yr
-Hi
-Hi
-Hi
-Hi
-Hi
+yr
+yr
+yr
+yr
+yr
 yr
 yr
 yr
@@ -90229,9 +90238,9 @@ qj
 yr
 yr
 yr
-Hi
-Hi
-Hi
+yr
+yr
+yr
 Hi
 Hi
 Hi
