@@ -5737,6 +5737,7 @@
 /area/space)
 "to" = (
 /obj/effect/turf_decal/bot_white,
+/obj/structure/crusader_armor_rack,
 /turf/open/floor/mainship/metal/full,
 /area/space)
 "tp" = (
