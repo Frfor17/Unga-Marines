@@ -166,6 +166,7 @@
 /obj/structure/prop/mainship/doorblocker/engi,
 /obj/effect/decal/cleanable/blood/oil,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/space)
 "aJ" = (
@@ -213,6 +214,9 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/carpet/orange,
 /area/space)
 "aT" = (
@@ -262,6 +266,9 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/spawner/random/engineering/glass,
 /obj/effect/landmark/weed_node,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 9
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "be" = (
@@ -312,6 +319,7 @@
 /area/space)
 "bl" = (
 /obj/effect/decal/cleanable/generic,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/red,
 /area/space)
 "bm" = (
@@ -323,6 +331,13 @@
 	},
 /obj/structure/platform{
 	dir = 6
+	},
+/turf/open/floor/tile/dark,
+/area/space)
+"bn" = (
+/obj/effect/decal/cleanable/mucus,
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /turf/open/floor/tile/dark,
 /area/space)
@@ -366,10 +381,18 @@
 /area/space)
 "by" = (
 /obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment,
 /turf/open/shuttle/escapepod/five,
 /area/space)
 "bz" = (
 /obj/structure/flora/pottedplant/nineteen,
+/turf/open/floor/tile/dark,
+/area/space)
+"bA" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
 "bB" = (
@@ -391,6 +414,9 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/weed_node,
 /obj/effect/spawner/random/misc/trash,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 8
+	},
 /turf/open/floor/mainship/metal,
 /area/space)
 "bF" = (
@@ -400,6 +426,12 @@
 "bG" = (
 /obj/effect/temp_visual/blink_portal,
 /turf/open/liquid/water/river/desertdam/clean/deep_water_clean,
+/area/space)
+"bH" = (
+/obj/structure/disposalpipe/segment/corner{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "bJ" = (
 /obj/effect/spawner/random/engineering/extinguisher,
@@ -476,6 +508,13 @@
 "bU" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/ground/snow/layer0,
+/area/space)
+"bV" = (
+/obj/structure/table/mainship,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "bW" = (
 /obj/structure/bed/chair/sofa/right{
@@ -608,7 +647,17 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/tomato_smudge,
 /obj/effect/landmark/weed_node,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 1
+	},
 /turf/open/floor/mainship/sterile/white,
+/area/space)
+"cx" = (
+/obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "cA" = (
 /obj/effect/decal/cleanable/blood/xeno,
@@ -696,6 +745,9 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 1
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "cR" = (
@@ -731,7 +783,14 @@
 /obj/effect/decal/cleanable/blood/oil,
 /obj/effect/decal/cleanable/generic,
 /obj/effect/spawner/random/engineering,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
+/area/space)
+"cX" = (
+/obj/effect/decal/cleanable/blood/gibs/body,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/misc/trash,
+/turf/open/floor/plating/ground/snow/layer0,
 /area/space)
 "cY" = (
 /obj/effect/decal/cleanable/pie_smudge,
@@ -829,6 +888,11 @@
 /obj/effect/landmark/corpsespawner/engineer/regular,
 /turf/open/floor/wood,
 /area/space)
+"ds" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/misc/plant,
+/turf/open/floor/tile/dark,
+/area/space)
 "dt" = (
 /turf/open/floor/carpet,
 /area/space)
@@ -840,6 +904,24 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/tile/white/hall/full,
+/area/space)
+"dw" = (
+/obj/machinery/door/airlock/mainship/security/glass/cells,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/mainship/metal,
+/area/space)
+"dx" = (
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	dir = 4;
+	on = 1
+	},
+/turf/open/floor/tile/dark,
+/area/space)
+"dy" = (
+/obj/structure/disposalpipe/junction{
+	dir = 8
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "dz" = (
 /obj/effect/decal/cleanable/liquid_fuel,
@@ -891,6 +973,7 @@
 /area/space)
 "dK" = (
 /obj/structure/razorwire,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
 "dL" = (
@@ -906,6 +989,7 @@
 /turf/open/floor/tile/dark,
 /area/space)
 "dO" = (
+/obj/structure/disposalpipe/segment,
 /turf/open/shuttle/escapepod/twelve,
 /area/space)
 "dP" = (
@@ -965,6 +1049,9 @@
 "dY" = (
 /obj/effect/landmark/corpsespawner/security,
 /obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
 /turf/open/floor/mainship/red{
 	dir = 4
 	},
@@ -977,6 +1064,9 @@
 /area/space)
 "ea" = (
 /obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
 /turf/open/floor/mainship/red{
 	dir = 4
 	},
@@ -994,6 +1084,12 @@
 	dir = 1
 	},
 /turf/open/floor/gcircuit/anim,
+/area/space)
+"ed" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/dark,
 /area/space)
 "ef" = (
 /obj/machinery/button/water_pump,
@@ -1030,6 +1126,9 @@
 /area/space)
 "ek" = (
 /obj/machinery/space_heater,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "el" = (
@@ -1046,6 +1145,7 @@
 "eq" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/xeno,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
 "er" = (
@@ -1060,6 +1160,13 @@
 /turf/open/floor/tile/dark/purple2{
 	dir = 1
 	},
+/area/space)
+"et" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "eu" = (
 /obj/structure/table/mainship,
@@ -1115,13 +1222,37 @@
 /obj/structure/cocoon/opened_cocoon,
 /turf/open/floor/mainship/metal,
 /area/space)
+"eD" = (
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/mainship/red{
+	dir = 1
+	},
+/area/space)
 "eE" = (
 /obj/effect/spawner/random/misc/structure/barrel,
 /turf/open/shuttle/escapepod/eleven,
 /area/space)
+"eF" = (
+/obj/structure/bed/chair/east,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "eG" = (
 /obj/structure/filingcabinet/chestdrawer,
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/tile/dark,
+/area/space)
+"eH" = (
+/obj/structure/table/mainship,
+/obj/item/paper/xenofinance,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 8
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "eI" = (
@@ -1137,6 +1268,9 @@
 "eK" = (
 /obj/effect/landmark/corpsespawner/security/regular,
 /obj/effect/spawner/random/weaponry/gun/sidearms,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/mainship/metal,
 /area/space)
 "eL" = (
@@ -1155,6 +1289,13 @@
 "eN" = (
 /obj/effect/decal/cleanable/generic,
 /turf/closed/wall/mainship/gray,
+/area/space)
+"eO" = (
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 10
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "eP" = (
 /obj/structure/prop/vehicle/crane/damaged,
@@ -1179,6 +1320,10 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
+/area/space)
+"eV" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/bar,
 /area/space)
 "eW" = (
 /obj/effect/turf_decal/warning_stripes/thin{
@@ -1216,6 +1361,11 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/tile/dark,
 /area/space)
+"fc" = (
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/mainship/red,
+/area/space)
 "fe" = (
 /obj/effect/spawner/random/misc/structure/crate,
 /turf/open/floor/tile/dark,
@@ -1232,6 +1382,13 @@
 /area/space)
 "fh" = (
 /obj/machinery/vending/cola,
+/turf/open/floor/tile/dark,
+/area/space)
+"fi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "fj" = (
@@ -1260,6 +1417,10 @@
 	dir = 1
 	},
 /turf/open/floor/plating/ground/snow/layer1,
+/area/space)
+"fn" = (
+/obj/structure/disposalpipe/junction,
+/turf/open/floor/tile/dark,
 /area/space)
 "fo" = (
 /obj/effect/decal/cleanable/blood/oil,
@@ -1369,9 +1530,6 @@
 /obj/item/trash/used_stasis_bag,
 /obj/effect/landmark/corpsespawner/scientist/burst,
 /obj/effect/decal/cleanable/glass,
-/obj/structure/disposalpipe/junction{
-	dir = 1
-	},
 /turf/open/floor/mainship/metal,
 /area/space)
 "fM" = (
@@ -1447,6 +1605,9 @@
 /area/space)
 "ga" = (
 /obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
 /turf/open/floor/wood/fancy/damaged,
 /area/space)
 "gb" = (
@@ -1471,10 +1632,22 @@
 	dir = 6
 	},
 /area/space)
+"gf" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/carpet/red,
+/area/space)
 "gg" = (
 /obj/machinery/door/airlock/mainship/security/glass/cells,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/mainship/metal,
+/area/space)
+"gh" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/turf/open/floor/podhatch/floor,
 /area/space)
 "gi" = (
 /obj/effect/turf_decal/tile/transparent/bar,
@@ -1582,6 +1755,9 @@
 	dir = 2
 	},
 /obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "gz" = (
@@ -1614,11 +1790,17 @@
 /obj/effect/landmark/weed_node,
 /obj/effect/landmark/corpsespawner/prisoner/regular,
 /obj/effect/spawner/random/weaponry/shiv,
+/obj/structure/disposalpipe/junction{
+	dir = 8
+	},
 /turf/open/floor/mainship/metal,
 /area/space)
 "gF" = (
 /obj/structure/bed/chair/sofa/corsat/verticalsouth,
 /obj/effect/decal/cleanable/generic,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "gG" = (
@@ -1652,6 +1834,14 @@
 	},
 /turf/open/floor/plating/ground/snow/layer2,
 /area/space)
+"gM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "gN" = (
 /obj/structure/platform{
 	dir = 4
@@ -1662,16 +1852,26 @@
 "gO" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/tomato_smudge,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "gR" = (
 /obj/structure/closet/radiation,
 /turf/open/floor/tile/dark,
 /area/space)
+"gS" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/space)
 "gT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/structure/cocoon/opened_cocoon,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/red,
 /area/space)
 "gU" = (
@@ -1707,6 +1907,9 @@
 "ha" = (
 /obj/structure/prop/mainship/doorblocker/engi,
 /obj/effect/decal/cleanable/flour,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/plating/ground/snow/layer0,
 /area/space)
 "hb" = (
@@ -1733,6 +1936,13 @@
 /turf/open/floor/tile/dark/yellow2{
 	dir = 8
 	},
+/area/space)
+"hg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating/icefloor,
 /area/space)
 "hh" = (
 /obj/structure/table/reinforced,
@@ -1777,11 +1987,10 @@
 /turf/open/floor/plating/scorched,
 /area/space)
 "hr" = (
-/obj/effect/decal/cleanable/blood,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/mainship/metal,
+/obj/effect/spawner/random/food_or_drink/kitchen,
+/obj/structure/disposalpipe/junction,
+/obj/structure/table,
+/turf/open/floor/tile/dark,
 /area/space)
 "hs" = (
 /obj/machinery/door/airlock/mainship/security{
@@ -1806,6 +2015,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "hw" = (
@@ -1823,6 +2035,15 @@
 "hz" = (
 /obj/effect/spawner/random/misc/trash,
 /turf/open/floor/mainship/red,
+/area/space)
+"hA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/wood/fancy/damaged,
 /area/space)
 "hB" = (
 /obj/structure/table/wood/gambling,
@@ -1968,6 +2189,13 @@
 /obj/effect/spawner/random/misc/trash,
 /turf/open/floor/tile/dark,
 /area/space)
+"ic" = (
+/obj/effect/decal/cleanable/glass,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "id" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
 	dir = 1
@@ -1986,6 +2214,12 @@
 "ie" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/open/floor/plating/ground/snow/layer0,
+/area/space)
+"if" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "ig" = (
 /obj/structure/table/mainship,
@@ -2032,6 +2266,12 @@
 "iq" = (
 /obj/machinery/washing_machine,
 /turf/open/floor/wood,
+/area/space)
+"ir" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/gibs/xeno,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/mainship/metal,
 /area/space)
 "is" = (
 /obj/structure/rack,
@@ -2080,6 +2320,7 @@
 /obj/structure/disposalpipe/segment/corner{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/podhatch/floor,
 /area/space)
 "iD" = (
@@ -2141,6 +2382,7 @@
 	},
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/space)
 "iP" = (
@@ -2193,6 +2435,9 @@
 "iZ" = (
 /obj/machinery/door/airlock/multi_tile/mainship/generic{
 	dir = 1
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /turf/open/floor/tile/darkgreen/darkgreen2,
 /area/space)
@@ -2287,6 +2532,9 @@
 /area/space)
 "jr" = (
 /obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "js" = (
@@ -2309,6 +2557,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/red,
+/area/space)
+"jw" = (
+/obj/effect/spawner/random/misc/trash,
+/obj/effect/spawner/random/misc/trash,
+/turf/open/floor/plating/ground/snow/layer1,
 /area/space)
 "jx" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone,
@@ -2352,6 +2605,14 @@
 "jF" = (
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/plating/scorched,
+/area/space)
+"jG" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "jH" = (
 /obj/structure/prop/vehicle/crawler/crawler_cargo,
@@ -2444,6 +2705,9 @@
 /area/space)
 "jW" = (
 /obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
 /turf/open/floor/mainship/red{
 	dir = 8
 	},
@@ -2483,6 +2747,7 @@
 /turf/open/floor/tile/dark,
 /area/space)
 "kb" = (
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/mainship/red/corner{
 	dir = 4
 	},
@@ -2491,6 +2756,12 @@
 /obj/machinery/door/airlock/unpowered,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/mainship/sterile/white,
+/area/space)
+"kd" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/turf/open/floor/podhatch/floor,
 /area/space)
 "ke" = (
 /obj/structure/table/wood,
@@ -2552,9 +2823,24 @@
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/iron,
 /area/space)
+"km" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/mainship/red{
+	dir = 8
+	},
+/area/space)
 "ko" = (
 /obj/effect/decal/cleanable/flour,
 /turf/open/floor/tile/white/hall/full,
+/area/space)
+"kp" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "ks" = (
 /obj/machinery/landinglight/lz2{
@@ -2564,6 +2850,7 @@
 /area/space)
 "kt" = (
 /obj/machinery/door/airlock/mainship/security/glass,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/mainship/metal,
 /area/space)
 "ku" = (
@@ -2584,6 +2871,12 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/dark,
 /area/space)
+"ky" = (
+/obj/structure/closet/bodybag,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/misc/trash,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/space)
 "kz" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/snow/layer1,
@@ -2592,6 +2885,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/misc/handcuffs,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/mainship/metal,
 /area/space)
 "kB" = (
@@ -2602,6 +2896,7 @@
 /area/space)
 "kC" = (
 /obj/structure/window/reinforced/west,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/bar,
 /area/space)
 "kE" = (
@@ -2653,6 +2948,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/rivergrate,
 /area/space)
+"kP" = (
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/floor/tile/white/hall/full,
+/area/space)
 "kQ" = (
 /obj/structure/prop/mainship/doorblocker/engi,
 /obj/effect/decal/cleanable/blood/oil,
@@ -2701,6 +3003,7 @@
 /obj/structure/table/mainship,
 /obj/structure/paper_bin,
 /obj/item/tool/pen,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
 "la" = (
@@ -2751,6 +3054,7 @@
 /area/space)
 "li" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/red,
 /area/space)
 "lj" = (
@@ -2775,6 +3079,9 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/generic,
 /obj/effect/decal/cleanable/generic,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 10
+	},
 /turf/open/floor/podhatch/floor,
 /area/space)
 "ln" = (
@@ -2827,6 +3134,14 @@
 /obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/mainship/rubber,
 /area/space)
+"lv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "lw" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/corpsespawner/assistant/regular,
@@ -2853,7 +3168,6 @@
 /obj/structure/bed/chair/office/dark,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/spawner/gibspawner/human,
-/obj/structure/disposalpipe/segment,
 /turf/open/floor/mainship/metal,
 /area/space)
 "lz" = (
@@ -2906,6 +3220,7 @@
 "lG" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/xeno,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/carpet/red,
 /area/space)
 "lH" = (
@@ -2987,12 +3302,18 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "lX" = (
 /obj/effect/spawner/gibspawner/robot,
 /obj/effect/landmark/weed_node,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "lY" = (
@@ -3097,7 +3418,16 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/misc/trash,
 /turf/open/floor/plating/ground/snow/layer0,
+/area/space)
+"ms" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "mt" = (
 /obj/structure/closet/radiation,
@@ -3133,6 +3463,10 @@
 "mz" = (
 /obj/machinery/photocopier,
 /obj/effect/decal/cleanable/blood,
+/turf/open/floor/tile/dark,
+/area/space)
+"mA" = (
+/obj/machinery/photocopier,
 /turf/open/floor/tile/dark,
 /area/space)
 "mB" = (
@@ -3259,10 +3593,21 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/ground/concrete,
 /area/space)
+"mV" = (
+/obj/effect/decal/cleanable/glass,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/turf/open/floor/carpet/orange,
+/area/space)
 "mW" = (
 /obj/effect/landmark/weed_node,
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	dir = 1;
+	on = 1
 	},
 /turf/open/floor/mainship/sterile/white,
 /area/space)
@@ -3295,6 +3640,13 @@
 "nb" = (
 /obj/effect/spawner/random/misc/structure/supplycrate,
 /turf/open/floor/cult,
+/area/space)
+"nd" = (
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "ne" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
@@ -3331,6 +3683,7 @@
 "nj" = (
 /obj/structure/bed/chair/north,
 /obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
 "nk" = (
@@ -3362,6 +3715,7 @@
 /obj/structure/prop/mainship/doorblocker/command,
 /obj/effect/decal/cleanable/blood,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/space)
 "nq" = (
@@ -3383,6 +3737,14 @@
 	name = "Engine Room"
 	},
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/turf/open/floor/tile/dark,
+/area/space)
+"nt" = (
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	dir = 1;
+	on = 1
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "nu" = (
@@ -3399,6 +3761,12 @@
 "nw" = (
 /obj/item/clothing/suit/radiation,
 /turf/open/floor/podhatch/floor,
+/area/space)
+"nx" = (
+/obj/structure/disposalpipe/segment/corner{
+	dir = 8
+	},
+/turf/open/floor/tile/dark2,
 /area/space)
 "ny" = (
 /obj/structure/platform{
@@ -3438,6 +3806,9 @@
 "nC" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/mainship/red/corner{
 	dir = 4
 	},
@@ -3578,6 +3949,12 @@
 /obj/effect/spawner/random/misc/trash,
 /turf/open/floor/mainship/metal,
 /area/space)
+"nY" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/dark,
+/area/space)
 "nZ" = (
 /obj/machinery/miner/damaged,
 /turf/open/floor/plating/ground/snow/layer0,
@@ -3594,6 +3971,9 @@
 "ob" = (
 /obj/effect/decal/cleanable/mucus,
 /obj/effect/landmark/weed_node,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "oc" = (
@@ -3633,6 +4013,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/engineering,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/podhatch/floor,
 /area/space)
 "oh" = (
@@ -3643,6 +4026,11 @@
 /obj/effect/landmark/corpsespawner/colonist,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/ground/snow/layer0,
+/area/space)
+"oj" = (
+/obj/structure/disposalpipe/segment/corner,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/turf/open/floor/tile/dark,
 /area/space)
 "ok" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
@@ -3694,6 +4082,13 @@
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/plating/scorched,
 /area/space)
+"op" = (
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 2
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "oq" = (
 /obj/structure/sink,
 /turf/open/floor/tile/white/hall/full,
@@ -3709,6 +4104,7 @@
 	},
 /obj/structure/prop/mainship/research/circuit_imprinter,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
 "ot" = (
@@ -3749,6 +4145,9 @@
 /area/space)
 "oy" = (
 /obj/effect/decal/cleanable/flour,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 6
+	},
 /turf/open/floor/mainship/sterile/white,
 /area/space)
 "oz" = (
@@ -3760,6 +4159,9 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/liquid_fuel,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "oB" = (
@@ -3782,6 +4184,12 @@
 	dir = 4
 	},
 /turf/open/floor/iron,
+/area/space)
+"oE" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/dark,
 /area/space)
 "oF" = (
 /obj/structure/table/mainship,
@@ -3848,6 +4256,7 @@
 "oS" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/cobweb,
+/obj/machinery/atmospherics/components/unary/vent_pump,
 /turf/open/floor/mainship/sterile/white,
 /area/space)
 "oT" = (
@@ -3877,6 +4286,13 @@
 	dir = 1
 	},
 /area/space)
+"oY" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/carpet/red,
+/area/space)
 "oZ" = (
 /obj/structure/table/black,
 /obj/item/tool/stamp,
@@ -3895,6 +4311,14 @@
 "pb" = (
 /obj/effect/decal/cleanable/glass/plastic,
 /turf/open/floor/plating/ground/snow/layer0,
+/area/space)
+"pc" = (
+/obj/effect/landmark/corpsespawner/security/regular,
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "pd" = (
 /obj/structure/barricade/folding,
@@ -3935,6 +4359,13 @@
 "pi" = (
 /obj/effect/decal/cleanable/blood/gibs/xeno/body,
 /turf/open/floor/plating/ground/snow/layer0,
+/area/space)
+"pj" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/icefloor,
 /area/space)
 "pl" = (
 /obj/structure/platform{
@@ -4032,6 +4463,17 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/metal,
 /area/space)
+"pC" = (
+/obj/effect/spawner/random/misc/trash,
+/turf/open/floor/plating/ground/snow/layer2{
+	dir = 1
+	},
+/area/space)
+"pD" = (
+/obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/carpet/red,
+/area/space)
 "pE" = (
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/tile/dark2,
@@ -4087,6 +4529,9 @@
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/blood/oil,
 /obj/structure/table/mainship,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "pN" = (
@@ -4094,6 +4539,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/fence,
 /turf/open/floor/plating/ground/snow/layer1,
+/area/space)
+"pP" = (
+/obj/structure/disposalpipe/segment/corner{
+	dir = 2
+	},
+/turf/open/floor/plating/plating_catwalk/dark,
 /area/space)
 "pQ" = (
 /obj/effect/decal/cleanable/blood/oil,
@@ -4130,6 +4581,11 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/podhatch/floor,
 /area/space)
+"pW" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/landmark/weed_node,
+/turf/open/floor/carpet/green,
+/area/space)
 "pX" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/plating/scorched,
@@ -4146,6 +4602,9 @@
 /obj/effect/landmark/weed_node,
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
 	},
 /turf/open/floor/tile/dark,
 /area/space)
@@ -4205,6 +4664,9 @@
 "qi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/glass,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "qj" = (
@@ -4259,6 +4721,13 @@
 /obj/effect/decal/cleanable/flour,
 /turf/open/floor/mainship/metal,
 /area/space)
+"qw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk/dark,
+/area/space)
 "qx" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
 /obj/effect/decal/cleanable/blood,
@@ -4301,7 +4770,18 @@
 /area/space)
 "qF" = (
 /obj/effect/decal/cleanable/glass,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
+/area/space)
+"qG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 1
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "qI" = (
 /obj/structure/bed/chair/wood/wings,
@@ -4322,6 +4802,11 @@
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/red,
 /area/space)
+"qL" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/carpet/red,
+/area/space)
 "qM" = (
 /obj/machinery/floodlight/landing,
 /obj/effect/turf_decal/warning_stripes,
@@ -4340,10 +4825,14 @@
 "qP" = (
 /obj/machinery/disposal,
 /obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/trunk,
 /turf/open/floor/mainship/metal,
 /area/space)
 "qQ" = (
 /obj/structure/bed/chair/sofa/corsat/verticaltop,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "qR" = (
@@ -4360,6 +4849,9 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/spawner/gibspawner/xeno,
 /obj/structure/cocoon/opened_cocoon,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "qV" = (
@@ -4391,6 +4883,11 @@
 /turf/open/floor/plating/ground/snow/layer2{
 	dir = 1
 	},
+/area/space)
+"qZ" = (
+/obj/machinery/door/airlock/mainship/security/glass/cells,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating/ground/snow/layer0,
 /area/space)
 "ra" = (
 /obj/effect/spawner/random/misc/structure/supplycrate/normalweighted,
@@ -4424,6 +4921,13 @@
 /turf/open/floor/mainship/red{
 	dir = 9
 	},
+/area/space)
+"ri" = (
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/junction{
+	dir = 4
+	},
+/turf/open/floor/mainship/metal,
 /area/space)
 "rj" = (
 /obj/structure/platform{
@@ -4483,6 +4987,9 @@
 /area/space)
 "rt" = (
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 1
+	},
 /turf/open/floor/podhatch/floor,
 /area/space)
 "rv" = (
@@ -4498,6 +5005,10 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/dark,
+/area/space)
+"rx" = (
+/obj/structure/disposalpipe/junction/yjunc,
+/turf/open/floor/tile/dark,
 /area/space)
 "ry" = (
 /obj/structure/barricade/handrail{
@@ -4537,6 +5048,13 @@
 	},
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/iron,
+/area/space)
+"rC" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 5
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "rD" = (
 /obj/structure/prop/mainship/sensor_computer3,
@@ -4598,6 +5116,14 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating/ground/snow/layer0,
 /area/space)
+"rP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 9
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "rQ" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
@@ -4608,6 +5134,12 @@
 /obj/structure/barricade/wood,
 /turf/open/floor/mainship/red{
 	dir = 8
+	},
+/area/space)
+"rS" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/mainship/red{
+	dir = 4
 	},
 /area/space)
 "rT" = (
@@ -4635,6 +5167,9 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/mainship/metal,
 /area/space)
 "rZ" = (
@@ -4673,6 +5208,14 @@
 /obj/effect/decal/cleanable/flour,
 /turf/closed/wall/mainship/gray,
 /area/space)
+"sg" = (
+/obj/structure/disposalpipe/segment/corner{
+	dir = 4
+	},
+/turf/open/floor/mainship/red{
+	dir = 4
+	},
+/area/space)
 "sh" = (
 /obj/structure/bed/chair/west,
 /turf/open/floor/tile/bar,
@@ -4684,11 +5227,21 @@
 "sk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/sovietsoda/nopower,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "sl" = (
 /obj/structure/fence,
 /turf/closed/mineral/smooth/darkfrostwall,
+/area/space)
+"sm" = (
+/obj/effect/decal/cleanable/blood/oil,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "sn" = (
 /obj/structure/table/mainship,
@@ -4738,6 +5291,19 @@
 "sv" = (
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark/blue2,
+/area/space)
+"sw" = (
+/obj/effect/decal/cleanable/glass,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 10
+	},
+/turf/open/floor/tile/dark,
+/area/space)
+"sx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/turf/open/floor/tile/dark,
 /area/space)
 "sy" = (
 /obj/structure/table/mainship,
@@ -4802,6 +5368,9 @@
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/effect/decal/cleanable/glass,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "sI" = (
@@ -4828,6 +5397,13 @@
 /obj/item/tank/emergency_oxygen/engi,
 /obj/item/tool/crowbar/red,
 /obj/effect/decal/cleanable/generic,
+/turf/open/floor/tile/dark,
+/area/space)
+"sK" = (
+/obj/effect/decal/cleanable/generic,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 2
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "sL" = (
@@ -4862,12 +5438,14 @@
 /obj/structure/prop/mainship/mission_planning_system,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/podhatch/floor,
 /area/space)
 "sS" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/weed_node,
 /obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/mainship/metal,
 /area/space)
 "sT" = (
@@ -5128,6 +5706,12 @@
 /obj/effect/spawner/gibspawner/xeno,
 /turf/open/floor/plating/ground/snow/layer0,
 /area/space)
+"tK" = (
+/obj/structure/table/mainship,
+/obj/item/paper/xenofinance,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/dark,
+/area/space)
 "tL" = (
 /obj/effect/turf_decal/warning_stripes/thin{
 	dir = 6
@@ -5160,6 +5744,9 @@
 /obj/effect/landmark/corpsespawner/bridgeofficer/regular,
 /obj/effect/decal/cleanable/blood/xeno,
 /obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "tS" = (
@@ -5194,6 +5781,15 @@
 "tV" = (
 /obj/effect/landmark/weed_node,
 /obj/effect/decal/cleanable/blood,
+/turf/open/floor/tile/dark,
+/area/space)
+"tW" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "tX" = (
@@ -5417,6 +6013,7 @@
 "uP" = (
 /obj/structure/cocoon/opened_cocoon,
 /obj/effect/spawner/random/misc/trash,
+/obj/effect/spawner/random/misc/plant,
 /turf/open/floor/tile/dark,
 /area/space)
 "uQ" = (
@@ -5429,6 +6026,13 @@
 /obj/effect/decal/cleanable/mucus,
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/dark,
+/area/space)
+"uS" = (
+/obj/effect/spawner/random/misc/trash,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 1
+	},
+/turf/open/floor/mainship/metal,
 /area/space)
 "uT" = (
 /obj/effect/turf_decal/tile/transparent/bar,
@@ -5547,6 +6151,7 @@
 /obj/machinery/door/airlock/mainship/command/CPToffice,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/xeno,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
 "vj" = (
@@ -5567,6 +6172,13 @@
 	dir = 1
 	},
 /area/space)
+"vn" = (
+/obj/effect/decal/cleanable/flour,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "vo" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
@@ -5583,7 +6195,9 @@
 /obj/effect/landmark/corpsespawner/colonist/regular,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/spawner/random/misc/trash,
-/obj/structure/disposalpipe/segment,
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
 /turf/open/floor/mainship/metal,
 /area/space)
 "vs" = (
@@ -5622,6 +6236,9 @@
 "vy" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/remains/human,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/space)
 "vz" = (
@@ -5717,6 +6334,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/ground/snow/layer0,
 /area/space)
+"vP" = (
+/obj/effect/decal/cleanable/glass,
+/obj/structure/disposalpipe/junction/flipped{
+	dir = 1
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "vQ" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone{
 	dir = 2
@@ -5726,6 +6350,9 @@
 "vR" = (
 /obj/effect/decal/cleanable/blood/gibs/robot,
 /obj/effect/decal/cleanable/glass,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "vS" = (
@@ -5835,6 +6462,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/plating/plating_catwalk/dark,
 /area/space)
 "wm" = (
@@ -5859,6 +6489,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/spawner/gibspawner/xeno,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
 "wq" = (
@@ -5898,6 +6529,12 @@
 /obj/effect/landmark/corpsespawner/bridgeofficer/regular,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/spawner/random/weaponry/gun/shotgun,
+/turf/open/floor/carpet/red,
+/area/space)
+"wx" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/junction,
 /turf/open/floor/carpet/red,
 /area/space)
 "wz" = (
@@ -5953,6 +6590,13 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"wG" = (
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 2
+	},
+/turf/open/floor/mainship/metal,
+/area/space)
 "wH" = (
 /obj/effect/turf_decal/tile/transparent/bar,
 /obj/effect/turf_decal/tile/transparent/bar{
@@ -5969,9 +6613,7 @@
 "wJ" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/blood,
-/obj/structure/disposalpipe/segment/corner{
-	dir = 8
-	},
+/obj/structure/disposalpipe/junction,
 /turf/open/floor/mainship/metal,
 /area/space)
 "wK" = (
@@ -6057,6 +6699,9 @@
 "xa" = (
 /obj/effect/decal/cleanable/blood/oil,
 /obj/effect/landmark/weed_node,
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	on = 1
+	},
 /turf/open/floor/mainship/metal,
 /area/space)
 "xb" = (
@@ -6067,7 +6712,16 @@
 "xc" = (
 /obj/effect/spawner/gibspawner/robot,
 /obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
+/area/space)
+"xe" = (
+/obj/structure/disposalpipe/segment/corner{
+	dir = 8
+	},
+/turf/open/floor/mainship/metal,
 /area/space)
 "xf" = (
 /obj/effect/decal/cleanable/blood,
@@ -6099,12 +6753,22 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/carpet/red,
 /area/space)
+"xl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/dark,
+/area/space)
 "xm" = (
 /obj/effect/decal/cleanable/tomato_smudge,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cocoon/opened_cocoon,
 /obj/effect/landmark/corpsespawner/engineer/regular,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "xn" = (
@@ -6162,6 +6826,11 @@
 /obj/structure/fence,
 /turf/open/floor/plating/ground/snow/layer0,
 /area/space)
+"xu" = (
+/obj/machinery/door/airlock/mainship/command/CPToffice,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/dark,
+/area/space)
 "xw" = (
 /obj/structure/table/mainship,
 /obj/effect/decal/cleanable/dirt,
@@ -6194,6 +6863,17 @@
 /obj/effect/spawner/random/misc/trash,
 /obj/effect/spawner/random/weaponry/melee,
 /turf/open/floor/mainship/metal,
+/area/space)
+"xB" = (
+/obj/structure/disposalpipe/segment/corner,
+/turf/open/shuttle/escapepod/five,
+/area/space)
+"xC" = (
+/obj/effect/landmark/weed_node,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "xD" = (
 /obj/effect/decal/cleanable/blood,
@@ -6247,6 +6927,9 @@
 "xL" = (
 /obj/structure/table,
 /obj/effect/spawner/random/food_or_drink/burger,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "xM" = (
@@ -6359,6 +7042,14 @@
 /obj/effect/spawner/random/misc/structure/barrel,
 /turf/open/floor/plating/ground/snow/layer1,
 /area/space)
+"ye" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/space)
 "yf" = (
 /obj/structure/flora/pottedplant/ten,
 /turf/open/floor/tile/dark,
@@ -6423,7 +7114,12 @@
 /obj/structure/bed/chair/wood{
 	dir = 4
 	},
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/bar,
+/area/space)
+"yt" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/white/hall/full,
 /area/space)
 "yu" = (
 /obj/structure/cocoon/opened_cocoon,
@@ -6431,10 +7127,14 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/podhatch/floor,
 /area/space)
 "yv" = (
 /obj/effect/decal/cleanable/tomato_smudge,
+/obj/structure/closet/crate/plastic,
 /turf/open/floor/tile/white/hall/full,
 /area/space)
 "yw" = (
@@ -6464,6 +7164,7 @@
 /area/space)
 "yB" = (
 /obj/effect/decal/cleanable/egg_smudge,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
 "yC" = (
@@ -6496,6 +7197,9 @@
 "yG" = (
 /obj/structure/prop/mainship/doorblocker/engi,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/podhatch/floor,
 /area/space)
 "yH" = (
@@ -6551,6 +7255,7 @@
 /area/space)
 "yV" = (
 /obj/machinery/griddle,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/white/hall/full,
 /area/space)
 "yX" = (
@@ -6585,6 +7290,9 @@
 "zc" = (
 /obj/machinery/door/airlock/mainship/security{
 	name = "Warden's Office"
+	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
 	},
 /turf/open/floor/mainship/metal,
 /area/space)
@@ -6627,6 +7335,7 @@
 "zk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk,
 /turf/open/floor/tile/dark,
 /area/space)
 "zl" = (
@@ -6639,6 +7348,13 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/plating/ground/snow/layer1,
+/area/space)
+"zn" = (
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 2
+	},
+/turf/open/floor/plating/ground/snow/layer0,
 /area/space)
 "zo" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6690,6 +7406,11 @@
 	},
 /turf/open/floor/mainship/tcomms,
 /area/space)
+"zy" = (
+/obj/effect/spawner/random/misc/trash,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/mainship/metal,
+/area/space)
 "zz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
@@ -6718,6 +7439,14 @@
 	},
 /obj/structure/cable,
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone,
+/turf/open/floor/tile/dark,
+/area/space)
+"zH" = (
+/obj/effect/decal/cleanable/pie_smudge,
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	dir = 8;
+	welded = 1
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "zI" = (
@@ -6783,6 +7512,7 @@
 /turf/open/floor/tile/dark,
 /area/space)
 "zR" = (
+/obj/structure/disposalpipe/segment,
 /turf/open/shuttle/escapepod/five,
 /area/space)
 "zS" = (
@@ -6843,6 +7573,13 @@
 	dir = 1
 	},
 /area/space)
+"zZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "Ac" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
@@ -6887,6 +7624,9 @@
 "Ai" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/space)
 "Aj" = (
@@ -6944,6 +7684,9 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/spawner/gibspawner/xeno,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "At" = (
@@ -7064,6 +7807,9 @@
 /obj/structure/bed/chair/west,
 /obj/structure/bed/chair/west,
 /obj/effect/decal/cleanable/mucus,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "AR" = (
@@ -7166,7 +7912,6 @@
 "Bh" = (
 /obj/structure/table/mainship,
 /obj/effect/spawner/random/misc/book,
-/obj/structure/disposalpipe/segment,
 /turf/open/floor/mainship/metal,
 /area/space)
 "Bi" = (
@@ -7242,6 +7987,9 @@
 /area/space)
 "Bu" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 5
+	},
 /turf/open/floor/mainship/sterile/white,
 /area/space)
 "Bv" = (
@@ -7386,10 +8134,17 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/tile/dark,
 /area/space)
+"BT" = (
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/turf/open/floor/tile/dark,
+/area/space)
 "BU" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/structure/cocoon/opened_cocoon,
 /obj/effect/landmark/corpsespawner/engineer/regular,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/space)
 "BV" = (
@@ -7402,6 +8157,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
+/obj/effect/spawner/random/misc/trash,
 /turf/open/floor/plating/ground/snow/layer0,
 /area/space)
 "BY" = (
@@ -7449,6 +8205,11 @@
 /obj/effect/spawner/random/food_or_drink/cheesewedge,
 /turf/open/floor/tile/dark,
 /area/space)
+"Cf" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/turf/open/floor/tile/dark,
+/area/space)
 "Cg" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/gibspawner/human,
@@ -7491,6 +8252,9 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 8
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "Cp" = (
@@ -7526,6 +8290,9 @@
 /area/space)
 "Ct" = (
 /obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "Cu" = (
@@ -7593,6 +8360,20 @@
 /obj/machinery/door/airlock/mainship/command/CPToffice,
 /turf/open/floor/plating/ground/snow/layer0,
 /area/space)
+"CG" = (
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/space)
+"CH" = (
+/obj/structure/bed/chair/sofa/left,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "CI" = (
 /obj/machinery/robotic_fabricator,
 /turf/open/floor/tile/dark,
@@ -7651,6 +8432,13 @@
 	dir = 1
 	},
 /area/space)
+"CV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	on = 1
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "CW" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
 	dir = 1
@@ -7691,6 +8479,9 @@
 /area/space)
 "Dc" = (
 /obj/structure/disposalpipe/segment/corner,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "Dd" = (
@@ -7755,6 +8546,11 @@
 /obj/structure/table/reinforced,
 /obj/effect/spawner/random/engineering/insulatedgloves,
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/tile/dark,
+/area/space)
+"Dq" = (
+/obj/effect/decal/cleanable/generic,
+/obj/machinery/photocopier,
 /turf/open/floor/tile/dark,
 /area/space)
 "Dr" = (
@@ -7840,6 +8636,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "DE" = (
@@ -7861,6 +8660,9 @@
 "DI" = (
 /obj/effect/decal/cleanable/blood/oil,
 /obj/effect/landmark/corpsespawner/security/regular,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 5
+	},
 /turf/open/floor/mainship/metal,
 /area/space)
 "DJ" = (
@@ -8016,12 +8818,23 @@
 /area/space)
 "Em" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/tile/darkgreen/darkgreen2,
 /area/space)
 "En" = (
 /obj/structure/table/wood,
 /obj/effect/spawner/random/misc/folder,
 /turf/open/floor/wood,
+/area/space)
+"Eo" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/weed_node,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "Ep" = (
 /obj/item/reagent_containers/cup/glass/bottle/beer,
@@ -8098,6 +8911,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/ground/snow/layer1,
 /area/space)
+"EC" = (
+/obj/machinery/door/airlock/mainship/command/CPToffice,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/space)
 "ED" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
@@ -8133,6 +8953,14 @@
 	dir = 2
 	},
 /turf/open/floor/tile/white/hall/full,
+/area/space)
+"EI" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/wood/fancy/damaged,
 /area/space)
 "EJ" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
@@ -8199,6 +9027,9 @@
 /area/space)
 "EU" = (
 /obj/effect/ai_node,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/mainship/metal,
 /area/space)
 "EV" = (
@@ -8287,6 +9118,12 @@
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/carpet/red,
 /area/space)
+"Fl" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating/scorched,
+/area/space)
 "Fm" = (
 /obj/effect/decal/cleanable/blood/oil,
 /turf/open/floor/plating/plating_catwalk/dark,
@@ -8294,6 +9131,9 @@
 "Fn" = (
 /obj/effect/spawner/random/misc/structure/chair_or_metal/east,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 9
+	},
 /turf/open/floor/wood,
 /area/space)
 "Fo" = (
@@ -8324,7 +9164,7 @@
 /area/space)
 "Fs" = (
 /obj/effect/landmark/weed_node,
-/obj/structure/disposalpipe/segment,
+/obj/structure/disposalpipe/junction,
 /turf/open/floor/mainship/metal,
 /area/space)
 "Ft" = (
@@ -8386,6 +9226,11 @@
 /obj/effect/decal/cleanable/glass/plastic,
 /turf/open/floor/tile/white/hall/full,
 /area/space)
+"FD" = (
+/obj/effect/decal/cleanable/generic,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/dark,
+/area/space)
 "FE" = (
 /obj/effect/turf_decal/warning_stripes/thin{
 	dir = 10
@@ -8438,6 +9283,15 @@
 /turf/open/floor/mainship/red{
 	dir = 1
 	},
+/area/space)
+"FL" = (
+/obj/machinery/door/airlock/mainship/security{
+	dir = 2
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/mainship/metal,
 /area/space)
 "FM" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
@@ -8513,6 +9367,14 @@
 /obj/machinery/landinglight/lz1,
 /turf/open/floor/tile/dark,
 /area/space)
+"FZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/turf/open/floor/podhatch/floor,
+/area/space)
 "Ga" = (
 /obj/structure/table/wood/gambling,
 /obj/item/spacecash/bundle/c500{
@@ -8531,6 +9393,13 @@
 /obj/effect/decal/cleanable/blood/xeno,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/carpet/red,
+/area/space)
+"Gd" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating/scorched,
 /area/space)
 "Gf" = (
 /obj/effect/decal/cleanable/dirt,
@@ -8607,6 +9476,9 @@
 "Gs" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/junction{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "Gt" = (
@@ -8632,6 +9504,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/dark,
 /area/space)
+"Gy" = (
+/obj/effect/decal/cleanable/blood,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "Gz" = (
 /obj/effect/spawner/random/misc/structure/filingcabinet/chestdrawer,
 /turf/open/floor/tile/dark,
@@ -8649,6 +9528,14 @@
 /obj/structure/prop/brokenvendor/engivend,
 /turf/open/floor/mainship/mono,
 /area/space)
+"GD" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "GE" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/structure/disposalpipe/junction{
@@ -8660,6 +9547,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
 	},
 /turf/open/floor/podhatch/floor,
 /area/space)
@@ -8689,6 +9579,7 @@
 /obj/machinery/door/window{
 	dir = 8
 	},
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/bar,
 /area/space)
 "GL" = (
@@ -8715,6 +9606,9 @@
 "GN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/tomato_smudge,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 9
+	},
 /turf/open/floor/mainship/sterile/white,
 /area/space)
 "GO" = (
@@ -8724,6 +9618,9 @@
 /area/space)
 "GP" = (
 /obj/machinery/door/airlock/mainship/engineering,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plating/scorched,
 /area/space)
 "GQ" = (
@@ -8738,6 +9635,7 @@
 "GS" = (
 /obj/effect/decal/cleanable/blood,
 /obj/structure/cocoon/opened_cocoon,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
 "GT" = (
@@ -8789,6 +9687,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/misc/handcuffs,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/mainship/metal,
 /area/space)
 "Hb" = (
@@ -8797,6 +9698,13 @@
 	},
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/plating/ground/snow/layer0,
+/area/space)
+"Hc" = (
+/obj/machinery/door/airlock/mainship/command/CPToffice,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "Hd" = (
 /obj/effect/decal/cleanable/liquid_fuel,
@@ -8808,6 +9716,9 @@
 "He" = (
 /obj/effect/decal/cleanable/blood/oil,
 /obj/effect/spawner/gibspawner/human,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/mainship/metal,
 /area/space)
 "Hf" = (
@@ -8829,6 +9740,13 @@
 /area/space)
 "Hi" = (
 /turf/open/floor/plating/ground/snow/layer0,
+/area/space)
+"Hj" = (
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 8
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "Hk" = (
 /obj/effect/spawner/gibspawner/human,
@@ -8929,6 +9847,7 @@
 "HA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade/sandbags,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
 "HC" = (
@@ -8949,6 +9868,11 @@
 "HF" = (
 /turf/open/floor/carpet/black,
 /area/space)
+"HG" = (
+/obj/effect/turf_decal/warning_stripes/thin,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/dark/brown2,
+/area/space)
 "HH" = (
 /obj/structure/barricade/folding{
 	dir = 1
@@ -8957,6 +9881,9 @@
 /area/space)
 "HI" = (
 /obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/mainship/red/corner{
 	dir = 1
 	},
@@ -8964,6 +9891,15 @@
 "HK" = (
 /obj/machinery/prop/r_n_d/server,
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/tile/dark,
+/area/space)
+"HL" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "HM" = (
@@ -8992,6 +9928,11 @@
 /obj/effect/spawner/random/misc/structure/stool,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/carpet,
+/area/space)
+"HP" = (
+/obj/effect/decal/cleanable/glass,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/dark,
 /area/space)
 "HQ" = (
 /obj/structure/bed/chair/office/dark,
@@ -9203,6 +10144,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/dark,
 /area/space)
+"IE" = (
+/obj/effect/decal/cleanable/glass/plastic,
+/obj/effect/spawner/random/misc/plant,
+/turf/open/floor/tile/dark,
+/area/space)
 "IF" = (
 /obj/structure/table/wood/fancy,
 /obj/effect/decal/cleanable/blood,
@@ -9255,6 +10201,9 @@
 /obj/structure/table/mainship,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/spawner/random/weaponry/explosive/plastiqueexplosive,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/podhatch/floor,
 /area/space)
 "IN" = (
@@ -9351,6 +10300,13 @@
 /obj/effect/decal/cleanable/blood/xeno,
 /turf/open/floor/tile/dark,
 /area/space)
+"Jf" = (
+/obj/structure/table,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "Jg" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/soda,
@@ -9369,10 +10325,14 @@
 /area/space)
 "Jj" = (
 /obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/tile/darkgreen/darkgreen2,
 /area/space)
 "Jk" = (
 /obj/effect/spawner/gibspawner/human,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/mainship/sterile/white,
 /area/space)
 "Jl" = (
@@ -9400,9 +10360,19 @@
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/closed/mineral/smooth/darkfrostwall,
 /area/space)
+"Jq" = (
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "Jr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 1
+	},
 /turf/open/floor/carpet/orange,
 /area/space)
 "Js" = (
@@ -9419,6 +10389,9 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/structure/barricade/wood{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/carpet/red,
@@ -9489,6 +10462,7 @@
 /obj/effect/decal/cleanable/blood/oil,
 /obj/effect/decal/cleanable/glass,
 /obj/effect/landmark/weed_node,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/space)
 "JI" = (
@@ -9525,6 +10499,14 @@
 /obj/effect/spawner/random/food_or_drink/kitchen,
 /turf/open/floor/tile/white/hall/full,
 /area/space)
+"JO" = (
+/obj/structure/cocoon/opened_cocoon,
+/obj/effect/landmark/weed_node,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "JP" = (
 /obj/item/clock,
 /turf/closed/wall/mainship/gray,
@@ -9533,6 +10515,7 @@
 /obj/structure/table/mainship,
 /obj/effect/spawner/random/clothing/hats,
 /obj/effect/decal/cleanable/blood/gibs,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
 "JR" = (
@@ -9561,6 +10544,12 @@
 	},
 /turf/open/floor/tile/dark,
 /area/space)
+"JW" = (
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	on = 1
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "JX" = (
 /obj/structure/bed/chair/sofa/corsat/verticaltop,
 /turf/open/floor/plating/ground/snow/layer1,
@@ -9581,6 +10570,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/weed_node,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/podhatch/floor,
 /area/space)
 "Kd" = (
@@ -9601,9 +10591,19 @@
 	},
 /turf/closed/wall/mainship/gray,
 /area/space)
+"Kf" = (
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 2
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "Kg" = (
 /obj/effect/spawner/gibspawner/robot,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/junction{
+	dir = 8
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "Kh" = (
@@ -9673,6 +10673,9 @@
 /area/space)
 "Kv" = (
 /obj/machinery/door/airlock/unpowered,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "Kw" = (
@@ -9725,6 +10728,7 @@
 /turf/open/floor/mainship/mono,
 /area/space)
 "KH" = (
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/mainship/red{
 	dir = 5
 	},
@@ -9733,6 +10737,9 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/prop/brokenvendor/engivend,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "KJ" = (
@@ -10027,6 +11034,12 @@
 "LB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade/concrete,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/dark,
+/area/space)
+"LC" = (
+/obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
 "LD" = (
@@ -10053,6 +11066,13 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
+/area/space)
+"LH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 1
+	},
+/turf/open/floor/mainship/metal,
 /area/space)
 "LI" = (
 /obj/structure/window/framed/mainship/gray,
@@ -10104,6 +11124,18 @@
 	dir = 1
 	},
 /area/space)
+"LP" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/structure/disposalpipe/junction,
+/turf/open/floor/carpet/red,
+/area/space)
+"LQ" = (
+/obj/effect/decal/cleanable/generic,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/turf/open/floor/podhatch/floor,
+/area/space)
 "LR" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
 	dir = 1
@@ -10150,6 +11182,13 @@
 /obj/effect/spawner/random/misc/trash,
 /turf/open/floor/iron,
 /area/space)
+"LX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 2
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "LY" = (
 /obj/effect/decal/cleanable/generic,
 /obj/effect/landmark/weed_node,
@@ -10194,6 +11233,9 @@
 /obj/effect/landmark/weed_node,
 /obj/effect/landmark/corpsespawner/engineer/regular,
 /obj/structure/disposalpipe/junction,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/podhatch/floor,
 /area/space)
 "Mh" = (
@@ -10361,7 +11403,7 @@
 /obj/item/phone,
 /obj/structure/table/mainship,
 /obj/effect/decal/cleanable/generic,
-/turf/open/floor/tile/dark,
+/turf/open/floor/carpet/green,
 /area/space)
 "MK" = (
 /obj/effect/decal/cleanable/blood,
@@ -10382,6 +11424,9 @@
 /obj/structure/table/mainship,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/tile/dark,
+/area/space)
+"MP" = (
+/turf/open/floor/carpet/green,
 /area/space)
 "MQ" = (
 /obj/effect/landmark/corpsespawner/security,
@@ -10442,6 +11487,9 @@
 /obj/structure/disposalpipe/junction/flipped{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "Na" = (
@@ -10495,6 +11543,9 @@
 "Nj" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "Nk" = (
@@ -10503,6 +11554,14 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/corpsespawner/engineer/regular,
 /turf/open/floor/tile/dark,
+/area/space)
+"Nl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	dir = 8;
+	welded = 1
+	},
+/turf/open/floor/wood,
 /area/space)
 "Nm" = (
 /obj/structure/table/reinforced,
@@ -10523,6 +11582,9 @@
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/generic,
 /obj/effect/landmark/corpsespawner/engineer/regular,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 5
+	},
 /turf/open/floor/podhatch/floor,
 /area/space)
 "Np" = (
@@ -10530,6 +11592,9 @@
 /obj/item/paper/xenofinance,
 /obj/effect/decal/cleanable/blood,
 /obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/tile/dark,
@@ -10573,6 +11638,11 @@
 /obj/structure/razorwire,
 /turf/open/floor/plating/ground/snow/layer0,
 /area/space)
+"Ny" = (
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/dark,
+/area/space)
 "Nz" = (
 /obj/structure/cable,
 /turf/closed/wall/r_wall,
@@ -10590,6 +11660,11 @@
 	dir = 1
 	},
 /turf/open/floor/plating/ground/snow/layer0,
+/area/space)
+"NC" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/carpet/red,
 /area/space)
 "ND" = (
 /obj/machinery/door/airlock/mainship/command/CPToffice,
@@ -10620,6 +11695,14 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/shuttle/escapepod/eleven,
+/area/space)
+"NK" = (
+/obj/effect/decal/cleanable/glass,
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	dir = 1;
+	on = 1
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "NL" = (
 /obj/structure/table/reinforced,
@@ -10653,6 +11736,9 @@
 /area/space)
 "NP" = (
 /obj/effect/spawner/random/misc/trash,
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "NR" = (
@@ -10721,17 +11807,26 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/barricade/wood,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/mainship/metal,
 /area/space)
 "Od" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/junction,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/space)
 "Oe" = (
 /obj/structure/bed/chair/sofa/corsat/verticalmiddle,
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/mainship/metal,
+/area/space)
+"Of" = (
+/obj/effect/decal/cleanable/tomato_smudge,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "Og" = (
 /obj/machinery/vending/sovietsoda/nopower,
@@ -10773,6 +11868,9 @@
 "Om" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "On" = (
@@ -10885,6 +11983,9 @@
 /area/space)
 "OF" = (
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/wood,
 /area/space)
 "OH" = (
@@ -10897,6 +11998,14 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
+/area/space)
+"OJ" = (
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
+/turf/open/floor/mainship/red{
+	dir = 1
+	},
 /area/space)
 "OK" = (
 /obj/structure/filingcabinet,
@@ -10972,6 +12081,13 @@
 "OW" = (
 /obj/structure/filingcabinet/filingcabinet,
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood/fancy/damaged,
+/area/space)
+"OX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 4
+	},
 /turf/open/floor/wood/fancy/damaged,
 /area/space)
 "OY" = (
@@ -11070,6 +12186,11 @@
 /obj/structure/prop/mainship/brokengen,
 /turf/open/floor/podhatch/floor,
 /area/space)
+"Ps" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/spawner/random/misc/trash,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/space)
 "Pt" = (
 /obj/effect/landmark/corpsespawner/colonist/regular,
 /obj/effect/spawner/random/weaponry/melee,
@@ -11087,6 +12208,12 @@
 /turf/open/floor/tile/dark/red2{
 	dir = 6
 	},
+/area/space)
+"Px" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/dark,
 /area/space)
 "Py" = (
 /obj/effect/landmark/corpsespawner/security/regular,
@@ -11150,6 +12277,9 @@
 /area/space)
 "PM" = (
 /obj/machinery/door/airlock/mainship/command/CPToffice,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/closed/wall/mainship/gray,
 /area/space)
 "PN" = (
@@ -11169,6 +12299,14 @@
 /obj/machinery/power/port_gen/pacman,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/ground/concrete,
+/area/space)
+"PQ" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/mainship/red{
+	dir = 1
+	},
 /area/space)
 "PR" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
@@ -11216,6 +12354,9 @@
 "PZ" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "Qa" = (
@@ -11243,6 +12384,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
+/area/space)
+"Qe" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/misc/trash,
+/turf/open/floor/plating/ground/snow/layer0,
 /area/space)
 "Qf" = (
 /obj/machinery/landinglight/lz2{
@@ -11289,6 +12435,12 @@
 /area/space)
 "Qn" = (
 /turf/open/floor/plating/rivergrate,
+/area/space)
+"Qo" = (
+/obj/structure/disposalpipe/segment/corner{
+	dir = 2
+	},
+/turf/open/floor/tile/dark,
 /area/space)
 "Qp" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
@@ -11342,6 +12494,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/weed_node,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/wood,
 /area/space)
 "Qw" = (
@@ -11359,6 +12512,14 @@
 "Qz" = (
 /obj/structure/table/mainship,
 /obj/item/paper,
+/turf/open/floor/tile/dark,
+/area/space)
+"QA" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/spawner/random/misc/plant,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "QB" = (
@@ -11524,6 +12685,7 @@
 /obj/structure/disposalpipe/segment/corner{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/space)
 "Rc" = (
@@ -11597,6 +12759,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/ground/grass,
 /area/space)
+"Rq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "Rr" = (
 /obj/structure/bed/chair/sofa/corsat/verticalsouth,
 /obj/effect/decal/cleanable/dirt,
@@ -11641,6 +12811,15 @@
 "Ry" = (
 /obj/structure/table/mainship,
 /obj/item/reagent_containers/food/snacks/mre_pack/meal2,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/white/hall/full,
+/area/space)
+"Rz" = (
+/obj/machinery/door/airlock/mainship/generic{
+	dir = 2
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/white/hall/full,
 /area/space)
 "RA" = (
@@ -11685,6 +12864,21 @@
 	},
 /turf/open/floor/tile/dark,
 /area/space)
+"RJ" = (
+/obj/structure/disposalpipe/junction{
+	dir = 4
+	},
+/turf/open/floor/mainship/metal,
+/area/space)
+"RK" = (
+/obj/structure/disposalpipe/segment/corner{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/turf/open/floor/plating/plating_catwalk/dark,
+/area/space)
 "RL" = (
 /obj/structure/flora/pottedplant/twenty,
 /turf/open/floor/mainship/red{
@@ -11694,6 +12888,7 @@
 "RM" = (
 /obj/effect/decal/cleanable/blood/oil,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/space)
 "RN" = (
@@ -11741,7 +12936,12 @@
 "RV" = (
 /obj/structure/table/mainship,
 /obj/machinery/faxmachine,
-/turf/open/floor/tile/dark,
+/turf/open/floor/carpet/green,
+/area/space)
+"RW" = (
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/carpet/red,
 /area/space)
 "RX" = (
 /obj/structure/filingcabinet,
@@ -11759,6 +12959,10 @@
 	dir = 5
 	},
 /turf/open/floor/tile/dark,
+/area/space)
+"Sa" = (
+/obj/structure/table/mainship,
+/turf/open/floor/carpet/green,
 /area/space)
 "Sc" = (
 /obj/structure/rack,
@@ -11790,6 +12994,11 @@
 /obj/item/bedsheet/brown,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
+/area/space)
+"Sh" = (
+/obj/structure/cocoon,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/dark,
 /area/space)
 "Si" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -11873,7 +13082,7 @@
 "Sx" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
-	dir = 8
+	dir = 4
 	},
 /turf/open/floor/mainship/metal,
 /area/space)
@@ -11954,6 +13163,13 @@
 "SH" = (
 /obj/structure/prop/mainship/cannon_cables,
 /turf/open/floor/tile/dark2,
+/area/space)
+"SI" = (
+/obj/effect/decal/cleanable/generic,
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
+/turf/open/floor/tile/white/hall/full,
 /area/space)
 "SJ" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
@@ -12082,6 +13298,13 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/ground/snow/layer0,
 /area/space)
+"Ti" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
+/area/space)
 "Tj" = (
 /obj/structure/table/mainship,
 /obj/effect/landmark/weed_node,
@@ -12112,6 +13335,9 @@
 /area/space)
 "Tn" = (
 /obj/structure/bed/chair/west,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "Tp" = (
@@ -12268,6 +13494,11 @@
 	},
 /turf/open/floor/plating/scorched,
 /area/space)
+"TP" = (
+/obj/structure/table/mainship,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/carpet/green,
+/area/space)
 "TQ" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
@@ -12297,6 +13528,9 @@
 /obj/effect/decal/cleanable/blood/oil,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/landmark/corpsespawner/engineer/regular,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "TX" = (
@@ -12344,6 +13578,11 @@
 /obj/structure/closet/secure_closet/personal,
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/tile/dark,
+/area/space)
+"Uh" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/misc/trash,
+/turf/open/floor/plating/ground/snow/layer1,
 /area/space)
 "Ui" = (
 /obj/effect/decal/cleanable/flour,
@@ -12404,6 +13643,9 @@
 	dir = 2
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "Us" = (
@@ -12499,6 +13741,10 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	dir = 4;
+	on = 1
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "UI" = (
@@ -12524,6 +13770,9 @@
 /obj/structure/disposalpipe/segment/corner{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "UN" = (
@@ -12543,9 +13792,6 @@
 /area/space)
 "UR" = (
 /obj/effect/spawner/random/misc/plushie,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /turf/open/floor/mainship/metal,
 /area/space)
 "US" = (
@@ -12588,6 +13834,7 @@
 /obj/machinery/door/airlock/mainship{
 	name = "Site Manager's Office"
 	},
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/wood/fancy/damaged,
 /area/space)
 "UZ" = (
@@ -12608,7 +13855,17 @@
 /obj/structure/closet/secure_closet/engineering_electrical,
 /obj/effect/spawner/random/engineering/insulatedgloves,
 /obj/structure/disposalpipe/segment,
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
+/area/space)
+"Vd" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/mainship/red{
+	dir = 1
+	},
 /area/space)
 "Ve" = (
 /obj/structure/prop/nt_computer,
@@ -12769,6 +14026,9 @@
 "VF" = (
 /obj/structure/window/reinforced/west,
 /obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 2
+	},
 /turf/open/floor/tile/bar,
 /area/space)
 "VG" = (
@@ -12804,6 +14064,7 @@
 	name = "Locker Room Restroom"
 	},
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/space)
 "VM" = (
@@ -12857,6 +14118,12 @@
 	dir = 1
 	},
 /area/space)
+"VU" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/rcircuit,
+/area/space)
 "VV" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
 	dir = 1
@@ -12882,9 +14149,8 @@
 /turf/closed/wall/mainship/gray,
 /area/space)
 "VY" = (
-/obj/effect/decal/cleanable/blood,
-/obj/effect/decal/cleanable/blood,
-/turf/open/floor/mainship/metal,
+/obj/effect/spawner/random/misc/plant,
+/turf/open/floor/tile/dark,
 /area/space)
 "VZ" = (
 /obj/machinery/gibber,
@@ -12962,10 +14228,16 @@
 /obj/item/clothing/mask/rebreather,
 /turf/open/floor/tile/dark2,
 /area/space)
+"Wp" = (
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/turf/open/floor/tile/dark,
+/area/space)
 "Wq" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/junction,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/space)
 "Wr" = (
@@ -12997,6 +14269,7 @@
 	name = "Site Manager's Office"
 	},
 /obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/space)
 "Wy" = (
@@ -13014,6 +14287,13 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/ground/snow/layer0,
+/area/space)
+"WB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/wood/fancy/damaged,
 /area/space)
 "WC" = (
 /turf/open/floor/tile/dark/red2{
@@ -13067,6 +14347,9 @@
 /area/space)
 "WL" = (
 /obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
 /turf/open/floor/plating/scorched,
 /area/space)
 "WM" = (
@@ -13107,6 +14390,10 @@
 "WU" = (
 /obj/structure/closet/toolcloset,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/liquid_fuel,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "WV" = (
@@ -13141,6 +14428,9 @@
 "Xa" = (
 /obj/effect/decal/cleanable/generic,
 /obj/structure/flora/pottedplant/ten,
+/obj/structure/disposalpipe/segment/corner{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "Xb" = (
@@ -13197,6 +14487,9 @@
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/glass,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "Xn" = (
@@ -13233,6 +14526,7 @@
 /obj/structure/disposalpipe/segment/corner{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/space)
 "Xs" = (
@@ -13244,6 +14538,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/dark,
+/area/space)
+"Xt" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/tile/dark,
 /area/space)
 "Xv" = (
 /obj/structure/window/reinforced,
@@ -13360,6 +14659,14 @@
 	dir = 8
 	},
 /area/space)
+"XO" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
+/area/space)
 "XR" = (
 /obj/structure/prop/mainship/protolathe/cargo,
 /turf/open/floor/mainship/metal,
@@ -13402,6 +14709,9 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/tile/darkgreen/darkgreen2,
 /area/space)
 "Yb" = (
@@ -13428,12 +14738,16 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/weed_node,
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "Ye" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/gibspawner/xeno,
 /obj/structure/cocoon/opened_cocoon,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden,
 /turf/open/floor/podhatch/floor,
 /area/space)
 "Yf" = (
@@ -13452,7 +14766,17 @@
 /area/space)
 "Yh" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
 /turf/open/floor/carpet/orange,
+/area/space)
+"Yi" = (
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating/icefloor,
 /area/space)
 "Yj" = (
 /obj/structure/closet/secure_closet/guncabinet/pmc_m39,
@@ -13576,7 +14900,7 @@
 /obj/effect/landmark/corpsespawner/bridgeofficer/burst,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/greenglow,
-/turf/open/floor/tile/dark,
+/turf/open/floor/carpet/green,
 /area/space)
 "YC" = (
 /obj/structure/closet/secure_closet/security,
@@ -13642,6 +14966,18 @@
 	dir = 1
 	},
 /area/space)
+"YP" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/carpet/green,
+/area/space)
+"YQ" = (
+/obj/effect/landmark/weed_node,
+/obj/machinery/atmospherics/components/unary/vent_pump{
+	dir = 8;
+	welded = 1
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "YR" = (
 /obj/effect/spawner/random/engineering/ore_box,
 /turf/open/floor/plating,
@@ -13651,11 +14987,22 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/tile/dark2,
 /area/space)
+"YT" = (
+/obj/effect/decal/cleanable/mucus,
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "YU" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/spawner/random/food_or_drink/burger,
 /obj/effect/decal/cleanable/generic,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 "YV" = (
@@ -13717,6 +15064,13 @@
 /obj/item/broken_bottle,
 /turf/open/floor/iron,
 /area/space)
+"Zf" = (
+/obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/junction{
+	dir = 1
+	},
+/turf/open/floor/mainship/metal,
+/area/space)
 "Zg" = (
 /obj/structure/platform{
 	dir = 8
@@ -13777,6 +15131,9 @@
 "Zt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
 /turf/open/floor/mainship/red{
 	dir = 5
 	},
@@ -13819,9 +15176,22 @@
 /obj/machinery/door/airlock/multi_tile/mainship/secdoor/glass,
 /turf/open/floor/mainship/metal,
 /area/space)
+"ZD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 8
+	},
+/turf/open/floor/tile/dark,
+/area/space)
 "ZE" = (
 /obj/structure/filingcabinet/chestdrawer,
 /turf/closed/wall/mainship/gray,
+/area/space)
+"ZF" = (
+/obj/structure/disposalpipe/segment/corner{
+	dir = 8
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "ZG" = (
 /obj/structure/table/mainship,
@@ -13860,6 +15230,14 @@
 "ZN" = (
 /obj/effect/spawner/gibspawner/robot,
 /turf/open/floor/plating/ground/snow/layer0,
+/area/space)
+"ZO" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/weed_node,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/wood/fancy/damaged,
 /area/space)
 "ZP" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
@@ -13912,9 +15290,23 @@
 /obj/effect/decal/cleanable/flour,
 /turf/open/floor/tile/dark,
 /area/space)
+"ZW" = (
+/obj/structure/razorwire,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/space)
 "ZY" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/gibs/xeno,
+/turf/open/floor/tile/dark,
+/area/space)
+"ZZ" = (
+/obj/effect/landmark/weed_node,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/tile/dark,
 /area/space)
 
@@ -43002,14 +44394,14 @@ lI
 lI
 HX
 aT
-FB
+kp
 PJ
 Jn
 Bl
-xk
+jG
 Wx
-rK
-rK
+oE
+oE
 cQ
 Oo
 aT
@@ -43302,13 +44694,13 @@ lI
 HX
 Iv
 lI
-lI
+OX
 UY
-FB
-FB
-LE
-Gs
-LE
+LP
+NC
+gf
+XO
+ZF
 aT
 OK
 RX
@@ -43604,17 +44996,17 @@ Iv
 rX
 tO
 TZ
-TZ
+EI
 aT
 LE
 AX
 wX
-wX
+Dw
 LE
 BC
 BC
 Oo
-MV
+Tu
 Oo
 aT
 Iq
@@ -43906,17 +45298,17 @@ fu
 sP
 HF
 hD
-Iv
+ZO
 aT
 LE
 xJ
 Lt
-Lt
+HL
 LE
 zT
 PK
 js
-MV
+Tu
 Oo
 aT
 Hi
@@ -44208,12 +45600,12 @@ HX
 ke
 qA
 Rh
-lI
+WB
 aT
 LE
 te
 Tc
-MV
+Tu
 Wm
 Og
 Ms
@@ -44510,7 +45902,7 @@ Nt
 sY
 Rg
 sP
-Nt
+hA
 aT
 LE
 sn
@@ -44817,7 +46209,7 @@ aT
 LE
 LE
 Wm
-Wm
+nd
 LE
 TH
 aT
@@ -45420,8 +46812,8 @@ Iq
 aT
 gn
 LE
-LE
-FB
+bH
+Ti
 Wa
 aT
 Hi
@@ -46024,7 +47416,7 @@ aR
 sX
 XL
 xD
-LE
+gS
 FB
 wX
 aT
@@ -46400,11 +47792,11 @@ VF
 kC
 GK
 ys
-IV
-IV
-aB
-wX
-wX
+eV
+eV
+Px
+QQ
+ro
 av
 wX
 MV
@@ -47008,7 +48400,7 @@ ac
 zq
 cZ
 wX
-wX
+Dw
 wX
 gz
 wX
@@ -47310,7 +48702,7 @@ IV
 zq
 wX
 wX
-av
+cx
 wX
 wX
 wX
@@ -47541,7 +48933,7 @@ aT
 wX
 wX
 Tc
-PY
+Zz
 aT
 Hi
 DS
@@ -47612,10 +49004,10 @@ IV
 IV
 av
 av
-wX
-wX
-wX
-PY
+rx
+QQ
+QQ
+fE
 aT
 XM
 hl
@@ -47837,13 +49229,13 @@ Wg
 wX
 Wm
 Gs
-bB
+oY
 eq
 vi
-AX
+Xt
 JQ
-fC
-fC
+tK
+eH
 aT
 Hi
 Hi
@@ -47914,7 +49306,7 @@ aT
 wX
 wX
 cZ
-wX
+Dw
 Rw
 wX
 aT
@@ -48138,7 +49530,7 @@ wX
 aT
 wX
 Wm
-Wm
+nd
 Pi
 MV
 BY
@@ -48216,7 +49608,7 @@ aT
 Xk
 FR
 wX
-wX
+Dw
 Rw
 Im
 aT
@@ -48440,7 +49832,7 @@ wX
 Wg
 Xp
 HV
-tw
+ms
 Ut
 zB
 aT
@@ -49044,7 +50436,7 @@ wX
 AH
 wX
 wZ
-FB
+kp
 tw
 wX
 Wg
@@ -49346,7 +50738,7 @@ Mp
 Ms
 wX
 xk
-LE
+gS
 tw
 wX
 Wg
@@ -49639,16 +51031,16 @@ yr
 Iq
 Iq
 aT
-PY
-ip
-wX
+op
+xf
+ro
 VW
 wX
 qz
 ZE
 wX
 xk
-LE
+gS
 hy
 wX
 aT
@@ -49725,8 +51117,8 @@ Hi
 qe
 Iq
 Hi
-bU
-Hi
+cZ
+Dw
 Hi
 Iq
 Hi
@@ -49943,7 +51335,7 @@ Hi
 aT
 aT
 aT
-BY
+Hc
 BY
 aT
 aT
@@ -50027,8 +51419,8 @@ Iq
 Hi
 Iq
 Iq
-Hi
-BV
+wX
+DK
 bU
 Iq
 Hi
@@ -50245,14 +51637,14 @@ Hi
 aT
 XH
 wX
-LE
+gS
 LE
 yf
 wX
 wX
 eS
 hG
-LE
+gS
 FB
 rr
 wX
@@ -50330,7 +51722,7 @@ Iq
 no
 no
 Iq
-Iq
+Hu
 bU
 bU
 Iq
@@ -50547,7 +51939,7 @@ Iq
 aT
 Rw
 MV
-Wm
+nd
 LE
 MV
 wX
@@ -50570,9 +51962,9 @@ CC
 LL
 qJ
 FA
-aT
-Hi
-Hi
+XE
+wX
+wX
 wS
 Hi
 Hi
@@ -50631,8 +52023,8 @@ Hi
 bU
 bU
 bU
-DS
-Iq
+av
+Hu
 Iq
 Hi
 bU
@@ -50849,7 +52241,7 @@ Iq
 aT
 eb
 wX
-Wm
+nd
 Wm
 LE
 LE
@@ -50873,8 +52265,8 @@ wX
 ze
 wX
 BY
-Hi
-Hi
+wX
+wX
 AO
 wX
 wX
@@ -50934,7 +52326,7 @@ wX
 wX
 ce
 we
-wX
+Dw
 cZ
 cZ
 wX
@@ -51151,7 +52543,7 @@ Hi
 aT
 CL
 Jt
-xk
+ye
 xk
 LE
 Wm
@@ -51175,8 +52567,8 @@ cZ
 kh
 pH
 Wg
-Hi
-Hi
+wX
+wX
 wX
 AO
 MV
@@ -51236,7 +52628,7 @@ wX
 wX
 ce
 cZ
-wX
+Dw
 wX
 cZ
 cZ
@@ -51451,68 +52843,68 @@ Hi
 Iq
 Hi
 aT
-Ez
-MV
-xk
-Wm
-LE
-Wm
-LE
-LE
+CH
+jz
+wx
+RW
+gf
+RW
+gf
+gf
 li
 gT
 NP
-jb
+qL
 lG
-Wm
-jr
+RW
+pD
 bl
-LE
+gf
 li
 os
 kZ
-MV
-ft
-gz
+jz
+Sh
+nY
 wp
-cZ
-BY
-bU
-bU
+mg
+xu
+mg
+mg
 HA
-wX
-wX
-cZ
-wX
-Xg
-TA
-TA
-MV
-wX
-cZ
+QQ
+QQ
+mg
+QQ
+xl
+ed
+ed
+jz
+QQ
+mg
 LB
 dK
-av
-wX
-Iq
-wX
-cZ
-wX
-wX
-wX
-cZ
-wX
-cZ
-wX
-wX
-wX
-wX
-wX
-wX
-cZ
-wX
-wX
-wX
+LC
+QQ
+WY
+QQ
+mg
+QQ
+QQ
+QQ
+mg
+QQ
+mg
+QQ
+QQ
+QQ
+QQ
+QQ
+QQ
+mg
+QQ
+QQ
+Dw
 wX
 wX
 wX
@@ -51538,7 +52930,7 @@ wX
 cZ
 wX
 wX
-wX
+Dw
 av
 wX
 wX
@@ -51753,7 +53145,7 @@ Hi
 kz
 Hi
 aT
-PY
+Jq
 wX
 wX
 wX
@@ -51763,7 +53155,7 @@ aT
 VP
 LE
 LE
-BR
+ZW
 wX
 aT
 MV
@@ -51778,9 +53170,9 @@ BC
 VW
 wX
 fS
-aT
-DS
-Eh
+XE
+av
+ia
 Eh
 Hi
 DS
@@ -51814,7 +53206,7 @@ wX
 wX
 wX
 wX
-wX
+Dw
 ce
 wX
 wX
@@ -51840,7 +53232,7 @@ Hi
 Hi
 GG
 Hi
-wX
+Dw
 wX
 wX
 Hi
@@ -52065,7 +53457,7 @@ wX
 VW
 LE
 LE
-LE
+gS
 wX
 wX
 wX
@@ -52116,7 +53508,7 @@ Iq
 wX
 wX
 wX
-wX
+Dw
 ce
 ce
 Hi
@@ -52142,7 +53534,7 @@ yr
 yr
 yr
 Hi
-wX
+Dw
 wX
 wX
 yr
@@ -52152,7 +53544,7 @@ qj
 Iq
 gm
 Ms
-hq
+Fl
 sN
 hq
 sN
@@ -52367,7 +53759,7 @@ aT
 aT
 ND
 Cs
-ND
+EC
 aT
 aT
 QM
@@ -52418,7 +53810,7 @@ Hi
 wX
 wX
 wX
-wX
+Dw
 wX
 Hi
 Iq
@@ -52444,7 +53836,7 @@ qj
 qj
 yr
 Hi
-wX
+Dw
 aB
 wX
 yr
@@ -52454,7 +53846,7 @@ qj
 Hi
 vq
 Ms
-Vw
+Gd
 sN
 hq
 hq
@@ -52661,15 +54053,15 @@ Hi
 aT
 eS
 at
-cZ
-cZ
-wX
-Tc
-wX
-Gb
-wX
-wX
-wX
+zZ
+fi
+QQ
+bA
+QQ
+Ny
+QQ
+QQ
+dy
 wX
 wX
 Zu
@@ -52720,7 +54112,7 @@ Hi
 Hi
 av
 wX
-wX
+Dw
 Hi
 Hi
 Iq
@@ -52746,7 +54138,7 @@ yr
 qj
 yr
 yr
-wX
+Dw
 cZ
 wX
 qj
@@ -52756,7 +54148,7 @@ Iq
 Iq
 gm
 aT
-hq
+Fl
 nq
 WO
 Se
@@ -52963,15 +54355,15 @@ Hi
 aT
 eS
 wX
-Zu
-PY
+su
+Jq
 Jo
 wT
 MO
 wX
 aT
 aT
-wX
+Dw
 fC
 BK
 ZR
@@ -53022,7 +54414,7 @@ ce
 Wy
 wX
 wX
-wX
+Dw
 Hi
 Iq
 yr
@@ -53048,7 +54440,7 @@ yr
 qj
 yr
 yr
-wX
+Dw
 cZ
 wX
 Hi
@@ -53058,7 +54450,7 @@ yr
 Hi
 gm
 aT
-hq
+Fl
 jq
 Us
 Di
@@ -53263,9 +54655,9 @@ Hi
 kz
 Hi
 aT
+mA
 wX
-wX
-Zu
+su
 cI
 MV
 Zu
@@ -53273,7 +54665,7 @@ ld
 wX
 Ms
 aT
-wX
+Dw
 uE
 dV
 wX
@@ -53324,7 +54716,7 @@ Iq
 Hi
 wX
 wX
-wX
+Dw
 Hi
 Iq
 qe
@@ -53350,7 +54742,7 @@ Hi
 Hi
 Hi
 Hi
-wX
+Dw
 av
 wX
 Iq
@@ -53360,7 +54752,7 @@ yr
 Hi
 GU
 aT
-hq
+Fl
 om
 Di
 hj
@@ -53567,15 +54959,15 @@ Iq
 aT
 wX
 wX
-cZ
-MV
+LX
+Nw
 MV
 wX
 av
 wX
 aT
 aT
-cZ
+fT
 em
 cZ
 wX
@@ -53626,7 +55018,7 @@ Iq
 Iq
 wX
 wX
-wX
+Dw
 Hi
 ce
 yr
@@ -53652,7 +55044,7 @@ Iq
 xj
 Hi
 GG
-wX
+Dw
 cZ
 wX
 Iq
@@ -53662,7 +55054,7 @@ bU
 Hi
 gm
 aT
-hq
+Fl
 QL
 Fd
 Oj
@@ -53877,11 +55269,11 @@ aT
 cZ
 Ms
 aT
-cZ
-zk
+fT
+Rq
 cZ
 jU
-zk
+Rq
 wX
 YK
 aT
@@ -53928,7 +55320,7 @@ ce
 Hi
 Iq
 Iq
-wX
+Dw
 ce
 wb
 yr
@@ -53954,7 +55346,7 @@ Hi
 Iq
 Hi
 Hi
-wX
+Dw
 cZ
 wX
 Iq
@@ -54170,20 +55562,20 @@ Iq
 Hi
 aT
 Xa
-Zu
-wX
-MV
+FD
+QQ
+Hj
 wX
 wX
 Wg
 wX
 cZ
 wX
-MV
-wX
+UN
+fn
 GS
-MV
-wX
+jz
+SZ
 wX
 YK
 aT
@@ -54230,7 +55622,7 @@ ce
 bU
 wX
 cZ
-wX
+Dw
 ce
 yr
 yr
@@ -54256,7 +55648,7 @@ Hi
 Iq
 Iq
 Hi
-wX
+Dw
 cZ
 wX
 Iq
@@ -54266,7 +55658,7 @@ Hi
 aT
 zd
 DO
-DO
+VU
 DO
 DO
 DO
@@ -54471,17 +55863,17 @@ Iq
 Hi
 GG
 aT
-PY
+Jq
 wX
 MJ
-uE
+TP
 RV
 wX
 AH
 cZ
 wX
 MV
-wX
+Dw
 fC
 wX
 wX
@@ -54532,7 +55924,7 @@ ce
 Hi
 wX
 wX
-wX
+Dw
 ce
 yr
 yr
@@ -54558,7 +55950,7 @@ kz
 Iq
 Hi
 Hi
-wX
+Dw
 wX
 wX
 Hi
@@ -54568,14 +55960,14 @@ Hi
 aT
 dn
 sb
-zR
+xB
 zR
 zR
 zR
 zR
 by
 dO
-dn
+nz
 aT
 Hi
 Iq
@@ -54773,17 +56165,17 @@ Hi
 Hi
 Iq
 aT
-Zu
+Dq
 wX
-wX
-gz
-Zu
+Sa
+pW
+YP
 Zu
 Wg
 XS
 av
 yX
-cZ
+fT
 jd
 wX
 av
@@ -54834,7 +56226,7 @@ ce
 Hi
 wX
 av
-wX
+Dw
 ce
 yr
 yr
@@ -54860,7 +56252,7 @@ yr
 yr
 Iq
 DS
-wX
+Dw
 wX
 wX
 Iq
@@ -54877,7 +56269,7 @@ dn
 Xs
 xr
 CQ
-dn
+jT
 aT
 TD
 Hi
@@ -55077,15 +56469,15 @@ Hi
 aT
 IW
 eS
-wX
+Sa
 YB
-wX
+MP
 Nr
 Wg
 wX
 VW
 TF
-jU
+lv
 Fb
 wX
 Kq
@@ -55136,7 +56528,7 @@ Iq
 WA
 wX
 wX
-wX
+Dw
 ce
 yr
 yr
@@ -55162,7 +56554,7 @@ yr
 yr
 yr
 TD
-wX
+Dw
 wX
 wX
 Iq
@@ -55179,7 +56571,7 @@ cT
 EZ
 Jb
 CQ
-dn
+jT
 aT
 Hi
 Iq
@@ -55438,7 +56830,7 @@ Iq
 Hi
 wX
 wX
-wX
+Dw
 ce
 yr
 yr
@@ -55464,7 +56856,7 @@ qj
 yr
 Iq
 DS
-ce
+FH
 av
 wX
 Hi
@@ -55481,7 +56873,7 @@ fV
 pS
 gZ
 VQ
-dn
+jT
 aT
 Hi
 Iq
@@ -55689,7 +57081,7 @@ aT
 OH
 wX
 pI
-wX
+Dw
 ia
 aT
 Hi
@@ -55740,7 +57132,7 @@ ce
 Iq
 wX
 wX
-wX
+Dw
 ce
 yr
 yr
@@ -55766,7 +57158,7 @@ yr
 Hi
 Iq
 ce
-ce
+FH
 wX
 wX
 Hi
@@ -55783,7 +57175,7 @@ cT
 cr
 In
 Ms
-bY
+qw
 Ms
 Iq
 Hi
@@ -55991,7 +57383,7 @@ aT
 NH
 cZ
 jU
-wX
+Dw
 wX
 aT
 Iq
@@ -56042,7 +57434,7 @@ ce
 Iq
 wX
 av
-wX
+Dw
 ce
 yr
 yr
@@ -56068,7 +57460,7 @@ Iq
 Iq
 Hi
 Hi
-wX
+Dw
 wX
 wX
 Hi
@@ -56085,7 +57477,7 @@ oR
 hq
 hq
 IG
-dn
+jT
 aT
 Iq
 Iq
@@ -56293,7 +57685,7 @@ aT
 TL
 Uu
 jZ
-NH
+bn
 Zu
 aT
 Iq
@@ -56344,7 +57736,7 @@ Hi
 Hi
 wX
 wX
-cZ
+fT
 ce
 ce
 yr
@@ -56370,7 +57762,7 @@ Iq
 Hi
 Iq
 DS
-wX
+Dw
 wX
 cZ
 GG
@@ -56387,7 +57779,7 @@ hq
 hq
 hq
 yy
-bY
+qw
 aT
 Hi
 Hi
@@ -56646,7 +58038,7 @@ Iq
 no
 wX
 cZ
-wX
+Dw
 Hi
 ce
 ce
@@ -56672,7 +58064,7 @@ Hi
 Hi
 Iq
 Iq
-wX
+Dw
 wX
 cZ
 Hi
@@ -56689,7 +58081,7 @@ Vw
 hq
 hq
 yy
-dn
+jT
 aT
 Hi
 Hi
@@ -56948,7 +58340,7 @@ Hi
 kz
 wX
 wX
-ce
+FH
 Hi
 Hi
 DS
@@ -56974,7 +58366,7 @@ aT
 aT
 kv
 Iq
-wX
+Dw
 av
 wX
 Iq
@@ -56991,7 +58383,7 @@ hq
 hq
 hq
 IG
-dn
+jT
 aT
 aT
 JY
@@ -57199,7 +58591,7 @@ aT
 Oi
 rK
 Dz
-wX
+Dw
 rK
 aT
 Hi
@@ -57250,7 +58642,7 @@ Hi
 Iq
 wX
 wX
-ce
+FH
 Hi
 bU
 Iq
@@ -57276,7 +58668,7 @@ af
 aT
 el
 Hi
-wX
+Dw
 wX
 cZ
 Hi
@@ -57293,7 +58685,7 @@ hq
 Lu
 Lu
 yy
-dn
+jT
 ZC
 RC
 BG
@@ -57501,7 +58893,7 @@ aT
 cZ
 rK
 Dz
-wX
+Dw
 rK
 aT
 Hi
@@ -57552,7 +58944,7 @@ Hi
 Hi
 wX
 ce
-av
+cx
 Wy
 Hi
 Iq
@@ -57578,7 +58970,7 @@ kT
 aT
 tQ
 Hi
-wX
+Dw
 wX
 cZ
 Iq
@@ -57595,19 +58987,19 @@ fV
 Oq
 Oq
 aT
-dn
-RC
-sF
-sF
-sF
-sF
-De
-BG
-UT
+pP
+CZ
+Qa
+Qa
+Qa
+Qa
+Vd
+Zf
+fc
 kt
-De
+OJ
 sS
-Xn
+LH
 nT
 Ms
 GC
@@ -57803,7 +59195,7 @@ aT
 wX
 MV
 fS
-TA
+GD
 cZ
 aT
 Hi
@@ -57854,7 +59246,7 @@ GG
 bU
 wX
 wX
-wX
+Dw
 Hi
 Hi
 bU
@@ -57880,7 +59272,7 @@ Su
 aT
 GG
 lD
-wX
+Dw
 wX
 wX
 Iq
@@ -58156,7 +59548,7 @@ Hi
 Hi
 wX
 wX
-wX
+Dw
 av
 wX
 av
@@ -58182,7 +59574,7 @@ cN
 Vn
 cS
 wX
-wX
+Dw
 wX
 wX
 DS
@@ -58211,7 +59603,7 @@ aT
 aT
 aT
 aT
-vw
+eD
 Ta
 Ms
 aY
@@ -58399,18 +59791,18 @@ wX
 MV
 mQ
 mQ
-wX
+VY
 wX
 rH
 wX
 uP
 wX
 MV
-MV
-MV
-ox
+QA
+Hj
+IE
 wX
-wX
+PY
 aT
 RE
 cl
@@ -58458,7 +59850,7 @@ Hi
 Iq
 av
 wX
-wX
+Dw
 wX
 wX
 wX
@@ -58484,7 +59876,7 @@ RC
 JY
 wX
 wX
-wX
+Dw
 av
 we
 Hi
@@ -58513,7 +59905,7 @@ Li
 Li
 rz
 JY
-De
+PQ
 UT
 aT
 Di
@@ -58708,7 +60100,7 @@ ad
 ad
 wX
 Vt
-aK
+pc
 MV
 wX
 cI
@@ -58760,7 +60152,7 @@ Hi
 Iq
 wX
 wX
-wX
+Dw
 wX
 wX
 wX
@@ -58786,7 +60178,7 @@ RC
 Vn
 wX
 wX
-wX
+Dw
 ce
 wX
 Hi
@@ -58815,7 +60207,7 @@ UA
 TT
 fO
 Cd
-vw
+eD
 nT
 aT
 Vu
@@ -59062,7 +60454,7 @@ DS
 Iq
 wX
 wX
-MV
+Tu
 Hi
 aR
 Hi
@@ -59088,7 +60480,7 @@ kK
 aT
 Hi
 Hi
-wX
+Dw
 ce
 wX
 Hi
@@ -59117,7 +60509,7 @@ Es
 Bn
 YJ
 JY
-vw
+eD
 nT
 aT
 Di
@@ -59312,7 +60704,7 @@ Ce
 vN
 wX
 Dh
-vN
+Jf
 wX
 MV
 wX
@@ -59364,7 +60756,7 @@ Hi
 no
 MV
 tV
-MV
+Tu
 tq
 yr
 yr
@@ -59383,14 +60775,14 @@ aT
 aT
 aT
 qP
-GJ
+uS
 RC
 RC
 BG
 aT
 GG
 lD
-wX
+Dw
 wX
 wX
 Hi
@@ -59419,7 +60811,7 @@ NX
 Li
 bM
 HT
-vw
+eD
 nT
 aT
 hs
@@ -59666,7 +61058,7 @@ PS
 Yg
 MR
 MV
-wX
+Dw
 GG
 qj
 yr
@@ -59692,7 +61084,7 @@ RC
 aT
 Cj
 GG
-av
+cx
 wX
 wX
 Iq
@@ -59721,7 +61113,7 @@ aT
 aT
 Ms
 aT
-vw
+eD
 nT
 aT
 wC
@@ -59912,11 +61304,11 @@ MV
 wX
 wX
 MV
-NH
+YT
 aT
 aT
 wX
-wX
+Dw
 aT
 aT
 wX
@@ -59968,7 +61360,7 @@ TB
 ZY
 Gm
 mw
-wX
+Dw
 yr
 yr
 Hi
@@ -59994,7 +61386,7 @@ RC
 aT
 Hi
 Hi
-wX
+Dw
 wX
 wX
 Iq
@@ -60213,12 +61605,12 @@ eZ
 Vg
 UU
 Qj
-wX
-wX
+VY
+Dw
 aT
 aT
 iz
-iz
+eF
 aT
 aT
 wX
@@ -60270,7 +61662,7 @@ MV
 cZ
 zm
 VA
-wX
+Dw
 GG
 Hi
 aT
@@ -60296,7 +61688,7 @@ Su
 aT
 lD
 Hi
-wX
+Dw
 wX
 wX
 Iq
@@ -60324,8 +61716,8 @@ RC
 sF
 Vn
 lp
-RC
-RC
+RJ
+xe
 nT
 aT
 Yk
@@ -60516,23 +61908,23 @@ Py
 aK
 av
 qf
-Zu
-wX
-wX
+sK
+QQ
+QQ
 PZ
-Dh
+hr
 nj
-MV
+jz
 yB
-wX
+QQ
 Ry
-mT
+yt
 yV
-mT
-sq
-zP
-Ih
-BJ
+yt
+SI
+Rz
+HG
+pj
 qs
 cJ
 UO
@@ -60598,7 +61990,7 @@ RC
 aT
 Hi
 Hi
-wX
+Dw
 av
 cZ
 Hi
@@ -60626,7 +62018,7 @@ RD
 sF
 JY
 JI
-Su
+GJ
 xI
 ul
 pu
@@ -60831,10 +62223,10 @@ Io
 mT
 Sn
 mT
-mT
+kP
 aT
 dc
-qD
+Yi
 qs
 Qx
 qs
@@ -60889,10 +62281,10 @@ RC
 RC
 aT
 eB
-hr
+sF
 BG
 JY
-zl
+RC
 oB
 sF
 oN
@@ -60900,7 +62292,7 @@ BG
 aT
 Hi
 GG
-wX
+Dw
 wX
 cZ
 Hi
@@ -60928,13 +62320,13 @@ BG
 CE
 Ms
 De
-Su
+GJ
 sF
 nT
 Ms
 lo
 Uo
-Du
+sg
 dY
 wA
 aT
@@ -61136,7 +62528,7 @@ HZ
 Pl
 aT
 Ih
-qD
+Yi
 qs
 BJ
 Qx
@@ -61191,7 +62583,7 @@ CO
 Cg
 BC
 Hm
-hr
+sF
 RC
 St
 UR
@@ -61202,7 +62594,7 @@ RC
 Vn
 wX
 av
-cZ
+fT
 cZ
 wX
 Hi
@@ -61230,13 +62622,13 @@ RC
 KY
 aT
 uf
-RC
+zl
 AU
 yH
 Ms
 Ms
 JY
-pu
+FL
 JY
 aT
 aT
@@ -61421,14 +62813,14 @@ fS
 ug
 hp
 ug
-wX
+VY
 wX
 MV
 ia
-wX
-wX
-wX
-cZ
+Qo
+fE
+VY
+ds
 wX
 wX
 qa
@@ -61438,7 +62830,7 @@ mT
 Pl
 aT
 Ih
-uc
+hg
 qD
 Qx
 Qx
@@ -61504,7 +62896,7 @@ RC
 XE
 cZ
 wX
-wX
+Dw
 wX
 wX
 Hi
@@ -61532,13 +62924,13 @@ Xb
 aT
 Ms
 LN
-RC
+zl
 sF
 IT
 mv
 rR
 Js
-XN
+km
 XN
 aE
 nH
@@ -61740,7 +63132,7 @@ aT
 aT
 aT
 aT
-uc
+hg
 eT
 qD
 qs
@@ -61800,16 +63192,16 @@ CZ
 CZ
 Fs
 wJ
-Su
-Zc
-RC
-Vn
-wX
-VW
-VW
-wX
-wX
-wX
+zy
+ir
+CZ
+dw
+QQ
+HP
+vP
+QQ
+QQ
+ro
 wX
 wX
 wX
@@ -61834,12 +63226,12 @@ XN
 tD
 XN
 wq
-sF
-VY
+ri
+vo
 kA
-RC
+CZ
 Oc
-sF
+Qa
 bE
 sF
 UT
@@ -62041,8 +63433,8 @@ Hi
 Hi
 Hi
 Hi
-Hi
-zO
+zn
+nx
 zO
 TU
 TU
@@ -62111,23 +63503,23 @@ Hi
 wX
 av
 wX
-wX
-wX
-wX
-wX
-wX
-wX
-wX
-wX
-wX
-wX
-wX
-Iq
-Iq
-Gb
-wX
-wX
-wX
+Qo
+QQ
+QQ
+QQ
+QQ
+QQ
+QQ
+QQ
+QQ
+QQ
+QQ
+WY
+WY
+Ny
+QQ
+QQ
+ro
 fm
 wX
 JY
@@ -62392,7 +63784,7 @@ RC
 Xj
 CZ
 vr
-KT
+xe
 aT
 aT
 RC
@@ -62429,14 +63821,14 @@ PG
 Iq
 wX
 wX
-MV
-Xg
-wX
-nH
+Kf
+xl
+QQ
+qZ
 KH
-Du
-Du
-Du
+rS
+rS
+rS
 kb
 gE
 IJ
@@ -62693,8 +64085,8 @@ Ee
 RC
 oB
 Su
-sF
-zl
+wG
+KT
 sa
 aT
 LT
@@ -62740,7 +64132,7 @@ aT
 aT
 aT
 Wk
-RC
+zl
 Cv
 aT
 Kh
@@ -63948,7 +65340,7 @@ RC
 yL
 Ms
 Wk
-RC
+zl
 Hr
 aT
 Wc
@@ -64250,7 +65642,7 @@ RC
 rG
 aT
 JI
-RC
+zl
 qK
 aT
 Gh
@@ -72380,7 +73772,7 @@ aR
 Hi
 Hi
 Hi
-Hi
+Eh
 Hi
 Iq
 Iq
@@ -72984,7 +74376,7 @@ di
 Rv
 Iq
 bU
-no
+Uh
 Iq
 xh
 aR
@@ -73242,7 +74634,7 @@ dn
 dn
 on
 Vs
-nz
+RK
 dn
 dn
 Fm
@@ -73291,7 +74683,7 @@ Iq
 Iq
 bU
 Hi
-Hi
+Eh
 Hi
 aR
 Iq
@@ -73890,7 +75282,7 @@ bU
 PB
 br
 gj
-bU
+Qe
 qR
 ou
 PB
@@ -74142,7 +75534,7 @@ wX
 wX
 wX
 wX
-wX
+dx
 av
 hx
 wX
@@ -74444,7 +75836,7 @@ cZ
 iP
 zS
 dL
-sU
+mV
 wX
 hx
 Av
@@ -74502,7 +75894,7 @@ PB
 PB
 Hi
 xh
-Iq
+cR
 Hi
 yr
 yr
@@ -74795,7 +76187,7 @@ xS
 aR
 uD
 aR
-Hi
+Eh
 PB
 tq
 aR
@@ -74803,7 +76195,7 @@ aR
 Ki
 PB
 aR
-Hi
+Eh
 Iq
 Hi
 Hi
@@ -75051,8 +76443,8 @@ dZ
 Jr
 Xr
 np
-jz
-mg
+BT
+sx
 sR
 Mf
 yF
@@ -75093,7 +76485,7 @@ Hi
 Hi
 RG
 aR
-Hi
+Eh
 aR
 br
 Hi
@@ -75105,7 +76497,7 @@ Hi
 aR
 qR
 PB
-Hi
+Eh
 Iq
 Hi
 yr
@@ -75346,7 +76738,7 @@ Hi
 Hi
 XE
 ZB
-wX
+bg
 aT
 mG
 HE
@@ -75373,8 +76765,8 @@ GN
 tb
 aT
 th
-wX
-wX
+WD
+nt
 Zr
 aT
 wX
@@ -75406,7 +76798,7 @@ Hi
 no
 no
 bU
-Iq
+cR
 Iq
 Iq
 Iq
@@ -75648,17 +77040,17 @@ Hi
 Hi
 Nb
 KS
-VW
-wX
-wX
-wX
-jU
+sw
+yK
+yK
+yK
+rP
 Is
 hx
 wX
 Nu
 tz
-Vh
+FZ
 pV
 bc
 fE
@@ -75681,7 +77073,7 @@ aT
 aT
 ft
 Ug
-wX
+dx
 cV
 wX
 aT
@@ -75699,7 +77091,7 @@ RG
 Hi
 Hi
 aR
-aR
+Ps
 PB
 br
 YF
@@ -75709,7 +77101,7 @@ Hi
 EL
 no
 Hi
-Iq
+cR
 Hi
 Hi
 yr
@@ -75967,23 +77359,23 @@ MV
 aT
 Nq
 wX
-Av
+et
 wX
 Zz
 aT
 PY
-wX
+GW
 MM
 Vy
 aT
 Zz
-wX
+if
 wX
 Wa
 aT
 wX
 im
-Gb
+CG
 Gi
 wX
 aT
@@ -76263,7 +77655,7 @@ px
 wX
 XT
 tz
-oe
+gh
 su
 ey
 KP
@@ -76274,18 +77666,18 @@ Rw
 Dw
 vE
 wX
-Rx
+Of
 cZ
 Dw
 aT
 ET
-wX
+if
 NW
 wX
 XE
 dA
 xR
-MV
+Gy
 aj
 wX
 aT
@@ -76571,23 +77963,23 @@ wh
 XE
 wX
 uF
-Rw
+bV
 Mt
 Tu
 vE
-wX
-ls
+dx
+JO
 wX
 su
 aT
 UH
-av
+xC
 Nv
 Gb
 iP
 wX
 mF
-MV
+Gy
 Qg
 ls
 aT
@@ -76860,11 +78252,11 @@ Hi
 Hi
 aT
 Ov
-wX
+WD
 Rb
 aI
 RM
-QQ
+Cf
 Kc
 iB
 Ye
@@ -76872,8 +78264,8 @@ jE
 iV
 aT
 wX
-wX
-wX
+dx
+GW
 VW
 Me
 qk
@@ -76883,7 +78275,7 @@ Ag
 Ui
 sf
 DD
-cZ
+ZD
 nK
 wX
 Pe
@@ -77162,7 +78554,7 @@ Hi
 DS
 aT
 BA
-aB
+Eo
 zI
 aT
 Av
@@ -77171,9 +78563,9 @@ ps
 cn
 rt
 Od
-mg
+sx
 iO
-QQ
+rC
 Vc
 KI
 Nw
@@ -77184,8 +78576,8 @@ oA
 Hd
 GE
 iP
-Dw
-VW
+tW
+ic
 vu
 wX
 XE
@@ -77464,32 +78856,32 @@ Hi
 GG
 aT
 da
-Av
+sm
 Nm
 hx
 wX
 Av
 jI
 Fp
-pV
+LQ
 Os
 wX
 Ah
-Gb
+eO
 Nj
 qU
 Dc
 Wq
 ns
-mg
+gM
 As
 UM
-Dc
+oj
 VL
 MZ
 Yd
 xm
-mg
+sx
 VL
 OF
 Qv
@@ -77766,14 +79158,14 @@ Hi
 bU
 Ms
 Zr
-wX
+if
 aF
 hx
 wX
 cZ
 Gp
 mY
-tz
+kd
 wX
 jU
 co
@@ -77790,7 +79182,7 @@ fb
 Pe
 wX
 yl
-wX
+if
 wX
 aT
 Ai
@@ -77820,7 +79212,7 @@ tM
 bU
 PB
 Iq
-RS
+cX
 aR
 Iq
 Hi
@@ -78082,7 +79474,7 @@ Ms
 jU
 wX
 cZ
-av
+YQ
 wX
 eN
 Zu
@@ -78092,7 +79484,7 @@ kh
 BC
 wX
 ZV
-wX
+if
 ft
 XE
 Ai
@@ -78118,7 +79510,7 @@ Rv
 BX
 JF
 mO
-JF
+ky
 Hi
 Hi
 Iq
@@ -78370,14 +79762,14 @@ cZ
 NR
 nA
 bx
-iV
-wX
+qG
+nt
 wv
 MV
 wX
 jI
 Ay
-tz
+kd
 lf
 dm
 XE
@@ -78389,15 +79781,15 @@ Zu
 aT
 wX
 aB
-wX
+in
 wX
 aT
 cY
 Uu
-Uu
+vn
 uR
 aT
-Rf
+Nl
 Eu
 Hh
 eU
@@ -78668,19 +80060,19 @@ QU
 QU
 Sr
 rK
-cZ
+CV
 JH
-Gb
+Wp
 BU
 bd
 wX
 hk
 wX
-wX
-wX
+JW
+yK
 cW
-av
-VW
+ZZ
+NK
 Zu
 Il
 wX
@@ -78696,7 +80088,7 @@ wX
 aT
 wX
 Uu
-cY
+zH
 wX
 aT
 dr
@@ -79023,7 +80415,7 @@ EL
 Iq
 Hi
 Hi
-Hi
+Eh
 Hi
 Hi
 Hi
@@ -79925,7 +81317,7 @@ ce
 ce
 YO
 ce
-ce
+pC
 ce
 ce
 Hi
@@ -80533,8 +81925,8 @@ yr
 yr
 ce
 ce
-Hi
-Iq
+Eh
+jw
 Iq
 Iq
 Hi
