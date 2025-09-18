@@ -4,7 +4,7 @@
 /obj/item/zulu_fuel_cell
 	name = "\improper The Helg's Battery"
 	icon = 'icons/obj/items/fuel_cell.dmi'
-	icon_state = "cell-empty"
+	icon_state = "zulu-cell-full"
 	desc = "A Zulu energy fuel cell, created and named after its inventor, Helga Grüten Gros, designed to work as a power source for the Crusader Special Heavy exoskeleton or for any other machinery, using basics of Zulu energy."
 	/// The amount of fuel currently in the cell
 	var/fuel_amount = 0
