@@ -212,3 +212,7 @@
 		carbon_owner.balloon_alert(carbon_owner, "can't use here")
 		return FALSE
 	return ..()
+
+/obj/item/blink_drive/broken
+	name = "Strange blink drive"
+	icon_state = 'broken_bluespace_pack'

@@ -1304,6 +1304,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/dark,
 /area/space)
+"eH" = (
+/obj/item/blink_drive/broken,
+/turf/open/floor/plating/scorched,
+/area/space)
 "eI" = (
 /obj/structure/curtain/open/shower,
 /obj/machinery/shower,
@@ -73015,7 +73019,7 @@ aT
 dM
 Ve
 zu
-hq
+eH
 aT
 Hi
 Hi
