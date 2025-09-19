@@ -4775,6 +4775,12 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/podhatch/floor,
 /area/space)
+"pW" = (
+/obj/effect/landmark/weed_node,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/landmark/corpsespawner/colonist,
+/turf/open/floor/plating/ground/snow/layer1,
+/area/space)
 "pX" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/plating/scorched,
@@ -13528,6 +13534,11 @@
 /obj/structure/prop/mainship/cannon_cables,
 /turf/open/floor/tile/dark2,
 /area/space)
+"SI" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/landmark/corpsespawner/colonist,
+/turf/open/floor/plating/ground/snow/layer1,
+/area/space)
 "SJ" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
 /obj/effect/decal/cleanable/dirt,
@@ -14753,6 +14764,13 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mainship/mono,
+/area/space)
+"WP" = (
+/obj/effect/landmark/corpsespawner/colonist,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/ground/snow/layer2{
+	dir = 1
+	},
 /area/space)
 "WQ" = (
 /obj/effect/decal/cleanable/greenglow,
@@ -46064,7 +46082,7 @@ Iq
 Hi
 Iq
 Iq
-Hi
+aR
 Hi
 yr
 yr
@@ -46366,8 +46384,8 @@ YE
 Hi
 Hi
 Hi
-Iq
-Hi
+PB
+oi
 Hi
 Hi
 Hi
@@ -46670,7 +46688,7 @@ Hi
 Fr
 Hi
 Hi
-DS
+ab
 DS
 Hi
 Hi
@@ -49715,7 +49733,7 @@ qj
 yr
 yr
 ce
-ce
+xn
 aT
 aT
 hx
@@ -50015,9 +50033,9 @@ qj
 yr
 yr
 yr
-ce
-ce
-hL
+WP
+xn
+VT
 ce
 Iq
 Iq
@@ -57568,8 +57586,8 @@ yr
 yr
 ce
 yr
-ce
-Iq
+xn
+PB
 Hi
 Iq
 qj
@@ -57597,9 +57615,9 @@ Ms
 ML
 Ms
 Iq
-Hi
-Iq
-Hi
+aR
+PB
+aR
 Hi
 Hi
 Iq
@@ -57870,7 +57888,7 @@ yr
 yr
 ce
 Iq
-kz
+pW
 Iq
 Hi
 Iq
@@ -57898,8 +57916,8 @@ hq
 IG
 jT
 aT
-Iq
-Iq
+SI
+PB
 Hi
 Hi
 Iq
@@ -58171,8 +58189,8 @@ ce
 ce
 ce
 Iq
-Iq
-Hi
+PB
+aR
 Iq
 Iq
 vc
