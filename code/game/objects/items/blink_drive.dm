@@ -215,4 +215,5 @@
 
 /obj/item/blink_drive/broken
 	name = "Strange blink drive"
-	icon_state = 'broken_bluespace_pack'
+	icon = 'icons/obj/items/jetpack.dmi'
+	icon_state = "broken_bluespace_pack"
