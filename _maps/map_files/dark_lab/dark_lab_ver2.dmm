@@ -345,6 +345,9 @@
 "azU" = (
 /obj/effect/landmark/corpsespawner/bridgeofficer/regular,
 /obj/effect/decal/cleanable/blood/xeno,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "aAR" = (
@@ -372,6 +375,13 @@
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk/dark,
+/area/space)
+"aBL" = (
+/obj/effect/decal/cleanable/blood/xeno,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "aCN" = (
 /obj/machinery/disposal,
@@ -932,8 +942,11 @@
 	},
 /area/space)
 "bpP" = (
-/obj/effect/spawner/random/engineering/ore_box,
-/turf/open/floor/chasm,
+/obj/effect/decal/cleanable/blood,
+/obj/machinery/atmospherics/pipe/manifold/green/hidden{
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "bqQ" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -4716,6 +4729,14 @@
 /obj/structure/table/wood/gambling,
 /turf/open/floor/tile/dark,
 /area/space)
+"gqM" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/space)
 "gqN" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
@@ -4844,6 +4865,9 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/glass,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "gCt" = (
@@ -4958,6 +4982,9 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/corpsespawner/security/regular,
 /obj/effect/decal/cleanable/glass,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "gIb" = (
@@ -5266,6 +5293,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/effect/decal/cleanable/blood/gibs,
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/carpet/red,
 /area/space)
 "hhk" = (
@@ -5370,6 +5398,13 @@
 	},
 /obj/effect/spawner/random/misc/trash,
 /turf/open/floor/iron,
+/area/space)
+"hpR" = (
+/obj/effect/decal/cleanable/blood,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "hpV" = (
 /obj/structure/cryofeed,
@@ -6108,6 +6143,9 @@
 /area/space)
 "iuF" = (
 /obj/structure/barricade/wood{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
 	},
 /turf/open/floor/carpet/red,
@@ -7653,6 +7691,9 @@
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/effect/landmark/corpsespawner/security/regular,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "kuh" = (
@@ -7733,6 +7774,9 @@
 /area/space)
 "kzL" = (
 /obj/machinery/door/airlock/mainship/command/CPToffice,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "kAc" = (
@@ -7821,6 +7865,10 @@
 "kGs" = (
 /obj/machinery/floodlight/landing,
 /turf/open/floor/plating/ground/snow/layer1,
+/area/space)
+"kGD" = (
+/obj/machinery/atmospherics/pipe/manifold4w/green/hidden,
+/turf/open/floor/carpet/red,
 /area/space)
 "kGJ" = (
 /obj/effect/spawner/random/engineering/shovel,
@@ -10663,6 +10711,9 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/effect/decal/cleanable/blood/gibs,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "orc" = (
@@ -10768,6 +10819,14 @@
 	dir = 9
 	},
 /turf/open/floor/mainship/sterile/white,
+/area/space)
+"oyG" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
 /area/space)
 "oyT" = (
 /obj/structure/disposalpipe/segment,
@@ -14228,6 +14287,14 @@
 	dir = 1
 	},
 /area/space)
+"tAa" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
+/turf/open/floor/carpet/red,
+/area/space)
 "tAk" = (
 /obj/effect/spawner/random/misc/trash,
 /obj/structure/disposalpipe/junction{
@@ -14461,6 +14528,9 @@
 /obj/effect/spawner/gibspawner/robot,
 /obj/effect/landmark/corpsespawner/security/regular,
 /obj/effect/spawner/random/weaponry/gun/shotgun,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "tJf" = (
@@ -15580,6 +15650,14 @@
 "vuz" = (
 /obj/structure/prop/brokenvendor/brokenweaponsrack,
 /turf/open/floor/mainship/mono,
+/area/space)
+"vvh" = (
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/turf/open/floor/carpet/red,
 /area/space)
 "vvm" = (
 /obj/effect/decal/cleanable/dirt,
@@ -16960,6 +17038,9 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/glass,
 /obj/effect/spawner/random/misc/trash,
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/space)
 "xAh" = (
@@ -34783,7 +34864,7 @@ ylb
 ylb
 ylb
 vIH
-bpP
+vIH
 vIH
 vIH
 vIH
@@ -38710,7 +38791,7 @@ ylb
 ylb
 ylb
 ylb
-bpP
+vIH
 vIH
 vIH
 vIH
@@ -50444,7 +50525,7 @@ iAA
 iAA
 epR
 ccf
-qCA
+oyG
 sns
 kwW
 sjp
@@ -51048,7 +51129,7 @@ jYK
 stH
 epR
 sjp
-qCA
+oyG
 bgO
 iww
 sjp
@@ -51350,7 +51431,7 @@ cMF
 lDQ
 fDM
 sjp
-sYt
+hpR
 qPr
 iND
 tjB
@@ -51652,8 +51733,8 @@ dez
 sjp
 epR
 sjp
-sYt
-ciQ
+bpP
+vvh
 hgg
 nhr
 lEz
@@ -52256,7 +52337,7 @@ dez
 maW
 epR
 sjp
-iAs
+aBL
 gFG
 sYt
 sjp
@@ -52860,7 +52941,7 @@ sjp
 bBR
 fum
 sjp
-qUj
+gqM
 fwF
 qCA
 sjp
@@ -53162,7 +53243,7 @@ sjp
 nyG
 sOp
 sjp
-qUj
+gqM
 fwF
 ebB
 sjp
@@ -53464,7 +53545,7 @@ epR
 epR
 sOp
 pGS
-sYt
+hpR
 nOY
 iAs
 sjp
@@ -54068,7 +54149,7 @@ ccf
 sjp
 epR
 eAz
-qrZ
+kSU
 kba
 osb
 ygu
@@ -54370,7 +54451,7 @@ qrZ
 qrZ
 sYt
 qrZ
-qrZ
+kSU
 vqy
 bTH
 hBI
@@ -54672,7 +54753,7 @@ qrZ
 sYt
 sYt
 qrZ
-qrZ
+kGD
 wah
 sYt
 cmH
@@ -54974,7 +55055,7 @@ qUB
 eZh
 qUB
 qUB
-cIo
+tAa
 qRc
 tAk
 pVV
@@ -55276,7 +55357,7 @@ sjp
 ccf
 epR
 gpS
-qrZ
+kSU
 qrZ
 pdE
 sjp
@@ -55578,7 +55659,7 @@ aXn
 sjp
 sjp
 lDQ
-qrZ
+kSU
 qrZ
 fwF
 sjp
