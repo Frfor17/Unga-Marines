@@ -198,6 +198,14 @@
 			/obj/item/clothing/glasses/mgoggles/prescription = -1,
 			/obj/item/clothing/glasses/orange = -1,
 		),
+		"Accessories" = list(
+			/obj/item/clothing/tie = -1,
+			/obj/item/clothing/tie/blue = -1,
+			/obj/item/clothing/tie/red = -1,
+			/obj/item/clothing/tie/watch = -1,
+			/obj/item/clothing/tie/watch/gold = 2,
+			/obj/item/clothing/tie/watch/digital = -1,
+		),
 		"Clothes bundles" = list(
 			/obj/effect/vendor_bundle/white_dress = -1,
 			/obj/effect/vendor_bundle/service_uniform = -1,

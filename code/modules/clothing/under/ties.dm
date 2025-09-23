@@ -157,3 +157,26 @@
 /obj/item/clothing/tie/holobadge/attack(mob/living/carbon/human/M, mob/living/user)
 	if(isliving(user))
 		user.visible_message(span_warning("[user] invades [M]'s personal space, thrusting [src] into [M.p_their()] face insistently."), span_warning("You invade [M]'s personal space, thrusting [src] into [M.p_their()] face insistently. You are the law."))
+
+//Watches
+/obj/item/clothing/tie/watch
+	name = "wrist watch"
+	desc = "A classic wrist watch. Shows the current time and makes you look professional."
+	icon_state = "watch"
+
+/obj/item/clothing/tie/watch/examine(mob/user)
+	. = ..()
+	. += "The time is [worldtime2text()]."
+
+/obj/item/clothing/tie/watch/attack_self(mob/user)
+	to_chat(user, "The time is [worldtime2text()].")
+
+/obj/item/clothing/tie/watch/gold
+	name = "gold watch"
+	desc = "An expensive gold wrist watch. A symbol of status and punctuality."
+	icon_state = "watch_gold"
+
+/obj/item/clothing/tie/watch/digital
+	name = "digital watch"
+	desc = "A modern digital watch with multiple functions."
+	icon_state = "watch_digital"
