@@ -66,4 +66,5 @@ GLOBAL_LIST_INIT(commander_clothes_listed_products, list(
 	/obj/item/clothing/mask/gas/tactical/coif = list(CAT_MAS, "Tactical coifed gas mask", 0,"black"),
 	/obj/item/clothing/mask/rebreather/scarf = list(CAT_MAS, "Heat absorbent coif", 0, "black"),
 	/obj/item/clothing/mask/rebreather = list(CAT_MAS, "Rebreather", 0, "black"),
+	/obj/item/clothing/tie/watch/tactical = list(CAT_STD, "Tactical Command Chronometer", 0, "orange"),
 ))

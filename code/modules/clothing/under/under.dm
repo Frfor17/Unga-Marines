@@ -57,6 +57,7 @@
 		/obj/item/clothing/tie/watch,
 		/obj/item/clothing/tie/watch/gold,
 		/obj/item/clothing/tie/watch/digital,
+		/obj/item/clothing/tie/watch/tactical,
 	)
 
 	///Assoc list of available slots.

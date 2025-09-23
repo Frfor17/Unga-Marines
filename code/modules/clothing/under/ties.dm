@@ -180,3 +180,415 @@
 	name = "digital watch"
 	desc = "A modern digital watch with multiple functions."
 	icon_state = "watch_digital"
+
+//Tactical Commander Watch
+/obj/item/clothing/tie/watch/tactical
+	name = "tactical command chronometer"
+	desc = "An advanced military chronometer designed for field commanders. Features tactical displays, mission timers, and squad coordination systems."
+	icon_state = "watch_tactical"
+	/// Mission start time for tracking
+	var/mission_start_time
+	/// Timer for tactical updates
+	var/tactical_update_timer
+	/// List of tracked objectives with timestamps
+	var/list/mission_objectives = list()
+	/// Last squad status check time
+	var/last_squad_check = 0
+
+/obj/item/clothing/tie/watch/tactical/Initialize(mapload)
+	. = ..()
+	mission_start_time = world.time
+	tactical_update_timer = addtimer(CALLBACK(src, PROC_REF(tactical_update)), 30 SECONDS, TIMER_LOOP)
+
+/obj/item/clothing/tie/watch/tactical/Destroy()
+	if(tactical_update_timer)
+		deltimer(tactical_update_timer)
+	return ..()
+
+/obj/item/clothing/tie/watch/tactical/examine(mob/user)
+	. = ..()
+	if(!ishuman(user))
+		return
+	
+	var/mob/living/carbon/human/H = user
+	if(!is_command_job(H.job))
+		. += span_warning("The advanced functions require command authorization.")
+		return
+	
+	. += span_info("<b>TACTICAL DISPLAY:</b>")
+	. += "Mission Time: [get_mission_duration()]"
+	. += "Squad Status: [get_squad_summary()]"
+	if(length(mission_objectives))
+		. += "<b>Active Objectives:</b>"
+		for(var/obj_text in mission_objectives)
+			. += "- [obj_text] ([mission_objectives[obj_text]])"
+
+/obj/item/clothing/tie/watch/tactical/attack_self(mob/user)
+	if(!ishuman(user))
+		return ..()
+	
+	var/mob/living/carbon/human/H = user
+	if(!is_command_job(H.job))
+		to_chat(user, span_warning("ACCESS DENIED: Command authorization required."))
+		return
+	
+	var/list/options = list(
+		"Show Time" = "time",
+		"Mission Status" = "mission", 
+		"Squad Coordinates" = "coords",
+		"Casualty Report" = "casualties",
+		"Squad Orders" = "orders",
+		"Set Objective" = "objective",
+		"Tactical Alert" = "alert",
+		"Emergency Functions" = "emergency"
+	)
+	
+	var/choice = tgui_input_list(user, "Select tactical function:", "Command Chronometer", options)
+	if(!choice)
+		return
+		
+	switch(options[choice])
+		if("time")
+			show_tactical_time(user)
+		if("mission")
+			show_mission_status(user)
+		if("coords")
+			show_squad_coordinates(user)
+		if("casualties")
+			show_casualty_report(user)
+		if("orders")
+			show_squad_orders(user)
+		if("objective")
+			set_mission_objective(user)
+		if("alert")
+			send_tactical_alert(user)
+		if("emergency")
+			show_emergency_functions(user)
+
+/// Check if user has command job
+/obj/item/clothing/tie/watch/tactical/proc/is_command_job(job_title)
+	return job_title in list(FIELD_COMMANDER, CAPTAIN, EXECUTIVE_OFFICER, STAFF_OFFICER)
+
+/// Get mission duration as formatted string
+/obj/item/clothing/tie/watch/tactical/proc/get_mission_duration()
+	var/duration = world.time - mission_start_time
+	var/hours = round(duration / 1 HOURS)
+	var/minutes = round((duration % 1 HOURS) / 1 MINUTES)
+	return "[hours]:[minutes < 10 ? "0" : ""][minutes]"
+
+/// Get summary of squad status
+/obj/item/clothing/tie/watch/tactical/proc/get_squad_summary()
+	var/total_marines = 0
+	var/active_marines = 0
+	
+	for(var/datum/squad/squad in SSteams.squads)
+		if(!squad)
+			continue
+		total_marines += length(squad.marines_list)
+		for(var/mob/living/carbon/human/marine in squad.marines_list)
+			if(marine.stat != DEAD)
+				active_marines++
+	
+	return "[active_marines]/[total_marines] Active"
+
+/// Show detailed tactical time display
+/obj/item/clothing/tie/watch/tactical/proc/show_tactical_time(mob/user)
+	to_chat(user, span_info("<b>=== TACTICAL CHRONOMETER ===</b>"))
+	to_chat(user, span_info("Current Time: [worldtime2text()]"))
+	to_chat(user, span_info("Mission Duration: [get_mission_duration()]"))
+	to_chat(user, span_info("Squad Status: [get_squad_summary()]"))
+
+/// Show comprehensive mission status
+/obj/item/clothing/tie/watch/tactical/proc/show_mission_status(mob/user)
+	to_chat(user, span_info("<b>=== MISSION STATUS ===</b>"))
+	to_chat(user, span_info("Mission Time: [get_mission_duration()]"))
+	to_chat(user, span_info("Marines: [get_squad_summary()]"))
+	
+	if(length(mission_objectives))
+		to_chat(user, span_info("<b>Active Objectives:</b>"))
+		for(var/obj_text in mission_objectives)
+			to_chat(user, span_info("- [obj_text] (Set: [mission_objectives[obj_text]])"))
+	else
+		to_chat(user, span_warning("No active objectives set."))
+
+/// Show squad coordinates and positions
+/obj/item/clothing/tie/watch/tactical/proc/show_squad_coordinates(mob/user)
+	to_chat(user, span_info("<b>=== SQUAD COORDINATES ===</b>"))
+	
+	for(var/datum/squad/squad in SSteams.squads)
+		if(!squad || !length(squad.marines_list))
+			continue
+			
+		to_chat(user, span_info("<b>[squad.name] Squad:</b>"))
+		var/squad_count = 0
+		for(var/mob/living/carbon/human/marine in squad.marines_list)
+			if(marine.stat == DEAD)
+				continue
+			squad_count++
+			if(squad_count > 5) // Limit display to prevent spam
+				to_chat(user, span_info("... and [length(squad.marines_list) - 5] more"))
+				break
+			var/area/marine_area = get_area(marine)
+			to_chat(user, span_info("- [marine.name]: [marine_area ? marine_area.name : "Unknown Location"]"))
+
+/// Set a new mission objective
+/obj/item/clothing/tie/watch/tactical/proc/set_mission_objective(mob/user)
+	var/obj_text = tgui_input_text(user, "Enter mission objective:", "Set Objective", max_length = 100)
+	if(!obj_text)
+		return
+		
+	mission_objectives[obj_text] = worldtime2text()
+	to_chat(user, span_info("Objective set: [obj_text]"))
+	
+	// Announce to command channel
+	var/mob/living/carbon/human/H = user
+	if(H.assigned_squad)
+		H.assigned_squad.send_maptext("New objective set by [H.name]: [obj_text]", "Command")
+
+/// Send tactical alert to all squads
+/obj/item/clothing/tie/watch/tactical/proc/send_tactical_alert(mob/user)
+	var/alert_text = tgui_input_text(user, "Enter tactical alert:", "Tactical Alert", max_length = 150)
+	if(!alert_text)
+		return
+		
+	// Send to all marines
+	for(var/mob/living/carbon/human/marine in GLOB.human_mob_list)
+		if(!marine.assigned_squad)
+			continue
+		to_chat(marine, span_boldannounce("TACTICAL ALERT: [alert_text]"))
+		marine.playsound_local(marine, 'sound/misc/notice2.ogg', 80)
+	
+	to_chat(user, span_info("Tactical alert sent to all squads."))
+
+/// Periodic tactical updates for the wearer
+/obj/item/clothing/tie/watch/tactical/proc/tactical_update()
+	var/mob/living/carbon/human/wearer = loc
+	if(!ishuman(wearer) || !is_command_job(wearer.job))
+		return
+	
+	// Only update if watch is worn as accessory
+	if(wearer.w_uniform?.attachments_by_slot[ATTACHMENT_SLOT_UNIFORM_TIE] != src)
+		return
+		
+	// Check for critical squad status changes
+	var/current_time = world.time
+	if(current_time - last_squad_check >= 2 MINUTES)
+		check_squad_alerts(wearer)
+		last_squad_check = current_time
+
+/// Check for squad status that needs commander attention
+/obj/item/clothing/tie/watch/tactical/proc/check_squad_alerts(mob/living/carbon/human/commander)
+	for(var/datum/squad/squad in SSteams.squads)
+		if(!squad)
+			continue
+			
+		var/alive_count = 0
+		var/total_count = length(squad.marines_list)
+		
+		if(total_count == 0)
+			continue
+			
+		for(var/mob/living/carbon/human/marine in squad.marines_list)
+			if(marine.stat != DEAD)
+				alive_count++
+		
+		// Alert if squad is critically low
+		var/survival_rate = alive_count / total_count
+		if(survival_rate <= 0.3 && alive_count > 0) // 30% or less survivors
+			to_chat(commander, span_warning("TACTICAL ALERT: [squad.name] Squad critically low - [alive_count]/[total_count] remaining!"))
+			commander.playsound_local(commander, 'sound/misc/notice1.ogg', 60)
+
+/// Show detailed casualty report
+/obj/item/clothing/tie/watch/tactical/proc/show_casualty_report(mob/user)
+	to_chat(user, span_info("<b>=== CASUALTY REPORT ===</b>"))
+	
+	var/total_deployed = 0
+	var/total_casualties = 0
+	var/total_mia = 0
+	
+	for(var/datum/squad/squad in SSteams.squads)
+		if(!squad || !length(squad.marines_list))
+			continue
+			
+		var/squad_alive = 0
+		var/squad_dead = 0
+		var/squad_total = length(squad.marines_list)
+		
+		for(var/mob/living/carbon/human/marine in squad.marines_list)
+			if(marine.stat == DEAD)
+				squad_dead++
+			else
+				squad_alive++
+		
+		total_deployed += squad_total
+		total_casualties += squad_dead
+		
+		var/status_color = "info"
+		if(squad_dead > squad_alive)
+			status_color = "danger"
+		else if(squad_dead > 0)
+			status_color = "warning"
+		
+		to_chat(user, span_class(status_color, "[squad.name] Squad: [squad_alive] Active, [squad_dead] KIA ([squad_total] total)"))
+	
+	var/casualty_rate = total_deployed > 0 ? round((total_casualties / total_deployed) * 100, 1) : 0
+	to_chat(user, span_info("<b>OVERALL: [total_deployed - total_casualties]/[total_deployed] Active ([casualty_rate]% casualties)</b>"))
+
+/// Show squad orders menu
+/obj/item/clothing/tie/watch/tactical/proc/show_squad_orders(mob/user)
+	var/list/squad_list = list()
+	for(var/datum/squad/squad in SSteams.squads)
+		if(squad && length(squad.marines_list))
+			squad_list[squad.name] = squad
+	
+	if(!length(squad_list))
+		to_chat(user, span_warning("No active squads found."))
+		return
+	
+	squad_list["ALL SQUADS"] = "all"
+	
+	var/squad_choice = tgui_input_list(user, "Select squad to command:", "Squad Orders", squad_list)
+	if(!squad_choice)
+		return
+	
+	var/list/order_options = list(
+		"ADVANCE - Move forward" = "advance",
+		"HOLD POSITION - Defend current area" = "hold",
+		"RETREAT - Fall back to safe position" = "retreat", 
+		"REGROUP - Form up at rally point" = "regroup",
+		"MEDICAL - Prioritize wounded" = "medical",
+		"CUSTOM ORDER" = "custom"
+	)
+	
+	var/order_choice = tgui_input_list(user, "Select order type:", "Command Order", order_options)
+	if(!order_choice)
+		return
+	
+	var/order_text = ""
+	switch(order_options[order_choice])
+		if("advance")
+			order_text = "ADVANCE! Push forward and maintain momentum!"
+		if("hold")
+			order_text = "HOLD POSITION! Defend your current area at all costs!"
+		if("retreat")
+			order_text = "TACTICAL RETREAT! Fall back to safer positions immediately!"
+		if("regroup")
+			order_text = "REGROUP! Form up at the designated rally point!"
+		if("medical")
+			order_text = "MEDICAL PRIORITY! Secure and evacuate wounded personnel!"
+		if("custom")
+			order_text = tgui_input_text(user, "Enter custom order:", "Custom Command", max_length = 200)
+			if(!order_text)
+				return
+	
+	// Send order to selected squad(s)
+	if(squad_list[squad_choice] == "all")
+		// Send to all squads
+		for(var/datum/squad/squad in SSteams.squads)
+			if(!squad || !length(squad.marines_list))
+				continue
+			send_order_to_squad(squad, order_text, user.name)
+		to_chat(user, span_info("Order sent to all active squads: [order_text]"))
+	else
+		var/datum/squad/target_squad = squad_list[squad_choice]
+		send_order_to_squad(target_squad, order_text, user.name)
+		to_chat(user, span_info("Order sent to [target_squad.name] Squad: [order_text]"))
+
+/// Send order to specific squad
+/obj/item/clothing/tie/watch/tactical/proc/send_order_to_squad(datum/squad/squad, order_text, commander_name)
+	if(!squad || !length(squad.marines_list))
+		return
+	
+	for(var/mob/living/carbon/human/marine in squad.marines_list)
+		if(marine.stat == DEAD)
+			continue
+		to_chat(marine, span_boldannounce("FIELD COMMAND ORDER - [commander_name]: [order_text]"))
+		marine.playsound_local(marine, 'sound/misc/notice2.ogg', 75)
+		
+		// Add visual indicator
+		marine.overlay_fullscreen("command_order", /atom/movable/screen/fullscreen/flash/blue, 2)
+		addtimer(CALLBACK(marine, TYPE_PROC_REF(/mob, clear_fullscreen), "command_order"), 3 SECONDS)
+
+/// Show emergency functions menu
+/obj/item/clothing/tie/watch/tactical/proc/show_emergency_functions(mob/user)
+	var/list/emergency_options = list(
+		"Request Evacuation" = "evac",
+		"Emergency Broadcast" = "broadcast", 
+		"Mission Abort Signal" = "abort",
+		"Medical Emergency Alert" = "medical"
+	)
+	
+	var/choice = tgui_input_list(user, "Select emergency function:", "Emergency Command", emergency_options)
+	if(!choice)
+		return
+		
+	switch(emergency_options[choice])
+		if("evac")
+			request_evacuation(user)
+		if("broadcast")
+			emergency_broadcast(user)
+		if("abort")
+			mission_abort_signal(user)
+		if("medical")
+			medical_emergency_alert(user)
+
+/// Request evacuation through command channels
+/obj/item/clothing/tie/watch/tactical/proc/request_evacuation(mob/user)
+	var/reason = tgui_input_text(user, "Enter evacuation reason:", "Request Evacuation", max_length = 200)
+	if(!reason)
+		return
+	
+	// Add to objectives for tracking
+	mission_objectives["EVACUATION REQUESTED: [reason]"] = worldtime2text()
+	
+	// Broadcast to all command staff and marines
+	for(var/mob/living/carbon/human/person in GLOB.human_mob_list)
+		if(!person.assigned_squad && !is_command_job(person.job))
+			continue
+		to_chat(person, span_boldannounce("EVACUATION REQUEST: [reason] - [user.name], Field Commander"))
+		person.playsound_local(person, 'sound/misc/notice2.ogg', 90)
+	
+	to_chat(user, span_info("Evacuation request sent to all personnel."))
+
+/// Send emergency broadcast
+/obj/item/clothing/tie/watch/tactical/proc/emergency_broadcast(mob/user)
+	var/message = tgui_input_text(user, "Enter emergency broadcast:", "Emergency Broadcast", max_length = 300)
+	if(!message)
+		return
+	
+	// Send to everyone on the map
+	for(var/mob/living/person in GLOB.alive_mob_list)
+		if(ishuman(person))
+			to_chat(person, span_boldannounce("EMERGENCY BROADCAST - FIELD COMMAND: [message]"))
+			person.playsound_local(person, 'sound/misc/notice2.ogg', 100)
+	
+	to_chat(user, span_info("Emergency broadcast sent to all personnel."))
+
+/// Signal mission abort
+/obj/item/clothing/tie/watch/tactical/proc/mission_abort_signal(mob/user)
+	var/confirmation = tgui_alert(user, "Are you sure you want to signal mission abort? This will notify all personnel.", "Mission Abort", list("Confirm", "Cancel"))
+	if(confirmation != "Confirm")
+		return
+	
+	mission_objectives["MISSION ABORT SIGNALED"] = worldtime2text()
+	
+	// Major alert to everyone
+	for(var/mob/living/carbon/human/person in GLOB.human_mob_list)
+		to_chat(person, span_boldannounce("MISSION ABORT SIGNAL ACTIVATED - ALL UNITS PREPARE FOR IMMEDIATE WITHDRAWAL"))
+		person.playsound_local(person, 'sound/misc/notice2.ogg', 100)
+	
+	to_chat(user, span_danger("Mission abort signal activated."))
+
+/// Send medical emergency alert
+/obj/item/clothing/tie/watch/tactical/proc/medical_emergency_alert(mob/user)
+	var/location = tgui_input_text(user, "Enter location of medical emergency:", "Medical Emergency", max_length = 100)
+	if(!location)
+		return
+	
+	// Send to medical staff and command
+	for(var/mob/living/carbon/human/person in GLOB.human_mob_list)
+		if(person.job in list("Medical Doctor", "Surgeon", "Researcher", "Chief Medical Officer", FIELD_COMMANDER, CAPTAIN) || person.assigned_squad)
+			to_chat(person, span_boldannounce("MEDICAL EMERGENCY ALERT: [location] - Requested by FC [user.name]"))
+			person.playsound_local(person, 'sound/misc/notice1.ogg', 85)
+	
+	to_chat(user, span_info("Medical emergency alert sent."))
