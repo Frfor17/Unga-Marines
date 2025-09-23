@@ -120,22 +120,15 @@
 
 // =================== CONTRACTS SYSTEM ===================
 
-/// Global variable to store contracts UI instances
-GLOBAL_LIST_EMPTY(contracts_uis)
-
-/mob/living/carbon/human/verb/open_contracts_manager()
-	set name = "Contracts Manager"
+// ПРОСТОЙ UI для изучения TGUI
+/mob/living/carbon/human/verb/open_simple_ui()
+	set name = "Simple UI Test"
 	set category = "IC.Contracts"
 
 	if(!ishuman(src))
 		return
 
-	// Create or get existing UI instance
-	var/datum/contracts_ui/ui = GLOB.contracts_uis[src.ckey]
-	if(!ui)
-		ui = new /datum/contracts_ui(src)
-		GLOB.contracts_uis[src.ckey] = ui
-	
+	var/datum/simple_contracts_ui/ui = new(src)
 	ui.ui_interact(src)
 
 /// Legacy text-based contract creation (kept for compatibility)
