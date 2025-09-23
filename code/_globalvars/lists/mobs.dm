@@ -245,3 +245,7 @@ GLOBAL_LIST_INIT(human_init_actions, list(
 // Company system globals
 GLOBAL_LIST_EMPTY(custom_companies)			// List of all companies: "CompanyName" = list(owner_mob, ownership_percentage, company_points)
 GLOBAL_LIST_EMPTY(custom_company_names)		// List of company names for easy lookup
+
+// Contracts system globals
+GLOBAL_LIST_EMPTY(custom_contracts)			// List of all contracts: "ContractName" = list(owner_mob, description, price)
+GLOBAL_LIST_EMPTY(custom_contracts_names)	// List of contract names for easy lookup
