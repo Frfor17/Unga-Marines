@@ -1,5 +1,6 @@
 import { useBackend } from '../backend';
 import { Window } from '../layouts';
+import { Box, Button, Section } from 'tgui-core/components';
 
 // Типы данных (что приходит из DM кода)
 type SimpleData = {
@@ -15,24 +16,13 @@ export const SimpleContracts = () => {
   return (
     <Window width={400} height={200}>
       <Window.Content>
-        <div style={{ padding: '10px' }}>
-          <h2>Простой интерфейс</h2>
-          <p>Привет, {user_name}!</p>
-          <p>{message}</p>
-          <button 
-            onClick={() => act('test_button')}
-            style={{
-              padding: '8px 16px',
-              backgroundColor: '#4CAF50',
-              color: 'white',
-              border: 'none',
-              borderRadius: '4px',
-              cursor: 'pointer'
-            }}
-          >
+        <Section title="Простой интерфейс">
+          <Box>Привет, {user_name}!</Box>
+          <Box>{message}</Box>
+          <Button onClick={() => act('test_button')}>
             Нажми меня!
-          </button>
-        </div>
+          </Button>
+        </Section>
       </Window.Content>
     </Window>
   );
