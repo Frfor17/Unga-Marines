@@ -2275,7 +2275,7 @@
 /turf/open/liquid/water/river/desertdam/clean/deep_water_clean,
 /area/space)
 "cHZ" = (
-/obj/structure/nuke_icbm,
+/obj/structure/nuke_rocket,
 /turf/open/floor/plating/scorched,
 /area/space)
 "cIi" = (
