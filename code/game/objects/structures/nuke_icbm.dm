@@ -18,6 +18,3 @@
 
 	icon = 'icons/obj/structures/icbm/nuke_rocket.dmi'
 	icon_state = "rocket"
-
-/obj/structure/nuke_rocket/verb/Activate()
-		usr << "You activate the ICBM! (This is just a test verb.)"
