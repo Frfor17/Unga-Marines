@@ -2227,6 +2227,10 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/space)
+"cBV" = (
+/obj/effect/landmark/weed_node,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/darklab/caves)
 "cCw" = (
 /obj/structure/disposalpipe/segment/corner{
 	dir = 2
@@ -3712,6 +3716,10 @@
 	},
 /turf/open/floor/carpet/red,
 /area/space)
+"enA" = (
+/obj/machinery/miner/damaged/platinum,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/darklab/caves)
 "enL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -15276,6 +15284,10 @@
 	dir = 1
 	},
 /area/space)
+"rDd" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/darklab/caves)
 "rDg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/weed_node,
@@ -16619,6 +16631,10 @@
 	},
 /turf/open/floor/tile/white/hall/full,
 /area/space)
+"tms" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/darklab/caves)
 "tmz" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
@@ -20504,6 +20520,9 @@
 	dir = 1
 	},
 /area/space)
+"xWE" = (
+/turf/open/floor/plating/ground/snow/layer0,
+/area/darklab/caves)
 "xWM" = (
 /obj/structure/bed/chair/sofa/corsat/verticalsouth,
 /obj/effect/decal/cleanable/blood,
@@ -58118,12 +58137,12 @@ mSd
 mSd
 mSd
 mSd
-wDD
-mSd
-mSd
-mSd
-mSd
-mSd
+rDd
+xWE
+xWE
+xWE
+xWE
+xWE
 ylb
 ylb
 ylb
@@ -58420,13 +58439,13 @@ mSd
 mSd
 mSd
 mSd
-mSd
-qOM
-qOM
-rDB
-mSd
-mSd
-mSd
+xWE
+cBV
+cBV
+enA
+xWE
+xWE
+xWE
 ylb
 ylb
 nsm
@@ -58722,13 +58741,13 @@ ylb
 ylb
 ylb
 tux
-kKe
-mSd
-mSd
-mSd
-mSd
-mSd
-qOM
+tms
+xWE
+xWE
+xWE
+xWE
+xWE
+cBV
 ylb
 ylb
 ylb
@@ -59024,13 +59043,13 @@ ylb
 ylb
 ylb
 ylb
-mSd
-mSd
-kKe
-kKe
-kKe
-mSd
-kKe
+xWE
+xWE
+tms
+tms
+tms
+xWE
+tms
 tux
 tux
 ylb
@@ -59327,12 +59346,12 @@ ylb
 ylb
 ylb
 ylb
-mSd
-mSd
-mSd
-mSd
-mSd
-mSd
+xWE
+xWE
+xWE
+xWE
+xWE
+xWE
 ylb
 ylb
 ylb
@@ -59629,11 +59648,11 @@ ylb
 ylb
 ylb
 ylb
-mSd
-mSd
-mSd
-mSd
-mSd
+xWE
+xWE
+xWE
+xWE
+xWE
 ylb
 ylb
 ylb
@@ -59931,11 +59950,11 @@ mSd
 ylb
 ylb
 ylb
-mSd
-qOM
-mSd
-mSd
-mSd
+xWE
+cBV
+xWE
+xWE
+xWE
 ylb
 ylb
 ylb
@@ -60233,10 +60252,10 @@ mSd
 ylb
 ylb
 ylb
-mSd
-mSd
-mSd
-mSd
+xWE
+xWE
+xWE
+xWE
 ylb
 ylb
 ylb
@@ -60535,9 +60554,9 @@ mSd
 ylb
 ylb
 mSd
-mSd
-mSd
-mSd
+xWE
+xWE
+xWE
 ylb
 ylb
 ylb
