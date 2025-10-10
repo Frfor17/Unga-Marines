@@ -13,7 +13,6 @@
 /area/darklab/caves/rock
 	name = "Enclosed Area"
 	icon_state = "transparent"
-	area_flags = CANNOT_NUKE
 
 /area/darklab/caves/northwest
 	name = "Northwestern Caves"
