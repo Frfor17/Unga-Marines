@@ -48,21 +48,48 @@
 	name = "Dark Lab Clearing"
 	icon_state = "clear"
 
+/*
+*  -------------------------
+* | Built Underground Areas |
+*  -------------------------
+*/
 
-//Caves
-/area/darklab/caves
-	name = "Caves"
-	icon_state = "cave"
-	ambience = list('sound/ambience/ambimine.ogg','sound/ambience/ambigen10.ogg','sound/ambience/ambigen12.ogg','sound/ambience/ambisin4.ogg')
-	ceiling = CEILING_DEEP_UNDERGROUND
+/area/dark_lab/underground
+	name = "Ice Colony - Built Underground"
+	icon_state = "explored"
+	ceiling = CEILING_DEEP_UNDERGROUND_METAL
 	outside = FALSE
 	minimap_color = MINIMAP_AREA_CAVES
-	always_unpowered = TRUE
 
-/area/darklab/caves/rock
-	name = "Enclosed Area"
-	icon_state = "transparent"
+/*
+* Underground - Research
+*/
 
-/area/darklab/caves/northwest
-	name = "Northwestern Caves"
-	icon_state = "northwest2"
+/area/dark_lab/underground/research
+	name = "Zeta-V Research Laboratory"
+	icon_state = "anolab"
+	minimap_color = MINIMAP_AREA_RESEARCH_CAVE
+
+/area/dark_lab/underground/research/storage
+	name = "Zeta-V Research Laboratory Storage"
+	icon_state = "storage"
+
+/area/dark_lab/underground/research/bluespace_lab
+	name = "Zeta-V Research Laboratory Bluespace Lab"
+	icon_state = "anosample"
+
+/area/dark_lab/underground/research/energy_lab
+	name = "Zeta-V Research Laboratory Energy Lab"
+	icon_state = "anosample"
+
+/area/dark_lab/underground/research/reception
+	name = "Zeta-V Research Laboratory Reception"
+	icon_state = "toxmix"
+
+/area/dark_lab/underground/research/office
+	name = "Zeta-V Research Laboratory Office"
+	icon_state = "toxmix"
+
+/area/dark_lab/underground/research/server_room
+	name = "Zeta-V Research Laboratory Server Room"
+	icon_state = "toxmix"
