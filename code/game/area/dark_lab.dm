@@ -55,11 +55,29 @@
 */
 
 /area/dark_lab/underground
-	name = "Ice Colony - Built Underground"
+	name = "Dark Lab - Built Underground"
 	icon_state = "explored"
 	ceiling = CEILING_DEEP_UNDERGROUND_METAL
 	outside = FALSE
 	minimap_color = MINIMAP_AREA_CAVES
+
+//
+// Caves
+// Extremely simple, anything that is not built is a cave
+// For style, we have two subtypes. Open, and dig site
+// These do NOT have particular names
+//
+
+/area/dark_lab/exterior/underground/caves
+	name = "Underground Caves"
+	icon_state = "cave"
+
+/area/dark_lab/exterior/underground/caves/open
+	icon_state = "explored"
+
+/area/dark_lab/exterior/underground/caves/open/garbledradio
+	icon_state = "explored"
+	ceiling = CEILING_UNDERGROUND
 
 /*
 * Underground - Research
