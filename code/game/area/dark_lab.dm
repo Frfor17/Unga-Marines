@@ -66,12 +66,12 @@
 
 
 /area/dark_lab/surface/bar
-	name = "Anti-Freeze"
+	name = "Bar"
 	icon_state = "bar"
 	minimap_color = MINIMAP_AREA_LIVING
 
-/area/dark_lab/surface/bar/bar
-	name = "Anti-Freeze Bar"
+/area/dark_lab/surface/bar/bartender_room
+	name = "Bartender Room"
 
 /*
 * Surface - Garage
