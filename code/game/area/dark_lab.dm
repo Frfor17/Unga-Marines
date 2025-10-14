@@ -49,6 +49,48 @@
 	icon_state = "clear"
 
 /*
+*  ---------------------
+* | Built Surface Areas |
+*  ---------------------
+*/
+
+/area/dark_lab/surface
+	name = "Dark Lab - Built Surface"
+	icon_state = "clear"
+	ceiling = CEILING_METAL
+	outside = FALSE
+
+/*
+* Surface - Bar
+*/
+
+
+/area/dark_lab/surface/bar
+	name = "Anti-Freeze"
+	icon_state = "bar"
+	minimap_color = MINIMAP_AREA_LIVING
+
+/area/dark_lab/surface/bar/bar
+	name = "Anti-Freeze Bar"
+
+/*
+* Surface - Garage
+*/
+
+/area/dark_lab/surface/garage
+	name = "Garage"
+	icon_state = "garage"
+	minimap_color = MINIMAP_AREA_ENGI
+
+/area/dark_lab/surface/garage/one
+	name = "Garage Command Unit"
+	icon_state = "garage_one"
+
+/area/dark_lab/surface/garage/two
+	name = "Garage Security Unit"
+	icon_state = "garage_two"
+
+/*
 *  -------------------------
 * | Built Underground Areas |
 *  -------------------------
