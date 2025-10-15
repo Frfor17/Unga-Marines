@@ -91,6 +91,43 @@
 	icon_state = "garage_two"
 
 /*
+* Surface - Security
+*/
+
+/area/dark_lab/surface/security
+	name = "Security Center"
+	icon_state = "security"
+	minimap_color = MINIMAP_AREA_SEC_CAVE
+
+/area/dark_lab/surface/security/hallway
+	name = "Security Center Hallway"
+	icon_state = "checkpoint1"
+
+/area/dark_lab/surface/security/armory
+	name = "Security Center Armory"
+	icon_state = "armory"
+
+/area/dark_lab/surface/security/brig
+	name = "Security Center Brig"
+	icon_state = "brig"
+
+/area/dark_lab/surface/security/hos_office
+	name = "Security Center Hos Office"
+	icon_state = "brig"
+
+/area/dark_lab/surface/security/janitor
+	name = "Security Center Janitor"
+	icon_state = "brig"
+
+/area/dark_lab/surface/security/checkpoint_nuke
+	name = "Security Center Nuke Checkpoint"
+	icon_state = "brig"
+
+/area/dark_lab/surface/security/reception
+	name = "Security Center Reception"
+	icon_state = "brig"
+
+/*
 *  -------------------------
 * | Built Underground Areas |
 *  -------------------------
