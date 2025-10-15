@@ -211,6 +211,9 @@
 	name = "Head of Colony"
 	icon_state = "head_quarters"
 
+/area/dark_lab/surface/command/control/archive_worker_room
+	name = "Colony's Archive Worker room"
+	icon_state = "bridge"
 
 /*
 *  -------------------------
