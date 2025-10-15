@@ -296,6 +296,10 @@
 	name = "Control room's hallway"
 	icon_state = "engine_hallway"
 
+/area/dark_lab/surface/engineering/reactor_hallway
+	name = "Reactor's hallway"
+	icon_state = "engine_hallway"
+
 /area/dark_lab/surface/engineering/reactor
 	name = "Reactor"
 	icon_state = "engine"
@@ -309,6 +313,21 @@
 	name = "Engineering's Entrance Zone"
 	icon_state = "security"
 	minimap_color = MINIMAP_AREA_SEC_CAVE
+
+/area/dark_lab/surface/engineering/dorms_living_room
+	name = "Engineering's Dorms"
+	icon_state = "crew_quarters"
+	minimap_color = MINIMAP_AREA_LIVING_CAVE
+
+/area/dark_lab/surface/engineering/janitor
+	name = "Engineering's Janitor"
+	icon_state = "crew_quarters"
+	minimap_color = MINIMAP_AREA_LIVING_CAVE
+
+/area/dark_lab/surface/engineering/bedroom
+	name = "Engineering's Bedroom"
+	icon_state = "Sleep"
+	minimap_color = MINIMAP_AREA_LIVING_CAVE
 
 /*
 *  -------------------------
