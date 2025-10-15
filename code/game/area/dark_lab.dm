@@ -195,6 +195,22 @@
 	name = "Colony Control Briefing Room"
 	icon_state = "bridge"
 
+/area/dark_lab/surface/command/control/head_of_colony_reception
+	name = "Head of Colony's reception"
+	icon_state = "bridge"
+
+/area/dark_lab/surface/command/control/archive
+	name = "Colony's Archive"
+	icon_state = "bridge"
+
+/area/dark_lab/surface/command/control/archive_worker_room
+	name = "Colony's Archive Worker room"
+	icon_state = "bridge"
+
+/area/dark_lab/surface/command/head_of_colony
+	name = "Head of Colony"
+	icon_state = "head_quarters"
+
 
 /*
 *  -------------------------
