@@ -517,6 +517,10 @@
 /obj/structure/cable,
 /turf/open/floor/carpet/red,
 /area/dark_lab/surface/command/hallway)
+"aCc" = (
+/obj/effect/ai_node,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/dark_lab/underground/excavation)
 "aCu" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/ai_node,
@@ -3083,7 +3087,7 @@
 "dbs" = (
 /obj/machinery/miner/damaged,
 /turf/open/floor/plating/ground/snow/layer0,
-/area/space)
+/area/dark_lab/underground/excavation)
 "dbU" = (
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/plating/ground/snow/layer0,
@@ -5033,6 +5037,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk/dark,
 /area/dark_lab/surface/engineering/water_pump)
+"eXo" = (
+/obj/structure/inflatable/wall,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/dark_lab/underground/excavation)
 "eXy" = (
 /obj/effect/landmark/weed_node,
 /obj/structure/cable,
@@ -6663,6 +6671,9 @@
 /obj/structure/table/mainship,
 /turf/open/floor/tile/dark,
 /area/dark_lab/surface/engineering/tool)
+"gFo" = (
+/turf/closed/mineral/smooth/darkfrostwall,
+/area/dark_lab/underground/excavation)
 "gFx" = (
 /obj/structure/flora/bush,
 /turf/open/floor/plating/ground/snow/layer2{
@@ -6786,7 +6797,10 @@
 "gJo" = (
 /obj/effect/spawner/random/misc/structure/supplycrate,
 /turf/open/floor/plating/ground/snow/layer0,
-/area/space)
+/area/dark_lab/underground/excavation)
+"gKe" = (
+/turf/open/floor/plating/ground/snow/layer0,
+/area/dark_lab/underground/excavation)
 "gKh" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/structure/disposalpipe/segment/corner{
@@ -7217,7 +7231,7 @@
 "hiZ" = (
 /obj/machinery/mineral/unloading_machine,
 /turf/open/floor/cult,
-/area/space)
+/area/dark_lab/underground/excavation)
 "hjT" = (
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -7959,7 +7973,7 @@
 "hYh" = (
 /obj/machinery/mining/brace,
 /turf/open/floor/cult,
-/area/space)
+/area/dark_lab/underground/excavation)
 "hYx" = (
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
@@ -8120,6 +8134,9 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
 /area/dark_lab/surface/command/hallway)
+"ihf" = (
+/turf/open/floor/plating/ground/snow/layer1,
+/area/dark_lab/underground/excavation)
 "ihW" = (
 /obj/machinery/power/apc/drained,
 /obj/structure/cable,
@@ -8390,7 +8407,7 @@
 "ivP" = (
 /obj/item/tool/analyzer,
 /turf/open/floor/cult,
-/area/space)
+/area/dark_lab/underground/excavation)
 "ivW" = (
 /obj/item/reagent_containers/cup/glass/bottle/rootbeer,
 /obj/effect/turf_decal/tile/transparent/yellow{
@@ -8951,7 +8968,7 @@
 "jbb" = (
 /obj/machinery/floodlight/colony,
 /turf/open/floor/plating/ground/snow/layer0,
-/area/space)
+/area/dark_lab/underground/excavation)
 "jbo" = (
 /obj/effect/spawner/random/misc/structure/supplycrate/normalweighted,
 /obj/effect/landmark/weed_node,
@@ -10669,7 +10686,7 @@
 "kGJ" = (
 /obj/effect/spawner/random/engineering/shovel,
 /turf/open/floor/cult,
-/area/space)
+/area/dark_lab/underground/excavation)
 "kGL" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/shuttle/escapepod/eleven,
@@ -10799,7 +10816,7 @@
 "kOV" = (
 /obj/item/stack/sheet/mineral/copper,
 /turf/open/floor/plating/ground/snow/layer0,
-/area/space)
+/area/dark_lab/underground/excavation)
 "kPO" = (
 /obj/effect/spawner/gibspawner/human,
 /obj/structure/disposalpipe/segment{
@@ -12249,7 +12266,7 @@
 "miB" = (
 /obj/effect/spawner/random/engineering/shovel,
 /turf/open/floor/plating/ground/snow/layer0,
-/area/space)
+/area/dark_lab/underground/excavation)
 "miH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
@@ -13343,7 +13360,7 @@
 /area/dark_lab/surface/garage/one)
 "noi" = (
 /turf/open/floor/cult,
-/area/space)
+/area/dark_lab/underground/excavation)
 "noY" = (
 /obj/effect/decal/cleanable/blood/oil,
 /obj/machinery/power/apc/drained{
@@ -14359,7 +14376,7 @@
 "orE" = (
 /obj/effect/spawner/random/engineering/ore_box,
 /turf/open/floor/cult,
-/area/space)
+/area/dark_lab/underground/excavation)
 "orR" = (
 /obj/structure/desertdam/decals/road/line{
 	dir = 1
@@ -14444,6 +14461,10 @@
 	},
 /turf/open/floor/tile/dark,
 /area/dark_lab/underground/research/server_room)
+"ouC" = (
+/obj/effect/landmark/excavation_site_spawner,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/dark_lab/underground/excavation)
 "ouD" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
@@ -14652,7 +14673,7 @@
 "oGP" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/cult,
-/area/space)
+/area/dark_lab/underground/excavation)
 "oHc" = (
 /obj/structure/curtain/open/shower,
 /obj/machinery/shower,
@@ -15990,6 +16011,10 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/dark_lab/surface/command/hallway)
+"pVT" = (
+/obj/structure/ancient_teleport,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/dark_lab/underground/excavation)
 "pVV" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /obj/structure/disposalpipe/segment,
@@ -16100,7 +16125,7 @@
 "qaA" = (
 /obj/effect/spawner/random/misc/structure/supplycrate,
 /turf/open/floor/cult,
-/area/space)
+/area/dark_lab/underground/excavation)
 "qaV" = (
 /obj/effect/decal/cleanable/blood/oil,
 /obj/effect/decal/cleanable/dirt,
@@ -16596,7 +16621,7 @@
 "qGD" = (
 /obj/structure/ancient_teleport,
 /turf/open/floor/cult,
-/area/space)
+/area/dark_lab/underground/excavation)
 "qGL" = (
 /obj/structure/flora/pottedplant/five,
 /turf/open/floor/tile/dark,
@@ -18314,7 +18339,7 @@
 "sCP" = (
 /obj/effect/ai_node,
 /turf/open/floor/cult,
-/area/space)
+/area/dark_lab/underground/excavation)
 "sDk" = (
 /obj/structure/window/reinforced,
 /obj/structure/table/black,
@@ -18399,7 +18424,7 @@
 "sFp" = (
 /obj/structure/inflatable/door,
 /turf/open/floor/plating/ground/snow/layer0,
-/area/space)
+/area/dark_lab/underground/excavation)
 "sFI" = (
 /obj/structure/platform{
 	dir = 1
@@ -19440,7 +19465,7 @@
 "tGd" = (
 /obj/structure/prop/brazier,
 /turf/open/floor/plating/ground/snow/layer0,
-/area/space)
+/area/dark_lab/underground/excavation)
 "tGr" = (
 /obj/effect/decal/cleanable/glass,
 /obj/effect/decal/cleanable/dirt,
@@ -21291,7 +21316,7 @@
 "vyK" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/chasm,
-/area/space)
+/area/dark_lab/underground/excavation)
 "vzt" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/mainship/gray,
@@ -21299,7 +21324,7 @@
 "vAO" = (
 /obj/effect/spawner/random/engineering/ore_box,
 /turf/open/floor/plating/ground/snow/layer0,
-/area/space)
+/area/dark_lab/underground/excavation)
 "vBf" = (
 /turf/open/floor/mainship/red{
 	dir = 4
@@ -21418,7 +21443,7 @@
 /area/dark_lab/surface/command/hallway)
 "vIH" = (
 /turf/open/floor/chasm,
-/area/space)
+/area/dark_lab/underground/excavation)
 "vJk" = (
 /obj/effect/decal/cleanable/generic,
 /obj/effect/landmark/weed_node,
@@ -23008,6 +23033,10 @@
 	dir = 1
 	},
 /area/dark_lab/underground/research/server_room)
+"xub" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/dark_lab/underground/excavation)
 "xud" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/structure/cable,
@@ -23542,7 +23571,7 @@
 "xXb" = (
 /obj/effect/landmark/corpsespawner/miner/burst,
 /turf/open/floor/plating/ground/snow/layer0,
-/area/space)
+/area/dark_lab/underground/excavation)
 "xXf" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 8
@@ -40257,15 +40286,15 @@ vIH
 vIH
 vIH
 kOV
-mSd
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
+gKe
 ylb
 ylb
-mSd
-mSd
-ylb
+gKe
+gKe
+gFo
 ylb
 ylb
 ylb
@@ -40557,18 +40586,18 @@ vIH
 vIH
 vIH
 vIH
-mSd
-mSd
+gKe
+gKe
 tGd
-mSd
-mSd
-mSd
-mSd
-mSd
-mSd
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
+gKe
+gKe
+gKe
+gKe
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -40860,18 +40889,18 @@ vIH
 vIH
 vIH
 noi
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
 noi
 vAO
 noi
-mSd
-mSd
-mSd
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
+gKe
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -41160,21 +41189,21 @@ vIH
 vIH
 vIH
 vIH
-mSd
-mSd
+gKe
+gKe
 noi
 kGJ
 noi
 noi
-mSd
-mSd
+gKe
+gKe
 qaA
 gJo
-mSd
-oQM
-mSd
-mSd
-mSd
+gKe
+aCc
+gKe
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -41461,23 +41490,23 @@ vIH
 vIH
 vIH
 vIH
-mSd
-oeg
+gKe
+pVT
 noi
-mSd
+gKe
 noi
 noi
 noi
-mSd
-mSd
+gKe
+gKe
 noi
-mSd
-mSd
+gKe
+gKe
 noi
-mSd
+gKe
 orE
-mSd
-mSd
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -41763,24 +41792,24 @@ vIH
 vIH
 vIH
 noi
-mSd
+gKe
 noi
 noi
-mSd
+gKe
 noi
 sCP
 noi
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
 noi
 vAO
-mSd
+gKe
 noi
-mSd
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -42063,26 +42092,26 @@ ylb
 vIH
 vIH
 vIH
-mSd
-mSd
+gKe
+gKe
 noi
 noi
 noi
-mSd
+gKe
 noi
-mSd
+gKe
 noi
 noi
 dbs
-mSd
-kKe
+gKe
+xub
 oGP
 noi
 noi
-mSd
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -42365,27 +42394,27 @@ ylb
 vIH
 vIH
 vIH
-mSd
-mSd
+gKe
+gKe
 noi
 noi
-mSd
+gKe
 noi
 noi
-mSd
+gKe
 kGJ
 noi
 noi
-kKe
-mSd
+xub
+gKe
 oGP
 noi
-mSd
-wDD
-mSd
-mSd
-mSd
-mSd
+gKe
+ouC
+gKe
+gKe
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -42666,28 +42695,28 @@ ylb
 ylb
 vIH
 vIH
-mSd
+gKe
 noi
 noi
 noi
-mSd
+gKe
 kGJ
 noi
 noi
-mSd
+gKe
 noi
 noi
 noi
 noi
-mSd
+gKe
 noi
 noi
-kKe
-mSd
-mSd
-mSd
+xub
+gKe
+gKe
+gKe
 vAO
-mSd
+gKe
 ylb
 ylb
 ylb
@@ -42977,19 +43006,19 @@ noi
 noi
 xXb
 noi
-mSd
-mSd
+gKe
+gKe
 hYh
 noi
 noi
-mSd
-mSd
-mSd
-oQM
-kKe
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
+aCc
+xub
+gKe
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -43271,27 +43300,27 @@ ylb
 vIH
 vIH
 vIH
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
 noi
 noi
-mSd
+gKe
 noi
 sCP
 noi
 jbb
-mSd
+gKe
 noi
 miB
-mSd
-mSd
+gKe
+gKe
 orE
-mSd
-mSd
-kKe
-kKe
-mSd
+gKe
+gKe
+xub
+xub
+gKe
 ylb
 ylb
 ylb
@@ -43573,26 +43602,26 @@ ylb
 vIH
 vIH
 vIH
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
 qGD
-mSd
-mSd
+gKe
+gKe
 noi
 noi
-mSd
-mSd
+gKe
+gKe
 noi
 noi
 noi
 noi
-mSd
-mSd
+gKe
+gKe
 noi
-mSd
-kKe
-mSd
+gKe
+xub
+gKe
 ylb
 ylb
 ylb
@@ -43876,25 +43905,25 @@ vIH
 vIH
 vIH
 vIH
-mSd
-mSd
+gKe
+gKe
 noi
-mSd
-mSd
+gKe
+gKe
 noi
 noi
-mSd
+gKe
 orE
-mSd
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
+gKe
 noi
-mSd
-mSd
+gKe
+gKe
 vAO
-mSd
-mSd
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -44180,22 +44209,22 @@ vIH
 vIH
 vIH
 vIH
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
 noi
 noi
 oGP
-mSd
+gKe
 noi
 noi
-oQM
-mSd
+aCc
+gKe
 vAO
-mSd
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -44483,20 +44512,20 @@ vIH
 vIH
 vIH
 vIH
-mSd
+gKe
 noi
 hiZ
-mSd
-kKe
-mSd
+gKe
+xub
+gKe
 noi
-mSd
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
+gKe
 noi
-mSd
-mSd
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -44786,18 +44815,18 @@ vIH
 vIH
 vIH
 noi
-mSd
+gKe
 tGd
-kKe
-mSd
-mSd
+xub
+gKe
+gKe
 noi
-mSd
-mSd
-mSd
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
+gKe
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -45089,15 +45118,15 @@ vIH
 vIH
 kGJ
 noi
-mSd
-mSd
-oQM
+gKe
+gKe
+aCc
 ivP
 noi
-mSd
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -45391,10 +45420,10 @@ vIH
 vyK
 vIH
 noi
-mSd
+gKe
 miB
-mSd
-mSd
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -45692,11 +45721,11 @@ ylb
 ylb
 ylb
 vIH
-mSd
-mSd
-mSd
-mSd
-iAA
+gKe
+gKe
+gKe
+gKe
+ihf
 ylb
 ylb
 ylb
@@ -45994,11 +46023,11 @@ ylb
 ylb
 ylb
 ylb
-mSd
-iAA
-mSd
-mSd
-mSd
+gKe
+ihf
+gKe
+gKe
+gKe
 ylb
 tux
 tux
@@ -46296,10 +46325,10 @@ ylb
 ylb
 ylb
 ylb
-mSd
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -46597,11 +46626,11 @@ ylb
 ylb
 ylb
 ylb
-mSd
-mSd
-mSd
-mSd
-mSd
+gKe
+gKe
+gKe
+gKe
+gKe
 ylb
 ylb
 tux
@@ -46900,10 +46929,10 @@ ylb
 ylb
 ylb
 gku
-gku
+eXo
 sFp
-gku
-gku
+eXo
+eXo
 ylb
 ylb
 tux
@@ -47201,11 +47230,11 @@ gWM
 ylb
 ylb
 ylb
-mSd
-oQM
-mSd
-mSd
-mSd
+gKe
+aCc
+gKe
+gKe
+gKe
 ylb
 ylb
 ylb
@@ -47502,12 +47531,12 @@ ylb
 ylb
 ylb
 ylb
-mSd
-iAA
-mSd
-mSd
-iAA
-mSd
+gKe
+ihf
+gKe
+gKe
+ihf
+gKe
 ylb
 ylb
 tux
@@ -47804,12 +47833,12 @@ nsm
 nsm
 ylb
 ylb
-mSd
-mSd
-mSd
-iAA
-mSd
-mSd
+gKe
+gKe
+gKe
+ihf
+gKe
+gKe
 ylb
 nsm
 tux
@@ -48106,12 +48135,12 @@ ylb
 nsm
 ylb
 ylb
-gku
-gku
-gku
+eXo
+eXo
+eXo
 sFp
-gku
-gku
+eXo
+eXo
 ylb
 nsm
 nsm

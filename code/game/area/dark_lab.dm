@@ -404,6 +404,16 @@
 	ceiling = CEILING_UNDERGROUND
 
 /*
+* Underground - Excavation
+*/
+
+/area/dark_lab/underground/excavation
+	name = "Excavation"
+	icon_state = "mining_outpost"
+	minimap_color = MINIMAP_AREA_REQ
+
+
+/*
 * Underground - Research
 */
 
