@@ -350,7 +350,7 @@
 /obj/effect/landmark/weed_node,
 /obj/structure/closet/secure_closet/guncabinet/pmc_m39,
 /turf/open/floor/mainship/metal,
-/area/dark_lab/exterior/surface/clearing)
+/area/dark_lab/surface/command/security_locker_room_east)
 "avK" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4
@@ -2237,7 +2237,7 @@
 "coc" = (
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/mainship/metal,
-/area/dark_lab/exterior/surface/clearing)
+/area/dark_lab/surface/command/checkpoint_east)
 "cod" = (
 /turf/open/floor/tile/dark,
 /area/dark_lab/surface/command/control/washroom)
@@ -4019,7 +4019,7 @@
 /obj/effect/spawner/gibspawner/human,
 /obj/structure/cable,
 /turf/open/floor/mainship/metal,
-/area/dark_lab/exterior/surface/clearing)
+/area/dark_lab/surface/command/security_locker_room_east)
 "ehE" = (
 /obj/structure/flora/bush,
 /obj/effect/ai_node,
@@ -6235,6 +6235,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/rivergrate,
 /area/space)
+"grT" = (
+/turf/closed/wall/mainship/gray,
+/area/dark_lab/surface/command/security_locker_room_east)
 "gsq" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/plating/ground/snow/layer1,
@@ -7372,7 +7375,7 @@
 "hHZ" = (
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/metal,
-/area/dark_lab/exterior/surface/clearing)
+/area/dark_lab/surface/command/checkpoint_east)
 "hIm" = (
 /obj/structure/prop/nt_computer,
 /turf/open/floor/tile/white/hall/full,
@@ -9337,7 +9340,7 @@
 "jKI" = (
 /obj/effect/decal/cleanable/blood,
 /turf/closed/wall/mainship/gray,
-/area/dark_lab/exterior/surface/clearing)
+/area/dark_lab/surface/command/security_locker_room_east)
 "jKN" = (
 /obj/structure/closet/secure_closet/security,
 /obj/effect/spawner/random/misc/cigarettes,
@@ -10129,7 +10132,7 @@
 "kwp" = (
 /obj/structure/closet/secure_closet/guncabinet/pmc_m39,
 /turf/open/floor/mainship/metal,
-/area/dark_lab/exterior/surface/clearing)
+/area/dark_lab/surface/command/security_locker_room_east)
 "kwP" = (
 /obj/structure/prop/mainship/generator,
 /obj/effect/decal/cleanable/dirt,
@@ -10802,7 +10805,7 @@
 	dir = 1
 	},
 /turf/open/floor/mainship/metal,
-/area/dark_lab/exterior/surface/clearing)
+/area/dark_lab/surface/command/checkpoint_east)
 "lfV" = (
 /obj/effect/ai_node,
 /turf/open/floor/plating/ground/snow/layer2{
@@ -11053,7 +11056,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/structure/cable,
 /turf/open/floor/mainship/metal,
-/area/dark_lab/exterior/surface/clearing)
+/area/dark_lab/surface/command/security_locker_room_east)
 "lqa" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/mainship/gray,
@@ -15429,6 +15432,9 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/carpet/red,
 /area/dark_lab/surface/command/hallway)
+"pSJ" = (
+/turf/closed/wall/mainship/gray,
+/area/dark_lab/surface/command/checkpoint_east)
 "pSP" = (
 /obj/structure/window/framed/mainship/gray,
 /obj/structure/window/framed/mainship/gray,
@@ -17465,7 +17471,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/structure/cable,
 /turf/open/floor/plating/ground/snow/layer0,
-/area/dark_lab/exterior/surface/clearing)
+/area/dark_lab/surface/command/checkpoint_east)
 "slY" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/plating/plating_catwalk/dark,
@@ -19053,7 +19059,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/mainship/metal,
-/area/dark_lab/exterior/surface/clearing)
+/area/dark_lab/surface/command/security_locker_room_east)
 "tNJ" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
@@ -19770,6 +19776,10 @@
 /obj/structure/cable,
 /turf/open/floor/mainship/metal,
 /area/dark_lab/surface/cargo/waiting_area_reception)
+"uCe" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/mainship/gray,
+/area/dark_lab/surface/command/security_locker_room_east)
 "uCh" = (
 /obj/structure/table/mainship,
 /obj/effect/decal/cleanable/glass,
@@ -20488,7 +20498,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/structure/cable,
 /turf/open/floor/mainship/metal,
-/area/dark_lab/exterior/surface/clearing)
+/area/dark_lab/surface/command/security_locker_room_east)
 "vsi" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
@@ -72947,12 +72957,12 @@ tms
 tms
 tms
 xWE
-enA
+grT
 lpC
 jKI
-enA
-enA
-enA
+grT
+grT
+grT
 xWE
 xWE
 lqa
@@ -73221,9 +73231,9 @@ enA
 aqf
 iPb
 aqf
-enA
+pSJ
 skN
-enA
+pSJ
 tms
 tms
 cBV
@@ -73249,12 +73259,12 @@ tms
 tms
 xWE
 xWE
-enA
+grT
 ehC
 vrs
 tNr
 kwp
-enA
+grT
 vcj
 xtQ
 kOt
@@ -73525,7 +73535,7 @@ iPb
 aqf
 hHZ
 lfQ
-enA
+pSJ
 ibl
 ibl
 ibl
@@ -73551,12 +73561,12 @@ ibl
 ibl
 csW
 csW
-enA
+grT
 kwp
 kwp
 avF
 kwp
-cDm
+uCe
 jge
 kmX
 xWE
@@ -73825,9 +73835,9 @@ enA
 aqf
 hiN
 aqf
-enA
+pSJ
 coc
-enA
+pSJ
 tms
 tms
 tms
@@ -73853,12 +73863,12 @@ tms
 tms
 xWE
 xWE
-enA
-enA
-enA
-enA
-cDm
-enA
+grT
+grT
+grT
+grT
+uCe
+grT
 xWE
 qWd
 sFg

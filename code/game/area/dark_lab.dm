@@ -170,8 +170,18 @@
 	icon_state = "security"
 	minimap_color = MINIMAP_AREA_SEC_CAVE
 
+/area/dark_lab/surface/command/checkpoint_east
+	name = "East Colony Administration Security Checkpoint"
+	icon_state = "security"
+	minimap_color = MINIMAP_AREA_SEC_CAVE
+
 /area/dark_lab/surface/command/security_locker_room_south
 	name = "South Colony Administration Security Locker room"
+	icon_state = "security"
+	minimap_color = MINIMAP_AREA_SEC_CAVE
+
+/area/dark_lab/surface/command/security_locker_room_east
+	name = "East Colony Administration Security Locker room"
 	icon_state = "security"
 	minimap_color = MINIMAP_AREA_SEC_CAVE
 
