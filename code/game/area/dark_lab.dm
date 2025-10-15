@@ -128,6 +128,35 @@
 	icon_state = "brig"
 
 /*
+* Surface - Port
+*/
+
+/area/dark_lab/surface/cargo
+	name = "Military cargo port"
+	icon_state = "security"
+	minimap_color = MINIMAP_AREA_REQ
+
+/area/dark_lab/surface/cargo/waiting_area
+	name = "Waiting Area"
+	icon_state = "checkpoint1"
+
+/area/dark_lab/surface/cargo/waiting_area_reception
+	name = "Waiting Area's reception"
+	icon_state = "checkpoint1"
+
+/area/dark_lab/surface/cargo/vip_waiting_area
+	name = "VIP's Waiting Area"
+	icon_state = "checkpoint1"
+
+/area/dark_lab/surface/cargo/vip_waiting_area_checkpoint
+	name = "VIP's Waiting Area Checkpoint"
+	icon_state = "checkpoint1"
+
+/area/dark_lab/surface/cargo/office
+	name = "Port's office"
+	icon_state = "checkpoint1"
+
+/*
 *  -------------------------
 * | Built Underground Areas |
 *  -------------------------
