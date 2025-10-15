@@ -248,6 +248,69 @@
 	icon_state = "kitchen"
 
 /*
+* Surface - Engineering
+*/
+
+/area/dark_lab/surface/engineering
+	name = "Engineering"
+	icon_state = "engine_hallway"
+	minimap_color = MINIMAP_AREA_ENGI
+
+/area/dark_lab/surface/engineering/generator
+	name = "Engineering Generator Room"
+	icon_state = "engine"
+
+/area/dark_lab/surface/engineering/water_pump
+	name = "Engineering Water Pump Room"
+	icon_state = "engine"
+
+/area/dark_lab/surface/engineering/electric
+	name = "Engineering Electric Storage"
+	icon_state = "engine_storage"
+
+/area/dark_lab/surface/engineering/tool
+	name = "Engineering Tool Storage"
+	icon_state = "storage"
+
+/area/dark_lab/surface/engineering/rig_storage
+	name = "Engineering Rig Storage"
+	icon_state = "storage"
+
+/area/dark_lab/surface/engineering/highsec_storage
+	name = "Engineering Rig Storage"
+	icon_state = "storage"
+
+/area/dark_lab/surface/engineering/briefing_room
+	name = "Engineering Brief room"
+	icon_state = "engine_hallway"
+
+/area/dark_lab/surface/engineering/ce_office
+	name = "Chief engineer's office"
+	icon_state = "engine_hallway"
+
+/area/dark_lab/surface/engineering/reactor_control_room
+	name = "Reactor's Control room"
+	icon_state = "engine_hallway"
+
+/area/dark_lab/surface/engineering/hallway_reactor_control_room
+	name = "Control room's hallway"
+	icon_state = "engine_hallway"
+
+/area/dark_lab/surface/engineering/reactor
+	name = "Reactor"
+	icon_state = "engine"
+
+/area/dark_lab/surface/engineering/checkpoint
+	name = "Engineering's Security Checkpoint"
+	icon_state = "security"
+	minimap_color = MINIMAP_AREA_SEC_CAVE
+
+/area/dark_lab/surface/engineering/entrance_zone
+	name = "Engineering's Entrance Zone"
+	icon_state = "security"
+	minimap_color = MINIMAP_AREA_SEC_CAVE
+
+/*
 *  -------------------------
 * | Built Underground Areas |
 *  -------------------------
