@@ -344,6 +344,35 @@
 	minimap_color = MINIMAP_AREA_COMMAND_CAVE
 
 /*
+* Surface - Dormitories
+*/
+
+/area/dark_lab/surface/dorms
+	name = "Dormitories"
+	icon_state = "Sleep"
+	minimap_color = MINIMAP_AREA_LIVING
+
+/area/dark_lab/surface/dorms/living_room
+	name = "Dormitories hall"
+	icon_state = "Sleep"
+
+/area/dark_lab/surface/dorms/canteen
+	name = "Dormitories Canteen"
+	icon_state = "kitchen"
+
+/area/dark_lab/surface/dorms/first_room
+	name = "First room"
+
+/area/dark_lab/surface/dorms/second_room
+	name = "Second room"
+
+/area/dark_lab/surface/dorms/third_room
+	name = "Third room"
+
+/area/dark_lab/surface/dorms/fourth_room
+	name = "Fourth room"
+
+/*
 *  -------------------------
 * | Built Underground Areas |
 *  -------------------------

@@ -37,7 +37,7 @@
 	dir = 8
 	},
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "abl" = (
 /obj/machinery/door/poddoor/timed_late/containment/landing_zone/lz2,
 /turf/open/floor/plating/ground/snow/layer0,
@@ -206,7 +206,7 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "ajT" = (
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark2,
@@ -579,7 +579,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/first_room)
 "aEt" = (
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -627,7 +627,7 @@
 /obj/machinery/microwave,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/barber,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "aHo" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4
@@ -669,6 +669,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/dark_lab/surface/bar)
+"aJR" = (
+/obj/structure/window/framed/mainship/gray,
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/second_room)
 "aJU" = (
 /obj/effect/turf_decal/tile/transparent/neutral/fourcorners,
 /obj/machinery/firealarm{
@@ -696,7 +700,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/tile/darkgreen/darkgreen2,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "aKY" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
 	dir = 1
@@ -761,7 +765,7 @@
 /obj/effect/landmark/weed_node,
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "aOm" = (
 /obj/structure/bed/chair/wood/wings,
 /obj/effect/landmark/corpsespawner/bridgeofficer,
@@ -826,7 +830,7 @@
 /obj/structure/flora/jungle/grass,
 /obj/structure/flora/jungle/bush,
 /turf/open/ground/grass,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "aUK" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -965,7 +969,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "bcj" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/weed_node,
@@ -1026,7 +1030,7 @@
 /obj/structure/window/framed/mainship/gray,
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/second_room)
 "beW" = (
 /obj/structure/closet/bodybag,
 /obj/effect/decal/cleanable/dirt,
@@ -1108,7 +1112,7 @@
 "bhu" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "bhE" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/effect/decal/cleanable/dirt,
@@ -1267,7 +1271,7 @@
 "bpH" = (
 /obj/machinery/air_alarm,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "bpP" = (
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
@@ -1569,7 +1573,7 @@
 "bIH" = (
 /obj/effect/spawner/random/misc/structure/flavorvending,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "bJa" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/ai_node,
@@ -1874,7 +1878,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/second_room)
 "bUJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -1943,7 +1947,7 @@
 /area/dark_lab/surface/engineering/bedroom)
 "bXr" = (
 /turf/open/floor/tile/barber,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "bYB" = (
 /turf/open/floor/mainship/rubber,
 /area/dark_lab/underground/research/energy_lab)
@@ -1968,7 +1972,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "caG" = (
 /turf/open/floor/rcircuit,
 /area/dark_lab/surface/engineering/reactor_hallway)
@@ -1992,7 +1996,7 @@
 /obj/structure/bedsheetbin,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "caX" = (
 /obj/effect/landmark/corpsespawner/colonist/regular,
 /obj/effect/spawner/random/weaponry/melee,
@@ -2017,7 +2021,7 @@
 	},
 /obj/structure/flora/jungle/bush,
 /turf/open/ground/grass,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "cbG" = (
 /obj/machinery/door/airlock/unpowered,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -2035,12 +2039,12 @@
 "ccf" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "ccg" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "cci" = (
 /obj/machinery/miner/damaged,
 /turf/open/floor/plating/ground/snow/layer1,
@@ -2658,7 +2662,7 @@
 /obj/item/reagent_containers/spray/cleaner,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "cIV" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/mainship/metal,
@@ -2899,7 +2903,7 @@
 /obj/structure/cable,
 /obj/machinery/power/apc/drained,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "cSq" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/mono,
@@ -3055,7 +3059,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "daE" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
 	dir = 1
@@ -3239,7 +3243,7 @@
 "djs" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/barber,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "djO" = (
 /obj/effect/landmark/corpsespawner/security,
 /obj/machinery/disposal,
@@ -3351,7 +3355,7 @@
 "doM" = (
 /obj/structure/cable,
 /turf/open/floor/tile/barber,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "doQ" = (
 /obj/structure/platform{
 	dir = 8
@@ -3392,7 +3396,7 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/third_room)
 "dqm" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 8
@@ -3427,7 +3431,7 @@
 	on = 1
 	},
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "dss" = (
 /obj/machinery/light{
 	dir = 8
@@ -3557,7 +3561,7 @@
 /obj/effect/landmark/weed_node,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "dAb" = (
 /obj/machinery/light{
 	dir = 4
@@ -3660,7 +3664,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/second_room)
 "dGT" = (
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -3826,6 +3830,10 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/tile/dark,
 /area/dark_lab/underground/research/office)
+"dQj" = (
+/obj/structure/window/framed/mainship/gray,
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/first_room)
 "dQq" = (
 /obj/structure/barricade/wood{
 	dir = 8
@@ -3847,12 +3855,15 @@
 /turf/open/floor/tile/darkgreen/darkgreen2{
 	dir = 1
 	},
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "dQU" = (
 /obj/machinery/door/airlock/mainship/security/glass/cells,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/ground/snow/layer0,
 /area/dark_lab/surface/security/hallway)
+"dRd" = (
+/turf/closed/wall/mainship/gray,
+/area/dark_lab/surface/dorms/fourth_room)
 "dRe" = (
 /obj/structure/table/reinforced,
 /obj/machinery/computer/camera,
@@ -3934,7 +3945,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/weed_node,
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "dUl" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -4128,14 +4139,14 @@
 /obj/structure/closet/wardrobe/mixed,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "ehr" = (
 /obj/machinery/space_heater,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "ehC" = (
 /obj/effect/spawner/gibspawner/human,
 /obj/structure/cable,
@@ -4378,7 +4389,7 @@
 	},
 /obj/structure/flora/jungle/plantbot1/alien,
 /turf/open/ground/grass,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "etk" = (
 /obj/structure/table/mainship,
 /obj/machinery/computer/camera,
@@ -4527,7 +4538,7 @@
 /area/dark_lab/surface/engineering/highsec_storage)
 "eAv" = (
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "eAz" = (
 /obj/structure/flora/pottedplant/twentyfive,
 /turf/open/floor/tile/dark,
@@ -4729,7 +4740,7 @@
 	},
 /obj/structure/flora/jungle/large_bush,
 /turf/open/ground/grass,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "eLu" = (
 /obj/structure/table,
 /turf/open/floor/tile/dark,
@@ -4798,6 +4809,10 @@
 /obj/structure/flora/pottedplant/twentyfour,
 /turf/open/floor/tile/dark,
 /area/dark_lab/surface/command/hallway)
+"eNg" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/mainship/gray,
+/area/dark_lab/surface/dorms/canteen)
 "eNk" = (
 /obj/machinery/door/airlock/mainship/engineering/free_access{
 	dir = 1;
@@ -4940,7 +4955,7 @@
 /obj/structure/closet/cabinet,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/second_room)
 "eUo" = (
 /obj/structure/barricade/solid,
 /turf/open/floor/tile/dark,
@@ -5022,7 +5037,7 @@
 /obj/effect/landmark/weed_node,
 /obj/structure/cable,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "eXS" = (
 /obj/structure/window/framed/mainship/gray,
 /obj/effect/decal/cleanable/generic,
@@ -5192,7 +5207,7 @@
 "fii" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "fil" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
 	dir = 1
@@ -5434,7 +5449,7 @@
 "fum" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/mainship/gray,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "fuz" = (
 /obj/structure/prop/vehicle/crane/snow,
 /turf/open/floor/plating/ground/snow/layer1,
@@ -5510,7 +5525,7 @@
 	dir = 4
 	},
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "fyz" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
 	dir = 1
@@ -5601,7 +5616,7 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "fCO" = (
 /obj/effect/landmark/weed_node,
 /obj/effect/ai_node,
@@ -5773,7 +5788,7 @@
 	dir = 4
 	},
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "fND" = (
 /obj/machinery/floodlight/landing,
 /obj/machinery/landinglight/lz1,
@@ -5837,7 +5852,7 @@
 "fPC" = (
 /obj/machinery/air_alarm,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/second_room)
 "fPD" = (
 /obj/effect/turf_decal/caution/white,
 /turf/open/floor/mainship/tcomms,
@@ -5905,7 +5920,7 @@
 "fSe" = (
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "fSl" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/effect/decal/cleanable/glass,
@@ -5918,7 +5933,7 @@
 /obj/structure/bedsheetbin,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "fTa" = (
 /obj/effect/landmark/weed_node,
 /obj/machinery/atmospherics/components/unary/vent_pump{
@@ -6040,7 +6055,7 @@
 /obj/structure/table,
 /obj/effect/spawner/gibspawner/human,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "fYT" = (
 /obj/fire,
 /turf/open/liquid/water/river/desertdam/clean/deep_water_clean,
@@ -6156,7 +6171,7 @@
 /turf/open/floor/tile/darkgreen/darkgreen2{
 	dir = 1
 	},
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "gdT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cocoon/opened_cocoon,
@@ -6243,6 +6258,10 @@
 /obj/structure/prop/filtration_exit,
 /turf/open/floor/plating/ground/snow/layer0,
 /area/dark_lab/surface/engineering/water_pump)
+"ghH" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/first_room)
 "ghQ" = (
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -6382,6 +6401,9 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/tile/dark,
 /area/dark_lab/underground/research/reception)
+"gpC" = (
+/turf/closed/wall/mainship/gray,
+/area/dark_lab/surface/dorms/first_room)
 "gpK" = (
 /obj/machinery/air_alarm,
 /turf/open/floor/carpet/red,
@@ -6533,6 +6555,14 @@
 /obj/item/clothing/mask/rebreather,
 /turf/open/floor/tile/dark2,
 /area/dark_lab/surface/garage/one)
+"gyi" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/landmark/corpsespawner/colonist,
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/third_room)
+"gyv" = (
+/turf/closed/wall/mainship/gray,
+/area/dark_lab/surface/dorms/living_room)
 "gzg" = (
 /obj/machinery/light{
 	dir = 8
@@ -6554,7 +6584,7 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "gBs" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -6879,7 +6909,7 @@
 /obj/structure/bed/chair/sofa/left,
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "gSu" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
@@ -6960,6 +6990,9 @@
 /obj/effect/landmark/corpsespawner/chef/regular,
 /turf/open/floor/tile/dark2,
 /area/dark_lab/surface/command/kitchen/warehouse)
+"gYl" = (
+/turf/open/floor/tile/dark,
+/area/dark_lab/surface/dorms/living_room)
 "gYK" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/effect/decal/cleanable/dirt,
@@ -7108,7 +7141,7 @@
 /obj/item/clothing/suit/storage/chef/classic,
 /obj/item/tool/kitchen/rollingpin,
 /turf/open/floor/tile/barber,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "hfe" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/mainship/metal,
@@ -7124,7 +7157,7 @@
 /obj/structure/table,
 /obj/effect/landmark/corpsespawner/chef/burst,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "hfW" = (
 /obj/effect/decal/cleanable/blood,
 /turf/closed/wall/mainship/gray,
@@ -7213,6 +7246,10 @@
 /obj/structure/table/mainship,
 /turf/open/floor/mainship/metal,
 /area/dark_lab/surface/cargo/waiting_area)
+"hmt" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/mainship/gray,
+/area/dark_lab/surface/dorms/living_room)
 "hmv" = (
 /obj/structure/barricade/handrail{
 	dir = 4
@@ -7252,7 +7289,7 @@
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/second_room)
 "hoa" = (
 /obj/effect/turf_decal/tile/transparent/bar,
 /obj/effect/turf_decal/tile/transparent/bar{
@@ -7380,7 +7417,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "huX" = (
 /obj/effect/spawner/random/misc/structure/broken_reinforced_window/colonyspawn,
 /obj/effect/decal/cleanable/dirt,
@@ -7513,6 +7550,10 @@
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/tile/dark,
 /area/dark_lab/exterior/surface/clearing)
+"hEe" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/mainship/gray,
+/area/dark_lab/surface/dorms/second_room)
 "hEg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -7665,7 +7706,7 @@
 /obj/effect/spawner/gibspawner/human,
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "hMf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/ai_node,
@@ -7711,7 +7752,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/corpsespawner/assistant/regular,
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "hOL" = (
 /obj/structure/nuke_disk_candidate,
 /turf/open/floor/wood/fancy/damaged,
@@ -7752,7 +7793,7 @@
 "hPT" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "hPX" = (
 /obj/effect/landmark/corpsespawner/marine,
 /obj/effect/spawner/random/weaponry/gun/rifles,
@@ -7895,7 +7936,7 @@
 "hWR" = (
 /obj/effect/decal/cleanable/blood,
 /turf/closed/wall/mainship/gray,
-/area/space)
+/area/dark_lab/surface/dorms/third_room)
 "hXu" = (
 /obj/effect/landmark/weed_node,
 /obj/machinery/atmospherics/components/unary/vent_pump{
@@ -7923,6 +7964,9 @@
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
 /area/dark_lab/exterior/underground/caves/open/garbledradio)
+"hYJ" = (
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/first_room)
 "hYK" = (
 /obj/structure/prop/mainship/hangar_stencil,
 /obj/effect/ai_node,
@@ -7989,12 +8033,12 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/tile/darkgreen/darkgreen2,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "icp" = (
 /obj/structure/bed/chair/comfy/black,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/first_room)
 "icx" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
 	dir = 1
@@ -8080,7 +8124,7 @@
 /obj/machinery/power/apc/drained,
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/third_room)
 "ihZ" = (
 /obj/structure/table/mainship,
 /obj/item/reagent_containers/food/snacks/mre_pack/meal2,
@@ -8102,7 +8146,7 @@
 	on = 1
 	},
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "ijg" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 6
@@ -8213,7 +8257,7 @@
 	dir = 8
 	},
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "inY" = (
 /obj/structure/prop/mainship/doorblocker/engi,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -8296,7 +8340,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/third_room)
 "itJ" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/mainship/metal,
@@ -8448,7 +8492,7 @@
 /obj/structure/table,
 /obj/item/reagent_containers/food/snacks/soup/hotchili,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "iBn" = (
 /obj/structure/bed/chair/sofa/corsat/left,
 /turf/open/floor/plating/ground/snow/layer0,
@@ -8491,7 +8535,7 @@
 "iDe" = (
 /obj/structure/table,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "iDr" = (
 /obj/structure/flora/pottedplant/nine,
 /turf/open/floor/tile/dark,
@@ -8681,7 +8725,7 @@
 "iOL" = (
 /obj/structure/bed/chair/west,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "iOO" = (
 /obj/structure/barricade/solid/deployable,
 /turf/open/floor/tile/dark,
@@ -8766,7 +8810,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/spawner/gibspawner/human,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "iUs" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
@@ -8934,7 +8978,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "jcG" = (
 /obj/structure/closet/secure_closet/engineering_personal,
 /obj/effect/decal/cleanable/dirt,
@@ -8971,7 +9015,7 @@
 	dir = 2
 	},
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "jfI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment{
@@ -9049,7 +9093,7 @@
 	},
 /obj/effect/landmark/corpsespawner/colonist,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/third_room)
 "jjA" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/corpsespawner/colonist/regular,
@@ -9134,6 +9178,11 @@
 	},
 /turf/open/floor/mainship/metal,
 /area/dark_lab/surface/security/reception)
+"jmE" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/random/misc/folder,
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/third_room)
 "jnr" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/closed/wall/mainship/gray,
@@ -9326,7 +9375,7 @@
 /obj/item/bedsheet/brown,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "jvv" = (
 /obj/structure/disposalpipe/segment/corner{
 	dir = 4
@@ -9385,7 +9434,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/third_room)
 "jyx" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/podhatch/floor,
@@ -9440,7 +9489,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "jBY" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/carpet/orange,
@@ -9531,7 +9580,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "jIe" = (
 /obj/effect/decal/cleanable/blood,
 /obj/structure/cable,
@@ -9714,7 +9763,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/third_room)
 "jQM" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 8
@@ -9822,6 +9871,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/dark/red2,
 /area/dark_lab/surface/command/checkpoint_south)
+"jVl" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/second_room)
 "jVp" = (
 /obj/effect/landmark/weed_node,
 /obj/effect/ai_node,
@@ -9983,7 +10036,7 @@
 "kfj" = (
 /obj/structure/closet/cabinet,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "kfI" = (
 /obj/structure/flora/pottedplant/seven,
 /turf/open/floor/mainship/metal,
@@ -10005,7 +10058,7 @@
 "kgP" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "kgS" = (
 /obj/effect/spawner/gibspawner/xeno,
 /obj/effect/spawner/gibspawner/human,
@@ -10260,12 +10313,12 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "kql" = (
 /obj/machinery/computer3/server,
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/second_room)
 "kqu" = (
 /obj/effect/decal/cleanable/blood/oil,
 /obj/effect/decal/cleanable/blood,
@@ -10453,7 +10506,7 @@
 /obj/effect/landmark/weed_node,
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "kxW" = (
 /obj/structure/table/black,
 /obj/machinery/computer/security,
@@ -10520,7 +10573,7 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "kBk" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/ai_node,
@@ -10547,7 +10600,7 @@
 "kCc" = (
 /obj/effect/spawner/random/engineering/structure/tank/waterweighted,
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "kDJ" = (
 /obj/structure/closet/secure_closet/security,
 /turf/open/floor/tile/dark/red2{
@@ -10598,7 +10651,7 @@
 "kGb" = (
 /obj/structure/bed/chair/office/light/west,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "kGh" = (
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -10645,7 +10698,7 @@
 "kKF" = (
 /obj/structure/table/mainship,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "kKG" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/effect/decal/cleanable/dirt,
@@ -10663,7 +10716,7 @@
 /obj/effect/landmark/weed_node,
 /obj/machinery/air_alarm,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "kLc" = (
 /obj/effect/spawner/random/misc/plushie,
 /obj/machinery/atmospherics/pipe/manifold/green/hidden{
@@ -10683,7 +10736,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "kMb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
@@ -10784,7 +10837,7 @@
 /obj/effect/landmark/corpsespawner/colonist,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "kSP" = (
 /obj/effect/decal/cleanable/blood,
 /turf/closed/mineral/smooth/darkfrostwall,
@@ -10809,7 +10862,7 @@
 	dir = 8
 	},
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "kTp" = (
 /obj/structure/platform{
 	dir = 8
@@ -10904,7 +10957,7 @@
 /obj/item/bedsheet/brown,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/second_room)
 "kYO" = (
 /obj/structure/table/black,
 /turf/open/floor/mainship/metal/full,
@@ -11330,7 +11383,7 @@
 "lnl" = (
 /obj/effect/landmark/corpsespawner/colonist,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/third_room)
 "lnv" = (
 /obj/structure/table/mainship,
 /obj/structure/prop/mainship/sensor_computer1,
@@ -11356,7 +11409,7 @@
 "loE" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/tile/barber,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "loR" = (
 /obj/structure/platform{
 	dir = 9
@@ -11487,7 +11540,7 @@
 /obj/structure/flora/jungle/grass,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/ground/grass,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "lwr" = (
 /turf/open/liquid/water/river/desertdam/clean/deep_water_clean,
 /area/dark_lab/surface/engineering/reactor)
@@ -11499,7 +11552,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/corpsespawner/engineer/burst,
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "lwI" = (
 /obj/structure/disposalpipe/segment/corner{
 	dir = 1
@@ -11553,6 +11606,10 @@
 "lBk" = (
 /turf/open/floor/bcircuit/anim,
 /area/dark_lab/underground/research/energy_lab)
+"lBs" = (
+/obj/structure/window/framed/mainship/gray,
+/turf/open/floor/plating/ground/snow/layer0,
+/area/dark_lab/surface/dorms/canteen)
 "lBC" = (
 /obj/effect/landmark/weed_node,
 /obj/structure/disposalpipe/segment/corner{
@@ -11572,7 +11629,7 @@
 	dir = 1
 	},
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "lDQ" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/tile/dark,
@@ -11690,7 +11747,7 @@
 	dir = 8
 	},
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "lKv" = (
 /obj/structure/window/reinforced/west,
 /obj/structure/bed/chair/wood{
@@ -11699,7 +11756,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "lKw" = (
 /obj/machinery/atmospherics/components/unary/vent_pump{
 	dir = 4;
@@ -11756,7 +11813,7 @@
 	dir = 10
 	},
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "lMy" = (
 /obj/structure/tatarla_statue,
 /turf/open/floor/tile/dark,
@@ -11912,13 +11969,13 @@
 "lUA" = (
 /obj/structure/bed/chair/wood,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "lUI" = (
 /obj/effect/landmark/weed_node,
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/second_room)
 "lUN" = (
 /obj/effect/spawner/random/machinery/random_broken_computer,
 /turf/open/floor/tile/dark,
@@ -12003,6 +12060,12 @@
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
 /area/dark_lab/surface/command/hallway)
+"mam" = (
+/obj/structure/bed,
+/obj/item/bedsheet/brown,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/third_room)
 "mav" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
@@ -12174,7 +12237,7 @@
 	dir = 8
 	},
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "mir" = (
 /obj/structure/platform,
 /obj/structure/barricade/handrail{
@@ -12255,7 +12318,7 @@
 /obj/effect/spawner/gibspawner/human,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "mmB" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/corpsespawner/security,
@@ -12437,7 +12500,7 @@
 	dir = 4
 	},
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "myd" = (
 /obj/structure/table/mainship,
 /turf/open/floor/carpet/green,
@@ -12453,7 +12516,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "mzj" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
 	dir = 1
@@ -12625,7 +12688,7 @@
 "mGL" = (
 /obj/structure/bed/chair/comfy/black,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "mHe" = (
 /obj/effect/spawner/random/misc/plant,
 /turf/open/floor/tile/dark,
@@ -12687,7 +12750,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/tile/darkgreen/darkgreen2,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "mIO" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/mainship/gray,
@@ -12806,7 +12869,7 @@
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/second_room)
 "mPM" = (
 /obj/structure/bed/chair/sofa/left{
 	dir = 8
@@ -12814,7 +12877,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "mQa" = (
 /obj/effect/spawner/random/misc/structure/broken_reinforced_window/colonyspawn,
 /turf/open/floor/tile/dark2,
@@ -12994,7 +13057,7 @@
 /obj/item/bedsheet/brown,
 /obj/machinery/air_alarm,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/first_room)
 "ncY" = (
 /turf/open/floor/plating/scorched,
 /area/dark_lab/surface/nuke_silo_control_room)
@@ -13100,7 +13163,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "nhr" = (
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -13131,7 +13194,7 @@
 /obj/structure/bed/chair/sofa/right,
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "nio" = (
 /obj/structure/barricade/handrail{
 	dir = 4
@@ -13329,7 +13392,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "nsm" = (
 /turf/closed/mineral/smooth/bluefrostwall,
 /area/space)
@@ -13590,7 +13653,7 @@
 /obj/structure/table/wood,
 /obj/effect/spawner/random/misc/folder,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/second_room)
 "nEd" = (
 /obj/effect/landmark/weed_node,
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
@@ -13613,7 +13676,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/tile/darkgreen/darkgreen2,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "nGP" = (
 /obj/structure/disposalpipe/junction{
 	dir = 8
@@ -13807,7 +13870,7 @@
 "nRj" = (
 /obj/machinery/smartfridge,
 /turf/open/floor/tile/barber,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "nRl" = (
 /obj/effect/decal/cleanable/blood,
 /obj/structure/disposalpipe/segment/corner{
@@ -14004,7 +14067,7 @@
 	dir = 4
 	},
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "obZ" = (
 /obj/structure/bed/chair/sofa/right,
 /turf/open/floor/mainship/metal,
@@ -14136,6 +14199,10 @@
 /obj/effect/spawner/random/weaponry/melee,
 /turf/open/floor/plating/ground/snow/layer0,
 /area/dark_lab/exterior/surface/clearing)
+"olY" = (
+/obj/structure/cable,
+/turf/open/floor/tile/dark,
+/area/dark_lab/surface/dorms/living_room)
 "olZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/ai_node,
@@ -14360,6 +14427,9 @@
 /obj/structure/prop/mainship/research/circuit_imprinter,
 /turf/open/floor/tile/dark,
 /area/dark_lab/surface/command/control/main_office)
+"oto" = (
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/second_room)
 "otv" = (
 /obj/item/reagent_containers/glass/bucket/janibucket,
 /turf/open/floor/tile/dark,
@@ -14509,7 +14579,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "oEb" = (
 /obj/effect/spawner/gibspawner/human,
 /obj/structure/cable,
@@ -14644,7 +14714,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/second_room)
 "oKR" = (
 /obj/effect/spawner/gibspawner/human,
 /obj/structure/cable,
@@ -14655,7 +14725,7 @@
 /obj/effect/landmark/corpsespawner/colonist,
 /obj/machinery/air_alarm,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "oMb" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -14710,7 +14780,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/corpsespawner/colonist,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "oNW" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
@@ -14947,7 +15017,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "oZP" = (
 /obj/structure/cable,
 /turf/open/floor/plating/scorched,
@@ -14962,7 +15032,7 @@
 /obj/machinery/processor,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/barber,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "pat" = (
 /obj/structure/bed/chair/sofa/corsat/left,
 /obj/effect/ai_node,
@@ -15057,7 +15127,7 @@
 	},
 /obj/effect/landmark/corpsespawner/colonist,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/third_room)
 "pgp" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/white/hall/full,
@@ -15078,7 +15148,7 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "phi" = (
 /obj/effect/ai_node,
 /turf/open/floor/tile/dark,
@@ -15212,7 +15282,7 @@
 /obj/effect/decal/cleanable/blood,
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "pob" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/machinery/atmospherics/pipe/manifold/green/hidden,
@@ -15380,7 +15450,7 @@
 "pvF" = (
 /obj/machinery/vending/dinnerware,
 /turf/open/floor/tile/barber,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "pvK" = (
 /obj/effect/landmark/corpsespawner/bridgeofficer/regular,
 /obj/effect/decal/cleanable/blood,
@@ -15449,7 +15519,7 @@
 "pyd" = (
 /obj/structure/closet/crate/trashcart,
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "pye" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/mechanical,
@@ -15481,7 +15551,7 @@
 	dir = 4
 	},
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "pzy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/air_alarm,
@@ -15620,7 +15690,7 @@
 "pGe" = (
 /obj/machinery/atmospherics/pipe/manifold/green/hidden,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "pGg" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
@@ -15655,7 +15725,7 @@
 /obj/structure/curtain/open/shower,
 /obj/effect/spawner/gibspawner/human,
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "pIq" = (
 /obj/structure/flora/pottedplant/twentyfour,
 /turf/open/floor/tile/dark,
@@ -15875,7 +15945,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "pTE" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/mainship/gray,
@@ -15906,6 +15976,12 @@
 	dir = 9
 	},
 /area/dark_lab/surface/security/hallway)
+"pVc" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden{
+	dir = 6
+	},
+/turf/open/floor/tile/dark,
+/area/dark_lab/surface/dorms/living_room)
 "pVP" = (
 /obj/structure/window/reinforced,
 /obj/structure/table/mainship,
@@ -16090,7 +16166,7 @@
 "qeV" = (
 /obj/effect/landmark/corpsespawner/colonist,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "qfd" = (
 /obj/effect/spawner/random/misc/trash,
 /turf/open/floor/plating/icefloor,
@@ -16108,7 +16184,7 @@
 /obj/structure/window/reinforced,
 /obj/structure/platform,
 /turf/open/ground/grass,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "qgF" = (
 /turf/open/floor/chasm,
 /area/dark_lab/surface/nuke_silo)
@@ -16501,7 +16577,7 @@
 "qGl" = (
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "qGr" = (
 /obj/structure/barricade/handrail{
 	dir = 3
@@ -16524,7 +16600,7 @@
 "qGL" = (
 /obj/structure/flora/pottedplant/five,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "qHm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -16691,7 +16767,7 @@
 /obj/effect/spawner/gibspawner/human,
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "qRA" = (
 /obj/structure/window/framed/mainship/gray,
 /obj/effect/decal/cleanable/dirt,
@@ -16864,7 +16940,7 @@
 	dir = 4
 	},
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "qZy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -16947,7 +17023,7 @@
 /obj/structure/flora/jungle/grass,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/ground/grass,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "rgc" = (
 /obj/machinery/door/airlock/mainship/generic/bathroom,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -17294,6 +17370,10 @@
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/tile/dark,
 /area/dark_lab/surface/engineering/water_pump)
+"rtZ" = (
+/obj/structure/window/framed/mainship/gray,
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/third_room)
 "rub" = (
 /obj/structure/rack,
 /obj/effect/spawner/random/engineering/toolbox,
@@ -17378,7 +17458,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/weed_node,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "rDi" = (
 /obj/structure/platform{
 	dir = 1
@@ -17600,7 +17680,7 @@
 /obj/structure/disposalpipe/junction/yjunc,
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "rQG" = (
 /obj/structure/bed/chair/west,
 /obj/structure/disposalpipe/segment{
@@ -17726,7 +17806,7 @@
 	welded = 1
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/second_room)
 "rXS" = (
 /obj/effect/decal/cleanable/greenglow,
 /obj/effect/decal/cleanable/dirt,
@@ -17745,7 +17825,7 @@
 	welded = 1
 	},
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "rYl" = (
 /obj/structure/platform,
 /obj/structure/barricade/handrail{
@@ -17782,7 +17862,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "rZS" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/blood,
@@ -17835,7 +17915,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "sdw" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
@@ -18184,7 +18264,7 @@
 /area/dark_lab/surface/security/hallway)
 "szC" = (
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "szF" = (
 /obj/structure/table/mainship,
 /obj/structure/prop/computer/broken/sixteen,
@@ -18204,6 +18284,10 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/tile/dark,
 /area/dark_lab/surface/command/hallway)
+"sBA" = (
+/obj/structure/closet/cabinet,
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/first_room)
 "sBF" = (
 /obj/structure/window/framed/mainship/gray,
 /turf/open/floor/mainship/metal,
@@ -18238,7 +18322,7 @@
 /area/dark_lab/underground/research/energy_lab)
 "sDl" = (
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "sDK" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4
@@ -18387,6 +18471,10 @@
 /obj/effect/decal/cleanable/flour,
 /turf/open/floor/mainship/metal,
 /area/dark_lab/surface/cargo/waiting_area)
+"sJi" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/second_room)
 "sJp" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/closed/wall/mainship/gray,
@@ -18532,7 +18620,7 @@
 	on = 1
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/first_room)
 "sSt" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
 	dir = 1
@@ -18603,7 +18691,7 @@
 "sUF" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/open/floor/tile/barber,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "sVa" = (
 /obj/machinery/door/airlock/mainship/generic{
 	dir = 2
@@ -18700,7 +18788,7 @@
 	dir = 5
 	},
 /turf/open/ground/grass,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "tac" = (
 /obj/effect/landmark/weed_node,
 /turf/open/floor/plating/ground/snow/layer0,
@@ -18723,7 +18811,7 @@
 	dir = 8
 	},
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "tbB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -18847,7 +18935,7 @@
 /obj/structure/table,
 /obj/machinery/chem_master/condimaster,
 /turf/open/floor/tile/barber,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "tlw" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -18924,7 +19012,7 @@
 	dir = 4
 	},
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "tnL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/pottedplant/eleven,
@@ -19017,7 +19105,7 @@
 "trr" = (
 /obj/structure/cable,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "trB" = (
 /obj/machinery/door/airlock/mainship/security/glass/cells,
 /turf/open/floor/tile/dark2,
@@ -19246,7 +19334,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "tCJ" = (
 /obj/machinery/washing_machine,
 /turf/open/floor/wood,
@@ -19262,7 +19350,7 @@
 	dir = 1
 	},
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "tDC" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
@@ -19431,6 +19519,9 @@
 /obj/structure/cable,
 /turf/open/floor/carpet/red,
 /area/dark_lab/surface/command/hallway)
+"tIV" = (
+/turf/closed/wall/mainship/gray,
+/area/dark_lab/surface/dorms/third_room)
 "tJf" = (
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
 	dir = 4
@@ -19649,7 +19740,7 @@
 /obj/machinery/power/apc/drained,
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "tRb" = (
 /obj/structure/disposalpipe/segment/corner{
 	dir = 1
@@ -20076,6 +20167,10 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/tile/dark,
 /area/dark_lab/exterior/surface/clearing)
+"umL" = (
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/turf/open/floor/tile/dark,
+/area/dark_lab/surface/dorms/living_room)
 "unf" = (
 /turf/closed/wall/mainship/gray,
 /area/dark_lab/surface/security/janitor)
@@ -20086,7 +20181,7 @@
 	on = 1
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "unN" = (
 /obj/structure/flora/bush,
 /obj/effect/landmark/lv624/fog_blocker/xeno_spawn,
@@ -20216,12 +20311,16 @@
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
 /area/dark_lab/exterior/surface/clearing)
+"uuR" = (
+/obj/structure/closet/cabinet,
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/third_room)
 "uvo" = (
 /obj/structure/table,
 /obj/item/reagent_containers/food/snacks/flour,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/barber,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "uvW" = (
 /obj/effect/turf_decal/tile/transparent/bar,
 /obj/effect/turf_decal/tile/transparent/bar{
@@ -20263,7 +20362,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "uzB" = (
 /obj/machinery/button/water_pump,
 /turf/open/floor/plating/rivergrate,
@@ -20287,7 +20386,7 @@
 "uBO" = (
 /obj/structure/urinal,
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "uBZ" = (
 /obj/machinery/door/airlock/mainship/security/glass/cells,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -20345,7 +20444,7 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/second_room)
 "uFX" = (
 /obj/structure/window/framed/mainship/white,
 /obj/effect/decal/cleanable/dirt,
@@ -20597,11 +20696,11 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "uSW" = (
 /obj/effect/spawner/gibspawner/human,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "uTk" = (
 /obj/item/reagent_containers/cup/glass/bottle/beer,
 /obj/effect/turf_decal/tile/transparent/yellow{
@@ -20674,7 +20773,7 @@
 /obj/effect/landmark/weed_node,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/first_room)
 "uYD" = (
 /obj/structure/platform{
 	dir = 1
@@ -20737,7 +20836,7 @@
 /obj/structure/bed/chair/sofa,
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "vbQ" = (
 /obj/structure/bed/chair/sofa/right{
 	dir = 8
@@ -20808,7 +20907,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "veQ" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
@@ -20880,7 +20979,7 @@
 "viK" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/barber,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "vjq" = (
 /obj/machinery/atmospherics/components/unary/vent_pump{
 	dir = 8;
@@ -20925,7 +21024,7 @@
 "vmi" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/bar,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "vmz" = (
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/structure/disposalpipe/segment/corner{
@@ -21183,6 +21282,12 @@
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/ground/snow/layer0,
 /area/dark_lab/exterior/surface/clearing)
+"vyF" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/landmark/corpsespawner/colonist,
+/obj/machinery/air_alarm,
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/third_room)
 "vyK" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/chasm,
@@ -21254,7 +21359,16 @@
 /obj/machinery/washing_machine,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/mainship/sterile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
+"vFG" = (
+/obj/machinery/door/airlock/mainship/generic{
+	dir = 1;
+	name = "\improper Dormitories Bedroom"
+	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden,
+/obj/structure/cable,
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/first_room)
 "vGe" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/effect/decal/cleanable/greenglow,
@@ -21519,6 +21633,10 @@
 /obj/effect/decal/cleanable/blood/gibs/body,
 /turf/open/floor/plating/ground/snow/layer0,
 /area/dark_lab/exterior/underground/caves/open/garbledradio)
+"vVE" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/mainship/gray,
+/area/dark_lab/surface/dorms/third_room)
 "vWS" = (
 /obj/structure/bed,
 /obj/item/bedsheet/red,
@@ -21571,7 +21689,7 @@
 /obj/item/weapon/gun/revolver/cmb,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/first_room)
 "vYZ" = (
 /obj/effect/decal/cleanable/glass,
 /obj/machinery/atmospherics/pipe/simple/green/hidden{
@@ -21827,6 +21945,10 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /turf/open/floor/mainship/metal,
 /area/dark_lab/surface/security/hallway)
+"woh" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/wood,
+/area/dark_lab/surface/dorms/third_room)
 "wow" = (
 /obj/effect/turf_decal/tile/transparent/yellow{
 	dir = 1
@@ -21895,7 +22017,7 @@
 "wrz" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "wrB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/ai_node,
@@ -21966,7 +22088,7 @@
 /obj/structure/cable,
 /obj/machinery/power/apc/drained,
 /turf/open/floor/tile/barber,
-/area/space)
+/area/dark_lab/surface/dorms/canteen)
 "wvo" = (
 /turf/open/floor/plating/icefloor,
 /area/dark_lab/surface/garage/two)
@@ -22354,7 +22476,7 @@
 	dir = 6
 	},
 /turf/open/ground/grass,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "wRL" = (
 /turf/open/floor/tile/dark/purple2{
 	dir = 8
@@ -22391,7 +22513,7 @@
 	on = 1
 	},
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/third_room)
 "wTf" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/closed/wall/mainship/gray,
@@ -22768,6 +22890,9 @@
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
 /area/dark_lab/surface/engineering/tool)
+"xjN" = (
+/turf/closed/wall/mainship/gray,
+/area/dark_lab/surface/dorms/second_room)
 "xkc" = (
 /obj/effect/spawner/random/misc/structure/stool,
 /obj/effect/decal/cleanable/dirt,
@@ -22887,7 +23012,7 @@
 /obj/machinery/atmospherics/pipe/simple/green/hidden,
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/fourth_room)
 "xuj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -23093,7 +23218,7 @@
 "xFB" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "xFK" = (
 /obj/structure/bed/chair{
 	dir = 4
@@ -23191,6 +23316,9 @@
 /obj/machinery/air_alarm,
 /turf/open/floor/mainship/metal,
 /area/dark_lab/surface/cargo/vip_waiting_area)
+"xMZ" = (
+/turf/closed/wall/mainship/gray,
+/area/dark_lab/surface/dorms/canteen)
 "xNq" = (
 /obj/structure/table/mainship,
 /obj/effect/decal/cleanable/liquid_fuel,
@@ -23276,7 +23404,7 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/wood,
-/area/space)
+/area/dark_lab/surface/dorms/second_room)
 "xRM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/machinery/machine_frame,
@@ -23477,7 +23605,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "ybQ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -23609,7 +23737,7 @@
 "ygu" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/dark,
-/area/space)
+/area/dark_lab/surface/dorms/living_room)
 "ygR" = (
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/atmospherics/pipe/manifold/green/hidden,
@@ -52228,25 +52356,25 @@ tms
 tms
 tms
 tms
-epR
-epR
-epR
-epR
+xjN
+xjN
+xjN
+xjN
 beE
-qGl
-epR
-epR
-epR
-epR
+aJR
+xjN
+xjN
+xjN
+gyv
 fSe
 fSe
-epR
-epR
-epR
-qGl
-epR
-epR
-epR
+gyv
+tIV
+tIV
+rtZ
+tIV
+tIV
+tIV
 tms
 tms
 tFF
@@ -52530,25 +52658,25 @@ tms
 bsy
 tms
 tms
-epR
-wrz
+xjN
+sJi
 hnN
 eTS
 xRs
-sDl
-hPT
+oto
+jVl
 hnN
-epR
+xjN
 ccf
 uSW
-sjp
-sjp
-epR
+gYl
+gYl
+tIV
 jys
-nDu
-hPT
-hPT
-epR
+jmE
+woh
+woh
+tIV
 tms
 tms
 rDd
@@ -52832,15 +52960,15 @@ tms
 tms
 tms
 tms
-epR
+xjN
 fPC
-sDl
-sDl
+oto
+oto
 rXJ
 lUI
-hPT
+jVl
 kql
-epR
+xjN
 kSB
 iUc
 pnY
@@ -52849,8 +52977,8 @@ jQH
 dpO
 pgd
 itk
-kXB
-epR
+mam
+tIV
 tms
 rDd
 rDd
@@ -53134,25 +53262,25 @@ tms
 cBV
 aoO
 tms
-epR
+xjN
 mPu
 kXB
-hPT
+jVl
 uFE
 bUy
 dGN
 nDu
-epR
-sjp
+xjN
+gYl
 ccf
 aOb
 abg
-epR
+tIV
 ihW
 jjd
-oNU
-oNU
-epR
+gyi
+gyi
+tIV
 tms
 rDd
 tms
@@ -53436,25 +53564,25 @@ tms
 tms
 tms
 tms
-epR
-epR
-fum
-fum
-fum
+xjN
+xjN
+hEe
+hEe
+hEe
 oKF
-epR
-fum
-epR
-sjp
+xjN
+hEe
+xjN
+gYl
 pgX
 pnY
 abg
-fum
-oLY
+vVE
+vyF
 wSo
-kfj
+uuR
 lnl
-epR
+tIV
 tms
 tFF
 rDd
@@ -53738,25 +53866,25 @@ tms
 tms
 rDd
 tms
-epR
+gpC
 nbU
 icp
 vYW
-epR
+gpC
 ybo
-cAB
-cAB
-cAB
+umL
+umL
+umL
 jBT
 tnF
 ajP
 pGe
-fum
-epR
-epR
+vVE
+tIV
+tIV
 hWR
-epR
-epR
+tIV
+tIV
 tms
 rDd
 rDd
@@ -54040,13 +54168,13 @@ rDd
 rDd
 tms
 tms
-qGl
-hPT
+dQj
+ghH
 uXn
-sDl
-epR
+hYJ
+gpC
 uyM
-sjp
+gYl
 kgP
 ccf
 ccf
@@ -54058,7 +54186,7 @@ oLY
 unl
 vex
 fii
-epR
+dRd
 iGy
 tms
 tms
@@ -54342,13 +54470,13 @@ tms
 tms
 rDd
 tms
-epR
-kfj
+gpC
+sBA
 sSm
 aEs
-kBf
+vFG
 scz
-pMc
+olY
 pnY
 uSQ
 hLR
@@ -54360,7 +54488,7 @@ xud
 gBf
 dzT
 jvo
-epR
+dRd
 tms
 rDd
 iGy
@@ -54644,20 +54772,20 @@ tms
 ixf
 rDd
 tms
-epR
-epR
-fum
-epR
-epR
-epR
-sjp
+xMZ
+xMZ
+eNg
+xMZ
+xMZ
+xMZ
+gYl
 lDg
 lvj
 ete
 cbm
 nhZ
 abg
-epR
+dRd
 tQF
 oNU
 sDl
@@ -54946,12 +55074,12 @@ tms
 bsy
 rDd
 tms
-epR
+xMZ
 tkK
 paq
 aGJ
 pvF
-epR
+xMZ
 kKV
 nsb
 rfP
@@ -54959,7 +55087,7 @@ aUE
 qgB
 vbI
 abg
-epR
+dRd
 hPT
 kfj
 mGL
@@ -55248,12 +55376,12 @@ tms
 tms
 rDd
 tms
-epR
+xMZ
 bXr
 djs
 viK
 loE
-epR
+xMZ
 bIH
 kLV
 sZV
@@ -55261,12 +55389,12 @@ eLs
 wRH
 gSp
 abg
-epR
-epR
-epR
-epR
-epR
-epR
+dRd
+dRd
+dRd
+dRd
+dRd
+dRd
 tms
 tms
 rDd
@@ -55550,25 +55678,25 @@ myK
 tms
 rDd
 tms
-epR
+xMZ
 bXr
 heQ
 uvo
 nRj
-epR
+xMZ
 bIH
-sjp
+gYl
 qYO
 obm
 mxk
-pMc
+olY
 abg
 pyd
 pyd
 kCc
-epR
+gyv
 fyg
-epR
+gyv
 cBV
 rDd
 tFF
@@ -55852,25 +55980,25 @@ rDd
 rDd
 fzW
 tms
-epR
+xMZ
 wvl
 doM
 viK
 sUF
-epR
+xMZ
 bIH
 ygu
-rkX
+pVc
 mmw
-cAB
+umL
 fCy
 pGe
 szC
 bhu
 dTN
-epR
+gyv
 uBO
-epR
+gyv
 tms
 rDd
 tms
@@ -56154,7 +56282,7 @@ tms
 rDd
 iGy
 tms
-epR
+xMZ
 jfu
 tCF
 jbX
@@ -56165,14 +56293,14 @@ rZP
 can
 oZO
 kxU
-pMc
+olY
 lMp
 cIS
 fSY
 kTo
 huF
 iiw
-epR
+gyv
 tac
 rDd
 tms
@@ -56456,25 +56584,25 @@ tms
 tms
 rDd
 tms
-epR
+xMZ
 pzu
 eXy
 iDe
 hfF
 vmi
 eAv
-sjp
+gYl
 abg
 ehr
-sjp
-pMc
+gYl
+olY
 ccf
-epR
-epR
+gyv
+gyv
 imf
-epR
-epR
-epR
+gyv
+gyv
+gyv
 tms
 aoO
 tac
@@ -56758,7 +56886,7 @@ ylb
 tms
 tFF
 rDd
-fbH
+lBs
 iDe
 trr
 fYJ
@@ -56768,15 +56896,15 @@ nhf
 ygu
 abg
 fNB
-sjp
+gYl
 aOb
-sjp
-epR
+gYl
+gyv
 caW
 mii
 hOJ
 pIh
-epR
+gyv
 tms
 tms
 rDd
@@ -57060,25 +57188,25 @@ ylb
 ylb
 tms
 rDd
-epR
+xMZ
 iOL
 trr
 iOL
 iOL
 eAv
 drZ
-cAB
+umL
 pGe
 kqg
-pMc
-pMc
-sjp
-epR
+olY
+olY
+gYl
+gyv
 vFy
 rYk
 dai
 lwE
-epR
+gyv
 tms
 iGy
 rDd
@@ -57362,7 +57490,7 @@ nsm
 ylb
 ylb
 xWE
-epR
+xMZ
 cRW
 oDD
 iDe
@@ -57375,12 +57503,12 @@ rQD
 xFB
 xFB
 tDa
-epR
+gyv
 vFy
 egr
 egr
 pIh
-epR
+gyv
 tms
 tYy
 tYy
@@ -57664,25 +57792,25 @@ ylb
 ylb
 xWE
 qWd
-epR
-epR
-fbH
-fbH
-epR
-epR
+xMZ
+xMZ
+lBs
+lBs
+xMZ
+xMZ
 bpH
-sjp
+gYl
 lJT
 jHU
 kKF
-sjp
-epR
-epR
-epR
-epR
-epR
-epR
-fum
+gYl
+gyv
+gyv
+gyv
+gyv
+gyv
+gyv
+hmt
 rDd
 rDd
 tFF
@@ -57971,14 +58099,14 @@ rDd
 rDd
 tms
 tms
-epR
+gyv
 qGL
 bIH
 abg
 jHU
 kKF
 kGb
-epR
+gyv
 auh
 tms
 iGy
@@ -58273,14 +58401,14 @@ xWE
 xWE
 tFF
 rDd
-epR
+gyv
 fSe
-epR
+gyv
 gdM
 ico
-epR
+gyv
 fSe
-epR
+gyv
 rDd
 tFF
 rDd
@@ -58577,10 +58705,10 @@ bPO
 rDd
 tms
 tms
-epR
+gyv
 gdM
 nGc
-epR
+gyv
 tms
 tms
 aqf
@@ -58879,10 +59007,10 @@ rDd
 ylb
 rDd
 rDd
-epR
+gyv
 dQz
 mIK
-fum
+hmt
 hDD
 tms
 aqf
@@ -59181,10 +59309,10 @@ tYy
 ylb
 nsm
 tms
-epR
+gyv
 gdM
 aKW
-fum
+hmt
 cBV
 tms
 aqf
