@@ -330,6 +330,20 @@
 	minimap_color = MINIMAP_AREA_LIVING_CAVE
 
 /*
+* Surface - Nuke silo
+*/
+
+/area/dark_lab/surface/nuke_silo
+	name = "Nuke silo"
+	icon_state = "bridge"
+	minimap_color = MINIMAP_AREA_COMMAND_CAVE
+
+/area/dark_lab/surface/nuke_silo_control_room
+	name = "Nuke silo Control room"
+	icon_state = "bridge"
+	minimap_color = MINIMAP_AREA_COMMAND_CAVE
+
+/*
 *  -------------------------
 * | Built Underground Areas |
 *  -------------------------
