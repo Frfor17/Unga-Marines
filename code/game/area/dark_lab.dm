@@ -215,6 +215,28 @@
 	name = "Colony's Archive Worker room"
 	icon_state = "bridge"
 
+/area/dark_lab/surface/command/control/washroom
+	name = "Colony's Washroom"
+	icon_state = "bridge"
+
+/area/dark_lab/surface/command/canteen
+	name = "Command Canteen"
+	icon_state = "kitchen"
+	minimap_color = MINIMAP_AREA_LIVING
+
+/area/dark_lab/surface/command/kitchen
+	name = "Command Kitchen"
+	icon_state = "kitchen"
+	minimap_color = MINIMAP_AREA_LIVING
+
+/area/dark_lab/surface/command/kitchen/freezer
+	name = "Kitchen's freezer"
+	icon_state = "kitchen"
+
+/area/dark_lab/surface/command/kitchen/warehouse
+	name = "Kitchen's warehouse"
+	icon_state = "kitchen"
+
 /*
 *  -------------------------
 * | Built Underground Areas |
