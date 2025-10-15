@@ -157,6 +157,46 @@
 	icon_state = "checkpoint1"
 
 /*
+* Surface - Colony Administration
+*/
+
+/area/dark_lab/surface/command
+	name = "Colony Administration"
+	icon_state = "bridge"
+	minimap_color = MINIMAP_AREA_COMMAND
+
+/area/dark_lab/surface/command/checkpoint_south
+	name = "South Colony Administration Security Checkpoint"
+	icon_state = "security"
+	minimap_color = MINIMAP_AREA_SEC_CAVE
+
+/area/dark_lab/surface/command/security_locker_room_south
+	name = "South Colony Administration Security Locker room"
+	icon_state = "security"
+	minimap_color = MINIMAP_AREA_SEC_CAVE
+
+/area/dark_lab/surface/command/hallway
+	name = "Colony Control Center's Hallway"
+	icon_state = "maintcentral"
+
+/area/dark_lab/surface/command/control/accounting_office
+	name = "Colony Control Accounting Office"
+	icon_state = "bridge"
+
+/area/dark_lab/surface/command/control/main_office
+	name = "Colony Control Main Office"
+	icon_state = "bridge"
+
+/area/dark_lab/surface/command/control/main_office_manager
+	name = "Colony Control Office Manager's room"
+	icon_state = "bridge"
+
+/area/dark_lab/surface/command/control/briefing_room
+	name = "Colony Control Briefing Room"
+	icon_state = "bridge"
+
+
+/*
 *  -------------------------
 * | Built Underground Areas |
 *  -------------------------
