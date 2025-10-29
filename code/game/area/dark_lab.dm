@@ -39,6 +39,23 @@
 /area/dark_lab/exterior/surface
 	name = "Dark Lab - Exterior Surface"
 
+
+//Landing Pad for the Rasp. THIS IS NOT THE SHUTTLE AREA
+/area/dark_lab/exterior/surface/landing_pad
+	name = "Aerodrome Landing Pad"
+	icon_state = "landing_pad"
+	outside = FALSE
+	always_unpowered = FALSE
+	minimap_color = MINIMAP_AREA_LZ
+
+//Landing Pad for the Vindi. THIS IS NOT THE SHUTTLE AREA
+/area/dark_lab/exterior/surface/landing_pad2
+	name = "Emergency Landing Pad"
+	icon_state = "landing_pad"
+	outside = FALSE
+	always_unpowered = FALSE
+	minimap_color = MINIMAP_AREA_LZ
+
 //
 // Clearing
 // The Colony Center, so to speak
