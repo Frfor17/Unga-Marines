@@ -5,3 +5,8 @@
 
 	icon_state = "chest"
 	worn_icon_state = "chest"
+	soft_armor = MARINE_ARMOR_HEAVY
+	slowdown = SLOWDOWN_ARMOR_HEAVY
+
+//jaeger hats
+/obj/item/clothing/head/modular/marine/crusader
