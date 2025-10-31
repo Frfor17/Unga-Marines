@@ -10,9 +10,13 @@
 	soft_armor = MARINE_ARMOR_HEAVY
 	slowdown = SLOWDOWN_ARMOR_HEAVY
 
+	greyscale_config = null
+
 //jaeger hats
 /obj/item/clothing/head/modular/marine/crusader
 
 	icon = 'icons/mob/modular/crusader_armor.dmi'
 	icon_state = "helmet"
 	worn_icon_state = "helmet"
+
+	greyscale_config = null
