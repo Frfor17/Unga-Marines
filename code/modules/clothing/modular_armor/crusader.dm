@@ -5,8 +5,8 @@
 
 
 	icon = 'icons/mob/modular/crusader_armor.dmi'
-	icon_state = "chest"
-	worn_icon_state = "chest"
+	icon_state = "full_body_armor"
+	worn_icon_state = "full_body_armor"
 	soft_armor = MARINE_ARMOR_HEAVY
 	slowdown = SLOWDOWN_ARMOR_HEAVY
 
