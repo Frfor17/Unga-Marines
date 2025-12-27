@@ -45,6 +45,8 @@
 			footstep_sounds = GLOB.xenostompy
 		if(FOOTSTEP_PREDALIEN_STOMPY)
 			footstep_sounds = GLOB.predalienstompy
+		if(FOOTSTEP_CRUSADER)
+			footstep_sounds = GLOB.crusaderstep
 	RegisterSignal(target, COMSIG_MOVABLE_MOVED, PROC_REF(simplestep_wrapper))
 	RegisterSignal(target, COMSIG_ELEMENT_JUMP_ENDED, PROC_REF(play_simplestep))
 	steps_for_living[target] = 0

@@ -28,6 +28,7 @@
 #define FOOTSTEP_XENO_MEDIUM 5
 #define FOOTSTEP_XENO_STOMPY 6
 #define FOOTSTEP_PREDALIEN_STOMPY 7
+#define FOOTSTEP_CRUSADER 8
 
 GLOBAL_LIST_INIT(shoefootstep, list(
 	FOOTSTEP_WOOD = list(list(
@@ -606,3 +607,5 @@ GLOBAL_LIST_INIT(predalienstompy, list(
 		'sound/effects/footstep/alien/medium2.ogg',
 		'sound/effects/footstep/alien/medium3.ogg'), 40, -1),
 	))
+
+GLOBAL_LIST_INIT(crusaderstep, list(FOOTSTEP_GENERIC_HEAVY = list(list('sound/effects/footstep/armor_footsteps/crusader_footstep1.ogg'), 70, 3)))

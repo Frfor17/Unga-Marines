@@ -10,22 +10,20 @@
 	soft_armor = MARINE_ARMOR_HEAVY
 	slowdown = SLOWDOWN_ARMOR_HEAVY
 	armor_protection_flags = CHEST|GROIN|ARMS|LEGS|FEET|HANDS
-	override_footstep = "crusader_footstep1"  // ← Твои звуки!
-
-	// footstep_sounds = list('sound/effects/footstep/armor_footsteps/crusader_footstep1.ogg')
 
 	greyscale_config = null
 
 	worn_icon_list = list(slot_wear_suit_str = 'icons/mob/modular/crusader_armor.dmi')
 
-/obj/item/clothing/suit/modular/jaeger/crusader/footstep_override(atom/movable/source, list/footstep_overrides)
-        footstep_overrides[FOOTSTEP_HULL] = 3  // приоритет 3 для звука корпуса
+// /obj/item/clothing/suit/modular/jaeger/crusader/equipped(mob/user, slot)
+// 	. = ..()
+// 	if(slot == slot_wear_suit)
+// 		user.AddElement(/datum/element/footstep, FOOTSTEP_CRUSADER)
 
-//jaeger hats
-// /obj/item/clothing/head/modular/marine/crusader
-
-// 	icon = 'icons/mob/modular/crusader_armor.dmi'
-// 	icon_state = "helmet"
-// 	worn_icon_state = "helmet"
-
-// 	greyscale_config = null
+// /obj/item/clothing/suit/modular/jaeger/crusader/unequipped(mob/user, slot)
+//     . = ..()
+//     if(slot == slot_wear_suit)
+//         // ✅ Возврат обычных шагов
+//         var/datum/component/footstep/F = user.GetComponent(/datum/component/footstep)
+//         if(F)
+//             qdel(F)
