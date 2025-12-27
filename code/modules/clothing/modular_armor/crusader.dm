@@ -9,14 +9,14 @@
 	worn_icon_state = "full_body_armor"
 	soft_armor = MARINE_ARMOR_HEAVY
 	slowdown = SLOWDOWN_ARMOR_HEAVY
+	armor_protection_flags = CHEST|GROIN|ARMS|LEGS|FEET|HANDS
+	override_footstep = "crusader_footstep1"  // ← Твои звуки!
+
+	// footstep_sounds = list('sound/effects/footstep/armor_footsteps/crusader_footstep1.ogg')
 
 	greyscale_config = null
 
 	worn_icon_list = list(slot_wear_suit_str = 'icons/mob/modular/crusader_armor.dmi')
-
-	var/static/list/connections = list(
-		COMSIG_FIND_FOOTSTEP_SOUND = TYPE_PROC_REF(/atom/movable, footstep_override),
-	)
 
 /obj/item/clothing/suit/modular/jaeger/crusader/footstep_override(atom/movable/source, list/footstep_overrides)
         footstep_overrides[FOOTSTEP_HULL] = 3  // приоритет 3 для звука корпуса
