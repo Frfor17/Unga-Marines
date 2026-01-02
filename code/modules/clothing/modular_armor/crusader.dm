@@ -17,5 +17,5 @@
 
 /obj/item/clothing/suit/modular/jaeger/crusader/equipped(mob/user, slot)
 	. = ..()
-	if(slot == slot_wear_suit)
+	if(slot == SLOT_WEAR_SUIT)
 		user.AddElement(/datum/element/footstep, FOOTSTEP_CRUSADER)
