@@ -15,15 +15,7 @@
 
 	worn_icon_list = list(slot_wear_suit_str = 'icons/mob/modular/crusader_armor.dmi')
 
-// /obj/item/clothing/suit/modular/jaeger/crusader/equipped(mob/user, slot)
-// 	. = ..()
-// 	if(slot == slot_wear_suit)
-// 		user.AddElement(/datum/element/footstep, FOOTSTEP_CRUSADER)
-
-// /obj/item/clothing/suit/modular/jaeger/crusader/unequipped(mob/user, slot)
-//     . = ..()
-//     if(slot == slot_wear_suit)
-//         // ✅ Возврат обычных шагов
-//         var/datum/component/footstep/F = user.GetComponent(/datum/component/footstep)
-//         if(F)
-//             qdel(F)
+/obj/item/clothing/suit/modular/jaeger/crusader/equipped(mob/user, slot)
+	. = ..()
+	if(slot == slot_wear_suit)
+		user.AddElement(/datum/element/footstep, FOOTSTEP_CRUSADER)
