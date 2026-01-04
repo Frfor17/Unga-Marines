@@ -28,6 +28,13 @@
 	bonus_overlay = "t26_flak"
 	ammo_band_color = AMMO_BAND_COLOR_IMPACT
 
+/obj/item/ammo_magazine/sniper/tungus
+	name = "\improper SR-26 tungus magazine (10x28mm)"
+	default_ammo = /datum/ammo/bullet/sniper/tungus/smart
+	icon_state_mini = "mag_sniper_blue"
+	bonus_overlay = "t26_flak"
+	ammo_band_color = AMMO_BAND_COLOR_IMPACT
+
 //SR-42 magazine
 
 /obj/item/ammo_magazine/sniper/elite
